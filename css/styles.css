@@ -1,0 +1,491 @@
+@font-face {
+    font-family: "SegoeUIRegular";
+    src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot");
+    src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+    url("../fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SegoeUIBold";
+    src: url("../fonts/SegoeUIBold/SegoeUIBold.eot");
+    src: url("../fonts/SegoeUIBold/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"),
+    url("../fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SegoeUIItalic";
+    src: url("../fonts/SegoeUIItalic/SegoeUIItalic.eot");
+    src: url("../fonts/SegoeUIItalic/SegoeUIItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIItalic/SegoeUIItalic.woff") format("woff"),
+    url("../fonts/SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SegoeUILight";
+    src: url("../fonts/SegoeUILight/SegoeUILight.eot");
+    src: url("../fonts/SegoeUILight/SegoeUILight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUILight/SegoeUILight.woff") format("woff"),
+    url("../fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SegoeUISemiBold";
+    src: url("../fonts/SegoeUISemiBold/SegoeUISemiBold.eot");
+    src: url("../fonts/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"),
+    url("../fonts/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+  font-family: SegoeUIRegular;
+  font-size: 14px;
+  color: #1E1F21;
+}
+button{
+  cursor: pointer;
+  font-size: 16px;
+}
+header p,
+footer p{
+  margin-bottom: 0
+}
+.first-line{
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+.first-line__logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.first-line__logo img{
+  margin-right: 13px;
+}
+.first-line__button{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #83B62F;
+  color: #fff;
+  border-radius: 80px;
+  height: 56px;
+  border: none;
+}
+.first-line__actions,
+.first-line__actions div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.first-line__actions img{
+  margin-right: 6px;
+}
+.contacts-card{
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.contacts-card__city{
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.5;
+}
+.contacts-card__phone{
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #1E1F21;
+  font-family: SegoeUIBold;
+}
+.contacts-card__modal{
+  font-size: 15px;
+  line-height: 23px;
+  color: #83B62F;
+  font-family: SegoeUIBold;
+}
+.contacts-card__info{
+  max-width: 85%;
+}
+.contacts-card p{
+  margin-bottom: 5px;
+}
+.contacts-card{
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 20px;
+  max-width: 250px;
+  width: 100%;
+}
+.contacts-card__img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav{
+  background-color: #1E1F21;
+  color: #fff;
+  padding: 20px 0;
+}
+a{
+  color: inherit;
+}
+nav a:hover{
+  color: #EDCD27;
+  text-decoration: none;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.orangeBtn{
+  color: #fff;
+  background: linear-gradient(277.95deg, rgba(189, 131, 18, 0.4) 6.61%, rgba(255, 255, 255, 0) 99.11%), #FB961F;
+  box-shadow: 0px 3px 6px rgba(87, 55, 16, 0.15);
+  border-radius: 68px;
+  height: 60px;
+  padding: 0 40px;
+  border: none;
+}
+.whiteTranspBtn{
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 0 40px;
+  border-radius: 65px;
+}
+.banner__info{
+  color: #fff;
+}
+.banner__info ul{
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+.banner__info li:before {
+  content: url('../img/icons/marker.svg'); 
+  position: absolute;
+  right: 100%;
+}
+.banner__info li{
+  font-size: 20px;
+  position: relative;
+  padding-left: 14px;
+  line-height: 25px;
+  list-style-type: none;
+}
+.banner__info h1{
+  font-size: 55px;
+  line-height: 58px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.banner{
+  background-image: url('../img/banner.png');
+  background-size: cover;
+}
+.banner__gradient{
+  background-color: rgba(12, 12, 14, 0.6);
+  padding: 160px 0;
+}
+.banner__video iframe{
+  width: 100%;
+  min-height: 280px;
+}
+.section{
+  padding: 120px 0;
+}
+.section-small{
+  padding: 80px 0;
+}
+.greenBg{
+  background: linear-gradient(101.39deg, #83B62F 0.32%, #678633 98.77%);
+}
+.h2-block{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.h2-link{
+  display: flex;
+  align-items: center;
+}
+.h2-link img{
+  margin-left: 5px;
+}
+.h2-link a{
+  color: #83B62F;
+}
+h2{
+  margin-bottom: 0;
+  font-size: 32px;
+  line-height: 28px;
+  font-family: SegoeUIBold;
+}
+.houses-hits-slider__slide{
+  padding: 0 15px;
+}
+.houses-hits-slider__content{
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.houses-hits-slider__content:hover{
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
+}
+.houses-hits-slide__block{
+  padding: 25px 45px;
+  border: 1px solid #E7E7E7;
+  border-top: none;
+  text-align: center;
+}
+.houses-hits-slide__name{
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+.greenTranpBtn{
+  border: 1px solid #83B62F;
+  border-radius: 72px;
+  font-family: SegoeUIBold;
+  height: 60px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #83B62F;
+  background-color: #fff;
+  transition: 0.3s;
+}
+.greenTranpBtn:hover{
+  background-color: #83B62F;
+  color: #fff;
+}
+.houses-hits-slide__block .greenTranpBtn{
+  width: 100%;
+}
+.houses-hits-slider__img img{
+  max-width: 100%;
+  width: 100%;
+}
+.houses-hits-slider{
+  margin: 0 -15px;
+}
+.houses-hits-slider__content{
+  margin-bottom: 10px;
+}
+.special-blocks__block{
+  font-size: 18px;
+  min-height: 270px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-image: url('../img/offers.png');
+  padding-left: 37px;
+}
+.special-blocks__title{
+  font-size: 30px;
+  font-family: SegoeUIBold;
+  line-height: 31px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.special-blocks .special-blocks__projects{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  background-image: url('../img/projects.png');
+  color: #fff;
+  background-position-x: -13px;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.special-blocks__projects .h2-link{
+  justify-content: center;
+  margin-top: 9px;
+}
+footer{
+  background-color: #382B2B;
+  font-size: 14px;
+  color: #fff;
+}
+footer a:hover{
+  text-decoration: none;
+}
+footer a{
+  color: inherit;
+}
+footer .first-row{
+  padding: 20px 0 12px;
+  align-items: center;
+}
+footer .last-row{
+  padding: 14px 0 19px;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.first-row__contacts{
+  display: flex;
+  justify-content: space-between;
+}
+.first-row__contacts img{
+  margin-right: 6px;
+}
+.first-row__contacts div{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.my-dots {
+  margin-top: 35px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.my-dots li {
+  position: relative;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+.my-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.my-dots li button:hover,
+.my-dots li button:focus {
+  outline: none;
+}
+
+.my-dots li button:hover:before,
+.my-dots li button:focus:before {
+  opacity: 1;
+  content: url('../img/icons/dotGreen.svg');
+}
+.my-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: url('../img/icons/dotEmpty.png');
+  text-align: center;
+  opacity: 0.5;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   
+}
+.my-dots li.slick-active button:before {
+  opacity: 1;
+  content: url('../img/icons/dotGreen.svg');
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1919px){
+  .banner__info{
+    padding-right: 75px;
+  }
+  .banner__video{
+    padding-left: 75px;
+  }
+}
+
+
+
+
+
+@media (max-width: 960px){
+
+}
+
+
+@media (min-width: 1300px){
+  .container{
+    max-width: 1440px;
+  }
+}
