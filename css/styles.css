@@ -58,8 +58,15 @@ button{
   font-size: 16px;
 }
 header p,
+.house-sizes__size p,
+.section-footer__item p,
+.advantage__title p,
+.house-reviews-slider__info p,
 footer p{
   margin-bottom: 0
+}
+footer a:hover{
+  color: inherit;
 }
 .first-line{
   justify-content: space-between;
@@ -83,6 +90,7 @@ footer p{
   background-color: #83B62F;
   color: #fff;
   border-radius: 80px;
+  font-size: 14px;
   height: 56px;
   border: none;
 }
@@ -117,6 +125,9 @@ footer p{
   line-height: 23px;
   color: #83B62F;
   font-family: SegoeUIBold;
+}
+.contacts-card__modal:hover{
+  color: #83B62F;
 }
 .contacts-card__info{
   max-width: 85%;
@@ -236,18 +247,19 @@ nav ul{
 }
 h2{
   margin-bottom: 0;
-  font-size: 32px;
-  line-height: 28px;
+  font-size: 40px;
+  line-height: 53px;
   font-family: SegoeUIBold;
 }
-.houses-hits-slider__slide{
+.slider-slide{
   padding: 0 15px;
 }
-.houses-hits-slider__content{
-  border-radius: 4px;
-  transition: 0.3s;
+.houses-hits-slider__content,
+.projects-slider__content{
+  transition: 0.3s;	
 }
-.houses-hits-slider__content:hover{
+.houses-hits-slider__content:hover,
+.projects-slider__content:hover{
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
 }
 .houses-hits-slide__block{
@@ -255,10 +267,12 @@ h2{
   border: 1px solid #E7E7E7;
   border-top: none;
   text-align: center;
+  border-radius: 0 0 4px 4px;
 }
 .houses-hits-slide__name{
   font-size: 20px;
   line-height: 25px;
+  font-family: SegoeUIBold;
   margin-bottom: 4px;
 }
 .greenTranpBtn{
@@ -279,18 +293,22 @@ h2{
 .houses-hits-slide__block .greenTranpBtn{
   width: 100%;
 }
-.houses-hits-slider__img img{
+.houses-hits-slider__img img,
+.projects-slider__img img{
   max-width: 100%;
+  border-radius: 4px 4px 0 0;
   width: 100%;
 }
-.houses-hits-slider{
+.slider{
   margin: 0 -15px;
 }
-.houses-hits-slider__content{
-  margin-bottom: 10px;
+.houses-hits-slider__content,
+.projects-slider__content{
+  margin-bottom: 30px;
 }
 .special-blocks__block{
   font-size: 18px;
+  border-radius: 4px;
   min-height: 270px;
   display: flex;
   align-items: center;
@@ -351,6 +369,325 @@ footer .last-row{
   display: flex;
   align-items: center;
 }
+.projects-slider__block{
+  padding: 0 25px;
+  border-radius: 0 0 4px 4px;
+  background-color: #FBFBFB;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.projects-slider__block p{
+  margin-bottom: 0;
+}
+.projects-slider__name,
+.projects-slider__price{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.projects-slider__name{
+  border-bottom: 1px solid rgba(30,31,33, 0.1);
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+}
+.projects-slider__square{
+  background: #FB9722;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0 3px 2px 6px;
+  border-radius: 4px;
+}
+.projects-slider__price p{
+  font-size: 20px;
+  line-height: 21px;
+  font-family: SegoeUIBold;
+}
+.projects-slider__block .h2-link a{
+  display: flex;
+}
+.section-calculation{
+  background-image: url('../img/calc.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.section-calculation h2{
+  font-size: 40px;
+  line-height: 53px;
+  font-family: SegoeUIBold;
+  margin-bottom: 48px;
+}
+.section-calculation .subTitle{
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.calc-form{
+  text-align: center;
+  padding: 0 100px;
+}
+.calc-form input{
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: 65px;
+  font-family: SegoeUIBold;
+  color: #1E1F21;
+  padding-left: 20px;
+  margin-bottom: 35px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: none;
+}
+.calc-form input::placeholder{
+  font-family: SegoeUIBold;
+  color: #1E1F21;
+}
+.calc-form__values{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.calc-form__values p{
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-bottom: 0;
+  line-height: 21px;
+}
+.calc-form__values p:hover{
+  color: #83B62F;
+}
+.calc-form__sum{
+  font-size: 24px;
+  font-family: SegoeUIBold;	
+  line-height: 28px;
+}
+.calc-form__sum b{
+  font-size: 42px;
+  margin-left: 12px;
+  margin-right: 5px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #EDCD27;
+}
+.calc-form__sum span{
+  color: #fff;
+  text-transform: lowercase;
+  font-size: 16px;
+  font-family: SegoeUIRegular;
+}
+.calc-form__buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.calc-form__buttons img{
+  padding-right: 10px;
+  margin-right: 20px;
+}
+.calc-form__buttons button{
+  padding-left: 20px;
+}
+.calc-form__buttons .orangeBtn img{
+  border-right: 1px solid #c77716b0;
+}
+.calc-form__buttons .whiteTranspBtn img{
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.house-sizes{
+  display: flex;
+  flex-wrap: wrap;
+}
+.house-sizes__size{
+  padding: 7px 32px 9px;
+  border: 1px solid #95C34A;
+  border-radius: 4px;
+  transition: 0.4s;
+  background-color: #fff;
+  color: #1E1F21;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.house-sizes__size:hover{
+  color: #fff;
+  background-color: #83B62F;
+}
+.house-sizes-container .title{
+  color: #000000;
+  margin-bottom: 20px;
+}
+.house-sizes-container{
+  margin-bottom: 30px; 
+  max-width: 100%;
+  margin-right: 8.333333%
+}
+.greyBg{
+	background-color: #F5F5F5;
+}
+.house-main-slider__content img,
+.for-house-main-slider__content img{
+  width: 100%;
+  max-width: 100%;
+  border-radius: 4px;
+}
+.for-house-main-slider__content{
+  height: 106px;
+  display: flex;
+}
+.greenBtn{
+  background: linear-gradient(103.23deg, rgba(255, 255, 255, 0) 5.08%, rgba(0, 0, 0, 0.06) 93.8%), #83B62F;
+  box-shadow: 0px 6px 8px rgba(51, 73, 14, 0.18);
+  border-radius: 102px;
+  border: none;
+  color: #fff;
+  height: 60px;
+  padding: 0 70px;
+}
+.house-slider-description .subTitle{
+  font-family: SegoeUIBold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1E1F21;
+}
+.house-slider-description{
+  align-self: center;
+}
+.house-view-slider{
+  margin-bottom: 15px; 
+}
+.bg-section1{
+  background-image: url('../img/bg1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.employee-slider__name{
+  font-size: 20px;
+  line-height: 25px;
+  font-family: 'SegoeUIBold';
+  margin-bottom: 0;
+}
+.employee-slider__img img{
+   max-width: 100%;
+   margin-bottom: 11px;
+}
+.advantage{
+  margin-right: 8.333333%;
+  margin-bottom: 50px;
+}
+.advantage__title{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  margin-bottom: 13px;
+  justify-content: space-between;
+}
+.advantage__title img{
+  margin-right: 18px;
+}
+.section-footer__item{
+  display: flex;
+  align-items: center;
+}
+.section-footer__item img{
+  margin-right: 15px;
+}
+.section-footer__block{
+  display: flex;
+  max-width: 80%;
+  justify-content: space-between;
+  margin: auto;
+}
+.section-footer{
+  background: #1E1F21;
+  border-radius: 4px 4px 0px 0px;
+  padding: 28px 0;
+  color: #fff;
+}
+.bg-section2{
+  background-image: url('../img/bg2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.difference-card{
+  padding: 25px 29px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.difference-card__title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 11px;
+}
+.difference-card__title img{
+  margin-right: 15px;
+}
+.difference-card ul {
+  list-style: none;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+.difference-card ul li{
+  position: relative;
+}
+.difference-card ol{
+  padding-left: 16px;
+  margin-bottom: 10px;
+}
+.difference-card__text p{
+  margin-bottom: 10px;
+}
+.difference-card ul li:before {
+  content:  "-";
+  position: absolute;
+  left:     -18px;
+}
+.difference-card__title p{
+  font-size: 24px;
+  line-height: 28px;
+  font-family: 'SegoeUIBold';
+  margin-bottom: 0;
+}
+.bg-section2 h2{
+  color: #fff;
+  text-align: center;
+}
+.house-reviews-slider__content a,
+.house-reviews-slider__content a:hover{
+  color: #83B62F;
+}
+.house-reviews-slider__name{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.house-reviews-slider__name p{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+.house-reviews-slider__name .square{
+  font-size: 15px;
+  line-height: 21px;
+}
+.house-reviews-slider__price{
+  font-weight: 600;
+}
+
+
+
+
+
+
+
 
 
 
@@ -381,7 +718,6 @@ footer .last-row{
 
 
 .my-dots {
-  margin-top: 35px;
   display: block;
   width: 100%;
   padding: 0;

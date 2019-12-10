@@ -122,6 +122,78 @@ $(document).ready(function(){
 			}
 		]
 	});
+	$('.projects-slider').slick({
+		infinite: false,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		arrows: false,
+		dots: true,
+		dotsClass: "my-dots",
+		// prevArrow: '.prev1',
+		// nextArrow: '.next1',
+		// autoplay: true,
+		// autoplaySpeed: 5000,
+		swipeToSlide: true,
+		responsive: [
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 1,
+				}
+			}
+		]
+	});
+	$('.employee-slider').slick({
+		infinite: false,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		arrows: false,
+		dots: true,
+		dotsClass: "my-dots",
+		// prevArrow: '.prev1',
+		// nextArrow: '.next1',
+		// autoplay: true,
+		// autoplaySpeed: 5000,
+		swipeToSlide: true,
+		responsive: [
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 1,
+				}
+			}
+		]
+	});
+	$('.house-view-slider').slick({
+		infinite: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		adaptiveHeight: true,
+		arrows: false,
+		dots: false,
+		asNavFor: '.for-house-view-slider',
+		dotsClass: "my-dots",
+		// prevArrow: '.prev1',
+		// nextArrow: '.next1',
+		// autoplay: true,
+		// autoplaySpeed: 5000,
+		swipeToSlide: true,
+	});
+	$('.for-house-view-slider').slick({
+		infinite: false,
+		slidesToShow: 4,
+		asNavFor: '.house-view-slider',
+		slidesToScroll: 1,
+		arrows: false,
+		focusOnSelect: true,
+		dots: false,
+		dotsClass: "my-dots",
+		// prevArrow: '.prev1',
+		// nextArrow: '.next1',
+		// autoplay: true,
+		// autoplaySpeed: 5000,
+		swipeToSlide: true,
+	});
 
 
 });

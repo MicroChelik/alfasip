@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<script src="js/jquery-3.3.1.min.js"></script>
-	<title>Уралтех</title>
+	<title>АльфаСип</title>
 </head>
 <body>
 	<header>
