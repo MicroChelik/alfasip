@@ -61,6 +61,9 @@ header p,
 .house-sizes__size p,
 .section-footer__item p,
 .advantage__title p,
+.frame__sort p,
+.frame__sort-content .line p,
+.house-reviews-slider__reviewer p,
 .house-reviews-slider__info p,
 footer p{
   margin-bottom: 0
@@ -302,8 +305,7 @@ h2{
 .slider{
   margin: 0 -15px;
 }
-.houses-hits-slider__content,
-.projects-slider__content{
+.slider-content{
   margin-bottom: 30px;
 }
 .special-blocks__block{
@@ -436,14 +438,24 @@ footer .last-row{
   font-family: SegoeUIBold;
   color: #1E1F21;
   padding-left: 20px;
+  padding-right: 10px;
   margin-bottom: 35px;
-  border-radius: 4px;
+  border-radius: 4px 0 0 4px;
   background-color: #fff;
   border: none;
+}
+.calc-form input:focus{
+  outline: none;
 }
 .calc-form input::placeholder{
   font-family: SegoeUIBold;
   color: #1E1F21;
+}
+.calc-form input::-webkit-outer-spin-button,
+.calc-form input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 .calc-form__values{
   display: flex;
@@ -452,6 +464,20 @@ footer .last-row{
   justify-content: space-between;
   margin-bottom: 25px;
 }
+.calc-form .square{
+  margin: 0;
+  height: 65px;
+  color: rgba(30, 31, 33, 0.7);
+  background-color: #fff;
+  border-radius: 0 4px 4px 0;
+  padding: 20px 15px 22px 0;
+ 
+}
+.calc-form .square span{
+  display: block;
+  padding-left: 15px;
+  border-left: 1px solid rgba(30, 31, 33, 0.1);; 
+}
 .calc-form__values p{
   font-size: 16px;
   transition: 0.3s;
@@ -459,7 +485,8 @@ footer .last-row{
   margin-bottom: 0;
   line-height: 21px;
 }
-.calc-form__values p:hover{
+.calc-form__values p:hover,
+.calc-form__values .selected{
   color: #83B62F;
 }
 .calc-form__sum{
@@ -679,16 +706,286 @@ footer .last-row{
   line-height: 21px;
 }
 .house-reviews-slider__price{
+  font-family: 'SegoeUIBold';
+  font-size: 16px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(231,231,231,0.8);
+}
+.house-reviews-slider__img img{
+  border-radius: 4px 4px 0 0;
+  max-width: 100%;
+}
+.house-reviews-slider__text{
+  padding: 25px;
+  background-color: #fff;
+  border: 1px solid #E7E7E7;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+.house-reviews-slider__name .square{
+  opacity: 0.7;
+}
+.house-reviews-slider__reviewer{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.house-reviews-slider__photo img{
+  border-radius: 100%;
+  height: 64px;
+  width: 64px;
+}
+.house-reviews-slider__photo{
+  margin-right: 15px; 
+}
+.house-reviews-slider__reviewer p:first-child{
+  font-size: 17px;
   font-weight: 600;
+  line-height: 21px;
+  opacity: 1;
+}
+.house-reviews-slider__reviewer p,
+.house-reviews-slider__review-text{
+  opacity: 0.8; 
+}
+.house-reviews-slider__review-text{
+  margin-bottom: 10px;
+}
+.sertificates-slider__img img{
+  max-width: 100%;
+}
+.sertificates-slider__img{
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+.sertificates-slider__content{
+  font-size: 20px;
+  line-height: 25px;
+  font-family: 'SegoeUIBold';
+  text-align: center;
+}
+.convenience{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.convenience__img{
+  flex: 0 0 18%;
+  max-width: 18%;
+  margin-right: 15px;
+}
+.convenience__img img{
+  max-width: 100%;
+  padding-right: 15px;
+  border-right: 1px solid rgba(30,31,33, 0.15);
+}
+.convenience__description{
+  flex: 0 0 78%;
+  max-width: 78%;
+}
+.convenience__text{
+  opacity: 0.8;
+  margin-bottom: 0;
+}
+.convenience__title{
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.convenience-container .convenience:nth-last-child(-n+3){
+  margin-bottom: 0; 
+}
+.bg-section3{
+  color: #fff;
+  background-image: url('../img/bg3.png');
+  background-size: cover;
+}
+.phonecall-div{
+  display: flex;
+  align-items: center;
+}
+.phonecall-div p{
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 25px;
+}
+.phonecall-div a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.banner__text-margin{
+  padding-right: 80px;
+}
+.block-link{
+  background-image: url('../img/link-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 180px;
+  border-radius: 4px;
+}
+.block-link img{
+  margin-bottom: 5px;
+  max-width: 50px;
+}
+.block-link p{
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.office-card-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.office-card{
+  padding: 0 15px;
+  margin-bottom: 30px;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.office-card-container .office-card:nth-last-child(-n+2){
+  margin-bottom: 0;
+}
+.office-card div{
+  max-height: 198px;
+}
+.office-card img{
+  width: 100%;
+  max-width: 100%;
+}
+.map{
+  height: 100%;
 }
 
 
 
 
+.main-content-container{
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
 
+}
 
-
-
+.frame{
+  padding: 25px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  margin-bottom: 27px;
+}
+.frame__title{
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+}
+.frame-employee-slider__content img{
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.frame img{
+  max-width: 100%;
+}
+.frame-employee-slider__content p{
+  max-width: 45%;
+  margin-bottom: 0
+}
+.frame-employee-slider .slider-content{
+  margin-bottom: 0;
+}
+.frame__video iframe{
+  height: 190px !important;
+  border-radius: 4px;
+}
+.frame__video{
+  margin-bottom: 15px; 
+}
+.frame .h2-link a{
+  font-size: 18px;
+  line-height: 21px;
+}
+.frame-employee-slider-arrows{
+  top: -50px;
+}
+.frame__sort{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E7E7E7;
+  margin-bottom: 20px;
+}
+.frame__sort-toggle{
+  cursor: pointer;
+}
+.frame__sort-content{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  display: none;
+}
+.frame__sort-square-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.frame__sort-square-content .square{
+  flex: 0 0 33%;
+  max-width: 33%;
+  text-align: center;
+  height: min-content;
+}
+.frame__sort-square-content .square:nth-last-child(-n+3){
+  margin-bottom: 0;
+}
+.frame__sort-square-content .square:nth-child(3n+2){
+  border-left: 1px solid #E7E7E7;
+  border-right: 1px solid #E7E7E7;
+}
+.frame__sort-content .line{
+  flex: 0 0 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #E7E7E7;
+  padding: 15px 0;
+}
+.frame__sort-content .line:nth-last-child(1){
+  border: none !important;
+}
+.frame__sort-content .line:first-child{
+  margin-top: -20px;
+}
+.line .size{
+  margin-right: 19px;
+}
+.frame__sort-content p:hover{
+  color: #83B62F;
+}
+.frame__sort-content p{
+  cursor: pointer;
+}
+.frame__sort-content .selected{
+  color: #83B62F;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+  content: '>'
+}
+.breadcrumb{
+  background-color: unset;
+  margin: 45px 0;
+}
+.breadcrumb a,
+.breadcrumb a:hover{
+  color: #83B62F;
+}
+.main-content-container .h2-link{
+  white-space: nowrap;
+}
 
 
 
@@ -779,6 +1076,54 @@ footer .last-row{
   color: black;
 }
 
+#toTop {
+  position:fixed;
+  bottom:40px;
+  right:40px;
+  cursor:pointer;
+  display:none;
+}
+#toTop img{
+  width: 61px;
+  height: 61px;
+}
+.slider-arrows{
+  position: relative;
+  height: 1px;
+  z-index: 2;
+}
+.slider-arrow-left{
+  position: relative;
+  right: 65px;
+}
+.slider-arrow-right{
+  position: relative;
+  right: -65px;
+}
+.houses-hits-slider-arrows,
+.employee-slider-arrows,
+.projects-slider-arrows{
+  top: -285px;
+}
+.slider-arrows img{
+  cursor: pointer;
+}
+.house-view-slider-arrows{
+  top: -230px;
+}
+.house-reviews-arrows{
+  top: -330px; 
+}
+.sertificates-slider-arrows{
+  top: -320px;
+}
+.house-view-slider-arrows{
+  margin: 0 20px;
+  opacity: 0.6;
+}
+nav .active{
+  color: #EDCD27;
+}
 
 
 
@@ -809,6 +1154,9 @@ footer .last-row{
   .banner__video{
     padding-left: 75px;
   }
+  .container{
+    max-width: 1440px;
+  }
 }
 
 
@@ -820,8 +1168,17 @@ footer .last-row{
 }
 
 
-@media (min-width: 1300px){
+@media (min-width: 1300px) and (max-width: 1919px){
   .container{
-    max-width: 1440px;
+    max-width: 1300px;
+  }
+  .first-line__button{
+  	font-size: 12px;
+  }
+  .banner__text-margin{
+  	padding-right: 0;
+  }
+  .calc-form{
+  	padding: 0 35px;	
   }
 }

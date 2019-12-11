@@ -43,18 +43,23 @@ $(document).ready(function(){
 
 	// })
 
-	// $(function() {
-	// 	$(window).scroll(function() {
-	// 		if($(this).scrollTop() >= 300) {
-	// 			$('#toTop').fadeIn();
-	// 		} else {
-	// 			$('#toTop').fadeOut();
-	// 		}
-	// 	});
-	// 	$('#toTop').click(function() {
-	// 		$('body,html').animate({scrollTop:0},300);
-	// 	});
-	// });
+	$(function() {
+		$(window).scroll(function() {
+			if($(this).scrollTop() >= 300) {
+				$('#toTop').fadeIn();
+			} else {
+				$('#toTop').fadeOut();
+			}
+		});
+		$('#toTop').click(function() {
+			$('body,html').animate({scrollTop:0},300);
+		});
+	});
+
+	$('.calc-form__values p').click(function(){
+		$('.calc-form__values p').removeClass('selected');
+		$(this).addClass('selected');
+	});
 
 	// const menuFive = document.querySelector('.menuFive');
 	// const menuFive2 = document.querySelector('.menuFiveMob');
@@ -99,17 +104,24 @@ $(document).ready(function(){
 	// 	});
 	// });
 
+	$('.frame__sort-toggle').click(function(){
+		$(this).parent().next('.frame__sort-content').slideToggle();
+	});
+	$('.frame__sort-content p').click(function(){
+		$(this).parent().parent().find('p').removeClass('selected');
+		$(this).addClass('selected');
+	});
 
 
 	$('.houses-hits-slider').slick({
 		infinite: false,
 		slidesToShow: 4,
 		slidesToScroll: 1,
-		arrows: false,
+		arrows: true,
 		dots: true,
 		dotsClass: "my-dots",
-		prevArrow: '.prev1',
-		nextArrow: '.next1',
+		prevArrow: '.houses-hits-slider-prev',
+		nextArrow: '.houses-hits-slider-next',
 		// autoplay: true,
 		// autoplaySpeed: 5000,
 		swipeToSlide: true,
@@ -126,11 +138,11 @@ $(document).ready(function(){
 		infinite: false,
 		slidesToShow: 4,
 		slidesToScroll: 1,
-		arrows: false,
+		arrows: true,
 		dots: true,
 		dotsClass: "my-dots",
-		// prevArrow: '.prev1',
-		// nextArrow: '.next1',
+		prevArrow: '.projects-slider-prev',
+		nextArrow: '.projects-slider-next',
 		// autoplay: true,
 		// autoplaySpeed: 5000,
 		swipeToSlide: true,
@@ -147,11 +159,11 @@ $(document).ready(function(){
 		infinite: false,
 		slidesToShow: 4,
 		slidesToScroll: 1,
-		arrows: false,
+		arrows: true,
 		dots: true,
 		dotsClass: "my-dots",
-		// prevArrow: '.prev1',
-		// nextArrow: '.next1',
+		prevArrow: '.employee-slider-prev',
+		nextArrow: '.employee-slider-next',
 		// autoplay: true,
 		// autoplaySpeed: 5000,
 		swipeToSlide: true,
@@ -164,17 +176,74 @@ $(document).ready(function(){
 			}
 		]
 	});
+	$('.house-reviews-slider').slick({
+		infinite: false,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		arrows: true,
+		dots: true,
+		dotsClass: "my-dots",
+		prevArrow: '.house-reviews-slider-prev',
+		nextArrow: '.house-reviews-slider-next',
+		// autoplay: true,
+		// autoplaySpeed: 5000,
+		swipeToSlide: true,
+		responsive: [
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 1,
+				}
+			}
+		]
+	});
+	$('.sertificates-slider').slick({
+		infinite: false,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		arrows: true,
+		dots: true,
+		dotsClass: "my-dots",
+		prevArrow: '.sertificates-slider-prev',
+		nextArrow: '.sertificates-slider-next',
+		// autoplay: true,
+		// autoplaySpeed: 5000,
+		swipeToSlide: true,
+		responsive: [
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 1,
+				}
+			}
+		]
+	});
+	$('.frame-employee-slider').slick({
+		infinite: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: true,
+		dots: false,
+		dotsClass: "my-dots",
+		prevArrow: '.frame-employee-slider-prev',
+		nextArrow: '.frame-employee-slider-next',
+		// autoplay: true,
+		// autoplaySpeed: 5000,
+		swipeToSlide: true,
+	});
+
+
 	$('.house-view-slider').slick({
 		infinite: false,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		adaptiveHeight: true,
-		arrows: false,
+		arrows: true,
 		dots: false,
 		asNavFor: '.for-house-view-slider',
 		dotsClass: "my-dots",
-		// prevArrow: '.prev1',
-		// nextArrow: '.next1',
+		prevArrow: '.house-view-slider-prev',
+		nextArrow: '.house-view-slider-next',
 		// autoplay: true,
 		// autoplaySpeed: 5000,
 		swipeToSlide: true,

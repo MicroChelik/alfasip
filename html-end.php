@@ -40,7 +40,7 @@
 		</div>
 	</footer>
 
-<!-- 	<div id="toTop" ><img src="img/icons/top.svg" alt="наверх"></div> -->
+	<div id="toTop" ><img src="img/icons/top.svg" alt="наверх"></div>
 	<script src="js/main.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.fancybox.min.js"></script>
