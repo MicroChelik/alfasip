@@ -61,6 +61,44 @@ $(document).ready(function(){
 		$(this).addClass('selected');
 	});
 
+	$('.catalog-filters__button').click(function(){
+		// alert('da1');
+		if ( $(this).hasClass('hide-visible') ) {
+			// alert('da');
+			$('.catalog-filters__button .hide').removeClass('visible');
+			$('.catalog-filters__button').removeClass('hide-visible');
+			$('.catalog-filters__button .show').addClass('visible');
+			$('.catalog-filters__button img').addClass('rotate');
+			$('.filters').removeClass('show-filters');
+		} else {
+			$('.catalog-filters__button .show').removeClass('visible');
+			$('.catalog-filters__button').addClass('hide-visible');
+			$('.catalog-filters__button .hide').addClass('visible');
+			$('.catalog-filters__button img').removeClass('rotate');
+			$('.filters').addClass('show-filters');
+		}
+	});
+	$('.show-more').click(function(){
+		var arr = $('.catalog-items .hide');
+		for (var i = 3- 1; i >= 0; i--) {
+			$(arr[i]).removeClass('hide');
+		}
+	});
+
+
+	// $('input[name=three]').nativeMultiple({
+	//     stylesheet: "slider",
+	//     onCreate: function() {
+	//         console.log(this);
+	//     },
+	//     onChange: function(first_value, second_value) {
+	//         console.log('onchange', [first_value, second_value]);
+	//     },
+	//     onSlide: function(first_value, second_value) {
+	//         console.log('onslide', [first_value, second_value]);
+	//     }
+	// });
+
 	// const menuFive = document.querySelector('.menuFive');
 	// const menuFive2 = document.querySelector('.menuFiveMob');
 	//  function addClassFunFive() {

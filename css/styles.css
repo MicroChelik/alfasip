@@ -62,7 +62,10 @@ header p,
 .section-footer__item p,
 .advantage__title p,
 .frame__sort p,
+.show-more p,
+.project-square-type p,
 .frame__sort-content .line p,
+.filter-sizes-block__line p,
 .house-reviews-slider__reviewer p,
 .house-reviews-slider__info p,
 footer p{
@@ -870,7 +873,12 @@ footer .last-row{
 .main-content-container{
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
   border-radius: 4px;
-
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+.main-content-container .row{
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .frame{
@@ -986,6 +994,249 @@ footer .last-row{
 .main-content-container .h2-link{
   white-space: nowrap;
 }
+
+.project-square-type{
+  background: #83B62F;
+  border: 1px solid #D6D6D6;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  color: #fff;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.catalog-filters__button{
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: max-content;
+  user-select: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #83B62F;
+  cursor: pointer;
+  font-size: 16px;
+}
+.catalog-filters__button img{
+  margin-left: -15px;
+}
+.catalog-filters__button .rotate{
+  transform: rotate(180deg);
+}
+.catalog-filters__button img,
+.filters,
+.catalog-filters__button span{
+  transition: 0.3s;
+}
+
+.catalog-filters__button span{
+  width: 0;
+  opacity: 0;
+  transform: scaleY(0);
+  white-space: nowrap;
+  position: absolute;
+}
+.catalog-filters__button .visible{
+  width: auto;
+  opacity: 1;
+  transform: scaleY(1);
+}
+.catalog-filters .show-filters{
+  height: auto !important;
+  opacity: 1 !important;
+  transform: scaleY(1) !important;
+}
+.catalog-filters .filters{
+  height: 0;
+  opacity: 0;
+  width: 100%;
+  transform: scaleY(0);
+}
+.filters-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter-image-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  color: #fff;
+  border-radius: 4px;
+  height: 235px;
+  text-align: center;
+}
+.filter-image-block .h2-link{
+  justify-content: center;
+}
+.filter-image-block1{
+  background-image: url('../img/bg4.png');
+}
+.filters-row{
+  margin-bottom: 40px;
+}
+.filter-sizes-block{
+  padding: 50px;
+  background-image: url('../img/bg5.png');
+  border-radius: 4px;
+  color: #fff;
+}
+.filter-sizes-block .filter-sizes-block__line:last-child{
+  margin-bottom: 0;
+}
+.filter-sizes-block__line{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.green-link a:hover,
+.filter-sizes-block__line a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+.filter-sizes-block__line .title{
+  flex: 0 0 auto;
+  margin-right: 30px;
+}
+.filter-sizes-block__line div{
+  flex: 0 0 auto;
+  margin-right: 15px;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  color: #1E1F21;
+  text-align: center;
+  padding: 4px 23px;
+  cursor: pointer;
+}
+h3{
+  font-size: 24px;
+  line-height: 28px;
+  font-family: 'SegoeUIBold';
+  margin-bottom: 30px;
+}
+.green-link{
+  width: 100%;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #83B62F;
+  box-shadow: 0px 2px 10px rgba(131, 182, 47, 0.5);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'SegoeUIBold';
+}
+.show-more{
+  display: flex;
+  align-items: center;
+  color: #83B62F;
+  font-size: 20px;
+  font-family: 'SegoeUIBold';
+  margin: auto;
+  width: max-content;
+  cursor: pointer;
+  user-select: none;
+  margin-bottom: 30px;
+}
+.show-more img{
+  margin-right: 10px;
+}
+.catalog-items .hide{
+  opacity: 0 !important;
+  height: 0 !important;
+  transform: scaleY(0) !important;
+}
+.catalog-items .projects-slider__slide{
+  opacity: 1;
+  height: auto;
+  transition: 0.3s;
+  transform: none;
+}
+.catalog-banner{
+  padding: 70px 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  background-image: url('../img/bg6.png');
+  background-size: cover;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.catalog-banner .catalog-banner__content{
+  width: max-content;
+}
+.catalog-banner h3{
+  font-size: 30px;
+  line-height: 31px;
+  letter-spacing: 0.01em;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: 'SegoeUIBold';
+}
+.catalog-banner button{
+  padding-left: 20px;
+}
+.catalog-banner button img{
+  padding-right: 16px;
+  margin-right: 13px;
+}
+.catalog-banner .orangeBtn img{
+  border-right: 1px solid #c77716b0;
+}
+.catalog-banner .whiteTranspBtn img{
+  border-right: 1px solid rgba(255, 255, 255, 0.1);;
+}
+.catalog-banner__buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.catalog-text h4{
+  font-size: 20px;
+  line-height: 25px;
+  font-family: 'SegoeUIBold';
+  margin-bottom: 15px;
+}
+.catalog-text p{
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+.catalog-text p:last-child{
+  margin-bottom: 0;
+}
+.catalog-text{
+  margin-bottom: 20px;
+}
+.house-selection{
+  background-image: url('../img/bg7.png');
+  background-size: cover;
+  color: #fff;
+  padding: 40px;
+}
+.main-filters{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-filters__range{
+  flex: 0 0 33%;
+  max-width: 33%;
+}
+.main-filters__checkboxes{
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+
+
+
+
+
+
 
 
 
@@ -1123,6 +1374,41 @@ footer .last-row{
 }
 nav .active{
   color: #EDCD27;
+}
+.checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 10px 0 0 20px;
+}
+.checkbox + label {
+  position: relative;
+  padding: 0 0 0 32px;
+  cursor: pointer;
+}
+.checkbox + label:before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  border: 1px solid #D6D6D6;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 4px;
+}
+.checkbox:checked + label:before {
+  content: "\2714";
+  background-color: #83B62F;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+  border: 1px solid #83B62F;
+  font-size: 12px;
+  color: #f3f3f3;
+  text-align: center;
+}
+.checkbox-div{
+  display: flex;
 }
 
 
