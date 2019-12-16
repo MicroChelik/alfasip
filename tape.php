@@ -98,5 +98,17 @@
 				</div>
 			</div>
 
+			<div class="tape__link">
+				<a href="">
+					<img src="img/tape1.png" alt="Свойства SIP-панелей">
+				</a>
+			</div>
+
+			<div class="tape__link">
+				<a href="">
+					<img src="img/tape2.png" alt="Проект бесплатно">
+				</a>
+			</div>
+
 
 		</div>

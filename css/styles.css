@@ -62,10 +62,12 @@ header p,
 .section-footer__item p,
 .advantage__title p,
 .frame__sort p,
+.sale__phone p,
 .show-more p,
 .project-square-type p,
 .frame__sort-content .line p,
 .filter-sizes-block__line p,
+.main-filters__checkboxes .checkbox-div p,
 .house-reviews-slider__reviewer p,
 .house-reviews-slider__info p,
 footer p{
@@ -875,6 +877,7 @@ footer .last-row{
   border-radius: 4px;
   padding-bottom: 50px;
   margin-bottom: 100px;
+  height: min-content
 }
 .main-content-container .row{
   margin-left: 0;
@@ -1231,9 +1234,178 @@ h3{
   flex: 0 0 60%;
   max-width: 60%;
 }
-
-
-
+.tape__link{
+  margin-bottom: 30px;
+}
+.tape__link img{
+  max-width: 100%;
+}
+.help-icon{
+  margin-left: 10px;
+}
+.main-filters__checkboxes .checkbox-div{
+  align-items: center;
+  margin-bottom: 18px;
+  flex: 0 0 48%;
+  max-width: 48%;
+}
+.main-filters__checkboxes .checkbox + label:before{
+  top: -5px;
+}
+.main-filters__checkboxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-filters .orangeBtn{
+  height: 52px;
+  margin-top: 30px;
+}
+.main-filters .title{
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: 'SegoeUIBold';
+}
+.main-content-container h1{
+  font-size: 40px;
+  line-height: 53px;
+  font-family: 'SegoeUIBold';
+  margin-bottom: 0px;
+}
+.main-content-container .h2-block p{
+  margin-bottom: 0;
+  font-size: 20px;
+  font-family: 'SegoeUIBold';
+}
+.sale-card{
+  display: flex;
+  border-radius: 4px;
+  border: 5px solid #83B62F;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #F5F5F5;
+  padding: 30px 50px;
+  margin-bottom: 18px;
+}
+.sale-card__text{
+  flex: 0 0 43%;
+  max-width: 43%;
+  padding-left: 10px;
+}
+.sale-card__image{
+  flex: 0 0 57%;
+  max-width: 57%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sale-card__image img{
+  max-width: 100%;
+  position: absolute;
+  z-index: 2;
+  padding-right: 33px;
+}
+.sale-card__title{
+  font-size: 45px;
+  line-height: 31px;
+  font-family: 'SegoeUIBold';
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+.sale-card__title b{
+  font-size: 72px;
+  line-height: 63px;
+  color: #83B62F;
+  letter-spacing: 0.01em;
+}
+.sale-card__description{
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 0.01em;
+  margin-top: 7px;
+  margin-bottom: 19px;
+}
+.top-lines div{
+  width: 21%;
+  height: 3px;
+  background-color: #83B62F;
+}
+.bottom-lines{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.bottom-lines div{
+  height: 3px;
+  background-color: #83B62F;
+}
+.bottom-lines__short{
+  width: 7%;
+  margin-right: 13px;
+}
+.bottom-lines__long{
+  width: 21%;
+}
+.sale-card__date{
+  opacity: 0.8;
+}
+.greenCircleBg{
+  height: 285px;
+  width: 285px;
+  border-radius: 100%;
+  z-index: 1;
+  background-color: #83B62F;
+}
+.sale .subtitle{
+  font-family: 'SegoeUIBold';
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 23px;
+}
+.sale li{
+  color: #83B62F;
+}
+.sale ul p{
+  margin-bottom: 0;
+  color: #1E1F21;
+  opacity: 0.8;
+}
+.sale ul{
+  padding-left: 20px;
+  margin-bottom: 46px;
+}
+.sale{
+  margin-bottom: 60px;
+}
+.main-content-container .sale:last-child{
+  margin-bottom: 0;
+}
+.sale-detail .sale-card{
+  margin-bottom: 45px;
+}
+.sale__phone{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.sale__phone p a{
+  font-size: 15px;
+  font-family: 'SegoeUIBold';
+  line-height: 21px;
+}
+.sale-detail .orangeBtn img{
+  border-right: 1px solid #c77716b0;
+  padding-right: 10px;
+  margin-right: 20px;
+}
+.sale-detail .orangeBtn{
+  padding-left: 20px;
+}
+.sale-detail .greenTranpBtn{
+  width: 240px;
+}
 
 
 
@@ -1466,5 +1638,14 @@ nav .active{
   }
   .calc-form{
   	padding: 0 35px;	
+  }
+  .sale-card__text{
+    padding-left: 0;
+  }
+  .sale-card__title{
+    font-size: 43px;
+  }
+  .sale-card__title b{
+    font-size: 70px;
   }
 }

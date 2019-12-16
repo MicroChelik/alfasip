@@ -24,7 +24,7 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="h2-block">
-						<h2>Проекты домов из СИП панелей</h2>
+						<h1>Проекты домов из СИП панелей</h1>
 						<div class="h2-link">
 							<a href="">Все проекты <img src="img/icons/greenH2Arrow.svg" alt="Перейти"></a>
 						</div>
@@ -35,6 +35,7 @@
 						<h3>Подбор проекта</h3>
 						<form class="main-filters">
 							<div class="main-filters__range">
+								<p class="title">Общая площадь <span lass="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></span></p>
 								<input type="text" id="dd">
 								<div class="form-group">
 								    <label for="formControlRange">Example Range input</label>
@@ -42,12 +43,52 @@
 								  </div>
 							</div>
 							<div class="main-filters__checkboxes">
+								<p class="title">Планировка дома</p>
 								<div class="checkbox-div">
 									<input type="checkbox" required="" class="checkbox" id="checkbox">
 									<label for="checkbox"></label>
 									<p>Одноэтажный дом</p>
-									<p title="какая-то инфа"><img src="img/icons/question.svg" alt="подсказка"></p>
+									<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
 								</div>
+								<div class="checkbox-div">
+									<input type="checkbox" required="" class="checkbox" id="checkbox2">
+									<label for="checkbox2"></label>
+									<p>Одноэтажный дом</p>
+									<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
+								</div>
+								<div class="checkbox-div">
+									<input type="checkbox" required="" class="checkbox" id="checkbox3">
+									<label for="checkbox3"></label>
+									<p>Дом с мансардным этажом</p>
+									<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
+								</div>
+								<div class="checkbox-div">
+									<input type="checkbox" required="" class="checkbox" id="checkbox4">
+									<label for="checkbox4"></label>
+									<p>Одноэтажный дом</p>
+									<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
+								</div>
+								<div class="checkbox-div">
+									<input type="checkbox" required="" class="checkbox" id="checkbox5">
+									<label for="checkbox5"></label>
+									<p>Одноэтажный дом</p>
+									<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
+								</div>
+								<div class="checkbox-div">
+									<input type="checkbox" required="" class="checkbox" id="checkbox6">
+									<label for="checkbox6"></label>
+									<p>Одноэтажный дом</p>
+									<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
+								</div>
+								<div class="checkbox-div">
+									<input type="checkbox" required="" class="checkbox" id="checkbox7">
+									<label for="checkbox7"></label>
+									<p>Одноэтажный дом</p>
+									<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
+								</div>
+							</div>
+							<div>
+								<button class="orangeBtn">Применить фильтр (<span>62</span>)</button>
 							</div>
 						</form>
 					</div>

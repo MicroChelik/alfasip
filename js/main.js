@@ -1,4 +1,39 @@
+	var ARIA_ATTRIBUTE_PATTERN = /^aria-[\w-]*$/i
+	var DefaultWhitelist = {
+	  // Global attributes allowed on any supplied element below.
+	  '*': ['class', 'dir', 'id', 'lang', 'role', ARIA_ATTRIBUTE_PATTERN],
+	  a: ['target', 'href', 'title', 'rel'],
+	  area: [],
+	  b: [],
+	  br: [],
+	  col: [],
+	  code: [],
+	  div: [],
+	  em: [],
+	  hr: [],
+	  h1: [],
+	  h2: [],
+	  h3: [],
+	  h4: [],
+	  h5: [],
+	  h6: [],
+	  i: [],
+	  img: ['src', 'alt', 'title', 'width', 'height'],
+	  li: [],
+	  ol: [],
+	  p: [],
+	  pre: [],
+	  s: [],
+	  small: [],
+	  span: [],
+	  sub: [],
+	  sup: [],
+	  strong: [],
+	  u: [],
+	  ul: []
+	}
 $(document).ready(function(){
+	
 
 	// $('.newses-sort-view .list').click(function(){
 	//   $('.newses-list-slider__slide').addClass('list');
@@ -83,6 +118,10 @@ $(document).ready(function(){
 		for (var i = 3- 1; i >= 0; i--) {
 			$(arr[i]).removeClass('hide');
 		}
+	});
+
+	$(function () {
+	  $('[data-toggle="tooltip"]').tooltip();
 	});
 
 
