@@ -35,7 +35,7 @@
 					<iframe width="100%" height="315" src="https://www.youtube.com/embed/xrbbBGVg16I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 				<div class="h2-link">
-					<a href="">Смотреть все проекты <img src="img/icons/greenH2Arrow.svg" alt="Перейти"></a>
+					<a href="">Все отзывы <img src="img/icons/greenH2Arrow.svg" alt="Перейти"></a>
 				</div>
 			</div>
 			<div class="frame">

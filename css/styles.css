@@ -64,6 +64,7 @@ header p,
 .frame__sort p,
 .sale__phone p,
 .show-more p,
+.videos-container__description h3,
 .project-square-type p,
 .frame__sort-content .line p,
 .filter-sizes-block__line p,
@@ -1010,6 +1011,9 @@ footer .last-row{
   justify-content: center;
   align-items: center;
 }
+.project-square-type img{
+  margin-bottom: 15px;
+}
 .catalog-filters__button{
   margin-bottom: 0;
   display: flex;
@@ -1083,9 +1087,9 @@ footer .last-row{
 }
 .filter-sizes-block{
   padding: 50px;
-  background-image: url('../img/bg5.png');
+  background-color: #E8E8E8;
   border-radius: 4px;
-  color: #fff;
+  color: #1E1F21;
 }
 .filter-sizes-block .filter-sizes-block__line:last-child{
   margin-bottom: 0;
@@ -1105,6 +1109,7 @@ footer .last-row{
 .filter-sizes-block__line .title{
   flex: 0 0 auto;
   margin-right: 30px;
+  font-family: 'SegoeUIBold';
 }
 .filter-sizes-block__line div{
   flex: 0 0 auto;
@@ -1138,7 +1143,10 @@ h3{
 .show-more{
   display: flex;
   align-items: center;
-  color: #83B62F;
+  color: #fff;
+  background-color: #83B62F;
+  padding: 15px 20px;
+  border-radius: 8px;
   font-size: 20px;
   font-family: 'SegoeUIBold';
   margin: auto;
@@ -1150,7 +1158,8 @@ h3{
 .show-more img{
   margin-right: 10px;
 }
-.catalog-items .hide{
+.catalog-items .hide,
+.videos-container .hide{
   opacity: 0 !important;
   height: 0 !important;
   transform: scaleY(0) !important;
@@ -1220,6 +1229,7 @@ h3{
   background-size: cover;
   color: #fff;
   padding: 40px;
+  margin-bottom: 40px;
 }
 .main-filters{
   display: flex;
@@ -1277,6 +1287,24 @@ h3{
   margin-bottom: 0;
   font-size: 20px;
   font-family: 'SegoeUIBold';
+}
+.sale-end .sale-card{
+  border-color: #959595;
+}
+.sale-end div,
+.sale-end p,
+.sale-end ul,
+.sale-end button{
+  filter: grayscale(1);
+  cursor: unset;
+}
+.sale-end .sale-card{
+  filter: unset;
+}
+.sale-end__img{
+  position: absolute;
+  z-index: 10;
+  max-width: 100%;
 }
 .sale-card{
   display: flex;
@@ -1407,7 +1435,110 @@ h3{
   width: 240px;
 }
 
-
+.manufacturer-block{
+  margin-bottom: 64px;
+}
+.manufacturer .manufacturer-block:last-child{
+  margin-bottom: 0;
+}
+.houses-options{
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+.houses-options__img img{
+  max-width: 100%;
+  width: 100%;
+}
+.houses-options__text{
+  padding: 17px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.houses-options__text p{
+  margin-bottom: 0;
+}
+.houses-options__value{
+  font-family: 'SegoeUIBold';
+  font-size: 20px;
+  line-height: 25px;
+}
+.houses-options__count{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+}
+.houses-options:hover{
+  background-color: #83B62F;
+  color: #fff;
+  box-shadow: 0px 3px 40px #1E1F21;
+}
+.houses-options-container .col-lg-4:nth-last-child(-n+3) .houses-options{
+  margin-bottom: 0;
+}
+.houses-options-container .col-lg-4 a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+.manufacturer h2{
+  margin-bottom: 20px;
+}
+.manufacturer-advantage__block{
+  display: flex;
+  align-items: center;
+}
+.manufacturer-advantage__block div{
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #E7E7E7;
+  padding-left: 15px;
+  margin-left: 15px;
+}
+.manufacturer-advantage__block p{
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 18px;
+  max-width: 144px;
+  line-height: 21px;
+}
+.manufacturer-advantage{
+  margin-bottom: 60px;
+}
+.manufacturer-advantage:nth-last-child(-n+3){
+  margin-bottom: 0;
+}
+.company-history h3{
+  margin-bottom: 15px;
+}
+.company-history h1{
+  margin-bottom: 5px;
+}
+.company-history__img{
+  margin: 30px 0;
+  max-width: 100%;
+}
+.videos-container__description{
+  padding: 35px 25px;
+  display: flex;
+  align-items: center;
+  min-height: 134px;
+  margin-bottom: 80px;
+}
+.videos-container__video iframe{
+  width: 100%;
+  height: 312px;
+  border-radius: 7px;
+}
+.videos-container__item{
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+}
+.videos-container__col{
+  height: auto;
+  transition: 0.3s;
+}
 
 
 

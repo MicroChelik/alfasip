@@ -274,7 +274,7 @@
 					}
 				?>
 				<div class="col-12">
-					<div class="show-more">
+					<div class="show-more show-more__catalog-items">
 						<img src="img/icons/refresh.svg" alt="иконка">
 						<p>Показать еще (<span>1</span> из <span>9</span>)</p>
 					</div>

@@ -113,9 +113,15 @@ $(document).ready(function(){
 			$('.filters').addClass('show-filters');
 		}
 	});
-	$('.show-more').click(function(){
+	$('.show-more__catalog-items').click(function(){
 		var arr = $('.catalog-items .hide');
-		for (var i = 3- 1; i >= 0; i--) {
+		for (var i = 3- 1; i >= 0; i--) { //первые три элемента
+			$(arr[i]).removeClass('hide');
+		}
+	});
+	$('.show-more__videos').click(function(){
+		var arr = $('.videos-container .hide');
+		for (var i = 2- 1; i >= 0; i--) {
 			$(arr[i]).removeClass('hide');
 		}
 	});

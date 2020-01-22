@@ -57,8 +57,9 @@
 					</ul>
 					<button class="greenBtn">Детали акции</button>
 				</div>
-				<div class="col-12 sale">
+				<div class="col-12 sale sale-end">
 					<div class="sale-card">
+						<img src="img/saleEnd.png" alt="Акция завершена" class="sale-end__img">
 						<div class="sale-card__text">
 							<p class="sale-card__title">Скидка <b>70%</b></p>
 							<div class="top-lines">
@@ -87,8 +88,9 @@
 					</ul>
 					<button class="greenBtn">Детали акции</button>
 				</div>
-				<div class="col-12 sale">
+				<div class="col-12 sale sale-end">
 					<div class="sale-card">
+						<img src="img/saleEnd.png" alt="Акция завершена" class="sale-end__img">
 						<div class="sale-card__text">
 							<p class="sale-card__title">Скидка <b>70%</b></p>
 							<div class="top-lines">
