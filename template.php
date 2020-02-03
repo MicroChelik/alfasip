@@ -20,9 +20,11 @@
 		<?php
 			include('tape.php');
 		?>
-		<div class="col-lg-9 main-content-container">
-			<div class="row">
+		<div class="col-lg-9 pr-0">
+			<div class="main-content-container">
+				<div class="row">
 
+				</div>
 			</div>
 		</div>
 	</div>

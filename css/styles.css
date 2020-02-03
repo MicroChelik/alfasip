@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap&subset=cyrillic');
+
 @font-face {
     font-family: "SegoeUIRegular";
     src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot");
@@ -74,6 +76,8 @@ header p,
 .house-table__item p,
 .videos-container__description h3,
 .project-square-type p,
+.cottage-advantage p,
+.estimate__item .checkbox-div p,
 .frame__sort-content .line p,
 .filter-sizes-block__line p,
 .main-filters__checkboxes .checkbox-div p,
@@ -886,6 +890,8 @@ footer .last-row{
 .main-content-container{
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
   border-radius: 4px;
+  padding-right: 40px;
+  padding-left: 40px;
   padding-bottom: 50px;
   margin-bottom: 100px;
   height: min-content
@@ -1637,6 +1643,187 @@ h3{
 .house-project-description .green-link{
   margin-bottom: 20px;
 }
+.house-project-advantage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.house-project-advantage__img img{
+  max-width: 100%;
+}
+.house-project-advantage__text{
+  max-width: 74%;
+  flex: 0 0 74%
+}
+.house-projects-row{
+  margin-bottom: 60px;
+}
+.house-project-advantage__text p{
+  margin-bottom: 0;
+  line-height: 23px;
+}
+.estimate-title{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 25px;
+  color: #fff;
+  padding: 18px 41px;
+  width: max-content;
+  background-color: #83B62F;
+}
+.estimate{
+  background-color: #FDFDFD;
+  padding: 43px 14px 55px 19px; 
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.estimate .active{
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  border-color: #fff;
+}
+.estimate__item{
+  width: 100%;
+  padding: 28px 30px;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+  background-color: #fff;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.estimate__item .checkbox + label:before{
+  border-color: rgba(0,0,0,0.2);
+}
+.estimate__item .checkbox-div p{
+  font-size: 18px;
+}
+.estimate-price p{
+  margin-bottom: 0;
+  margin-top: 50px;
+  font-family: 'SegoeUIBold';
+  font-size: 36px;
+  padding-left: 40px;
+  line-height: 25px;
+}
+.cottage-img img{
+  max-width: 100%;
+  border-radius: 5px;
+}
+.cottage-img{
+  display: flex;
+  align-items: center;
+}
+.cottage-advantage{
+  display: flex;
+  align-items: center;
+}
+.cottage-advantage img{
+  max-width: 70px;
+  padding-right: 15px;
+  border-right: 1px solid #E7E7E7;
+}
+.cottage-advantage__img{
+  margin-right: 15px;
+}
+.cottage-advantage{
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  margin-bottom: 65px;
+}
+.cottage-advantages{
+  margin-top: 100px;
+}
+.test-card__title{
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+.test-card__progress .count{
+  color: #83B62F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 21px;
+  margin-right: 15px;
+}
+.test-card__progress .count small{
+  font-size: 6px;
+  line-height: 21px;
+  color: #000;
+  font-family: 'SegoeUIRegular';
+}
+.test-card__progress .count sup{
+  top: -0.7em;
+}
+.test-card{
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  padding: 26px 56px;
+  padding-left: 100px;
+  margin-bottom: 100px;
+}
+.mockup img{
+  position: absolute;
+  z-index: 1;
+  left: -160px;
+}
+.cottage-container{
+  padding-left: 70px;
+}
+.test-card__progress{
+  display: flex;
+  margin-bottom: 20px;
+  padding-right: 50px;
+  align-items: center;
+}
+.portfolio__item{
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+.portfolio__img img{
+  max-width: 100%;
+  width: 100%;
+}
+.portfolio__text p{
+  font-size: 13px;
+  line-height: 23px;
+  margin-bottom: 0;
+}
+.portfolio__text{
+  padding: 15px 10px;
+}
+.portfolio__mask{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1808,6 +1995,114 @@ nav .active{
 .checkbox-div{
   display: flex;
 }
+
+.radio-group [type="radio"]:checked,
+.radio-group [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.radio-group [type="radio"]:checked + label,
+.radio-group [type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+.radio-group [type="radio"]:checked + label:before,
+.radio-group [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    background: #fff;
+}
+.radio-group [type="radio"]:checked + label:after,
+.radio-group [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #83B62F;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.radio-group [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.radio-group [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.radio-group{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: auto;
+}
+.radio-group p{
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-bottom: 13px;
+}
+.progressbar { 
+  height: 4px;
+  position: relative;
+  background: #c4c4c4;
+  width: 100%;
+  /*box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);*/
+}
+.progressbar > span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.984375) 0.01%, #83B62F 77.6%);
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.progressbar:after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background-image: linear-gradient(
+    -45deg, 
+    rgba(255, 255, 255, .2) 25%, 
+    transparent 25%, 
+    transparent 50%, 
+    rgba(255, 255, 255, .2) 50%, 
+    rgba(255, 255, 255, .2) 75%, 
+    transparent 75%, 
+    transparent
+  );
+  z-index: 1;
+  background-size: 50px 50px;
+  animation: move 2s linear infinite;
+  overflow: hidden;
+}
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+
+
+
 
 
 

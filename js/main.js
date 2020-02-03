@@ -126,6 +126,17 @@ $(document).ready(function(){
 		}
 	});
 
+	$('.estimate__item input').click(function(){
+		var checked = $(this).prop("checked");
+		var item = $(this).parent().parent();
+		if (checked) {
+			item.addClass('active');
+		} else {
+			item.removeClass('active');
+		}
+		console.log($(this).prop("checked"));
+	});
+
 	$(function () {
 	  $('[data-toggle="tooltip"]').tooltip();
 	});
