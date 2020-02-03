@@ -314,6 +314,18 @@ $(document).ready(function(){
 		// autoplaySpeed: 5000,
 		swipeToSlide: true,
 	});
+	$('.house-projects-slider').slick({
+		infinite: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		adaptiveHeight: true,
+		dots: true,
+		dotsClass: "my-dots",
+		// autoplay: true,
+		// autoplaySpeed: 5000,
+		swipeToSlide: true,
+	});
 
 
 	$('.house-view-slider').slick({
