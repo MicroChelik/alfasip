@@ -30,18 +30,55 @@
 					</div>
 				</div>
 				<div class="row portfolio">
-					<div class="col-lg-4">
+					<?php 
+						for ($i = 1; $i <= 6; $i++) {
+						    echo '<div class="col-lg-4">
+									<div class="portfolio__item">
+										<div class="portfolio__img">
+											<img src="img/portfolio.png">
+										</div>
+										<div class="portfolio__mask">
+											<a href="">Подробнее</a>
+										</div>
+										<div class="portfolio__text">
+											<p>Проект Дельта г. «Старый Чультем» 2016 год</p>
+										</div>
+									</div>
+								</div>';
+						};
+						for ($i = 1; $i <= 6; $i++) {
+						    echo '<div class="col-lg-4">
+									<div class="portfolio__item hide">
+										<div class="portfolio__img">
+											<img src="img/portfolio.png">
+										</div>
+										<div class="portfolio__mask">
+											<a href="">Подробнее</a>
+										</div>
+										<div class="portfolio__text">
+											<p>Проект Дельта г. «Старый Чультем» 2016 год</p>
+										</div>
+									</div>
+								</div>';
+						};
+					?>
+					<!-- <div class="col-lg-4">
 						<div class="portfolio__item">
-							<div class="portfolio__mask">
-								<p>подробнее</p>
-							</div>
 							<div class="portfolio__img">
 								<img src="img/portfolio.png">
+							</div>
+							<div class="portfolio__mask">
+								<a href="">Подробнее</a>
 							</div>
 							<div class="portfolio__text">
 								<p>Проект Дельта г. «Старый Чультем» 2016 год</p>
 							</div>
-							
+						</div>
+					</div> -->
+					<div class="col-12">
+						<div class="show-more show-more__portfolio">
+							<img src="img/icons/refresh.svg" alt="иконка">
+							<p>Показать еще (<span>1</span> из <span>9</span>)</p>
 						</div>
 					</div>
 				</div>

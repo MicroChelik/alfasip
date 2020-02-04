@@ -1175,6 +1175,7 @@ h3{
   margin-right: 10px;
 }
 .catalog-items .hide,
+.portfolio .hide,
 .videos-container .hide{
   opacity: 0 !important;
   height: 0 !important;
@@ -1781,6 +1782,12 @@ h3{
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
 }
+.portfolio__item{
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
 .portfolio__img img{
   max-width: 100%;
   width: 100%;
@@ -1795,7 +1802,32 @@ h3{
 }
 .portfolio__mask{
   position: absolute;
+  height: 100%;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  transform: scaleY(0);
+  transition: 0.2s;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.7);
+}
+.portfolio__item:hover .portfolio__mask{
+  transform: scaleY(1);
+}
+.portfolio__mask a{
+  display: block;
+  font-size: 14px;
+  line-height: 23px;
+  color: #fff;
+  padding: 9px 38px;
+  border: 1px solid #fff;
+  border-radius:  20px;
+  transition: 0.3s;
+}
+.portfolio__mask a:hover{
+  border-color: rgba(0, 0, 0, 0.0);
+  text-decoration: none;
 }
 
 

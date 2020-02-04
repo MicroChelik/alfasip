@@ -125,6 +125,12 @@ $(document).ready(function(){
 			$(arr[i]).removeClass('hide');
 		}
 	});
+	$('.show-more__portfolio').click(function(){
+		var arr = $('.portfolio .hide');
+		for (var i = 3- 1; i >= 0; i--) {
+			$(arr[i]).removeClass('hide');
+		}
+	});
 
 	$('.estimate__item input').click(function(){
 		var checked = $(this).prop("checked");
