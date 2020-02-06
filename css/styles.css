@@ -80,6 +80,7 @@ header p,
 .estimate__item .checkbox-div p,
 .frame__sort-content .line p,
 .filter-sizes-block__line p,
+.main-content-banner p,
 .main-filters__checkboxes .checkbox-div p,
 .house-reviews-slider__reviewer p,
 .house-reviews-slider__info p,
@@ -1767,6 +1768,21 @@ h3{
   z-index: 1;
   left: -160px;
 }
+.mockup{
+  position: absolute; 
+}
+.mockup:before{
+  content: url(../img/icons/lead1.svg);
+  left: 190px;
+  bottom: -133px;
+  position: relative;
+}
+.mockup:after{
+  content: url(../img/icons/lead2.svg);
+  position: relative;
+  bottom: -308px;
+  z-index: 1;
+}
 .cottage-container{
   padding-left: 70px;
 }
@@ -1829,14 +1845,208 @@ h3{
   border-color: rgba(0, 0, 0, 0.0);
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
+.house-project-card-slider__slide img{
+  max-width: 100%;
+  border-radius: 5px;
+  width: 100%;
+}
+.link-btn a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link-btn a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.house-project-card-slider-arrows .slider-arrow-right,
+.house-project-card-slider-arrows .slider-arrow-left{
+  position: static;
+}
+.house-project-card-slider-arrows{
+  top: -282px; 
+}
+.image-div img{
+  width: 100%;
+  max-width: 100%;
+}
+.project-card-photos .image-div{
+  margin-bottom: 60px;
+}
+.project-card-review{
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  padding: 30px 68px 57px 37px;
+}
+.project-card-review__header{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+.project-card-review__img{
+  height: 100px;
+  width: 100px;
+  margin-right: 40px;
+  flex: 0 0 100%;
+  max-width: 100px;
+}
+.project-card-review__img img{
+  max-width: 100%;
+  width: 100%;
+}
+.project-card-review__info{
+  margin-right: 35px;
+  border-bottom: 0.5px solid rgba(30, 31, 33, 0.5);
+  padding-bottom: 28px;
+  width: 100%;
+}
+.project-card-review__name{
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 4px;
+  line-height: 23px;
+}
+.project-card-review__date{
+  font-size: 14px;
+  line-height: 23px;
+  margin-bottom: 0;
+}
+.project-card-review__text{
+  padding-left: 42px;
+  font-size: 14px;
+  line-height: 23px;
+}
+.project-card-portfolio-slider-arrows{
+  bottom: 205px;
+}
+.project-card-portfolio-slider-arrows .project-card-portfolio-slider-next{
+  right: -14px;
+}
+.project-card-portfolio-slider-arrows .project-card-portfolio-slider-prev{
+  right: 14px;
+}
+.project-card-portfolio-slider{
+  margin: 0 60px;
+}
+.panel-link{
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  margin-bottom: 50px;
+}
+.panel-link:hover{
+  box-shadow: 0px 3px 40px #1E1F21;
+  background-color: #83B62F;
+  color: #fff;
+}
+.panel-link:hover a{
+  color: #fff;
+  border-color: #fff;
+}
+.panel-link__img img{
+  width: 100%;
+  max-width: 100%;
+}
+.panel-link__description{
+  padding: 14px 6px 15px 11px;
+  display: flex;
+  align-items: center;
+}
+.panel-link__item a{
+  display: flex;
+  align-items: center;
+  padding: 4px 4px 5px 9px;
+  border: 1px solid #83B62F;
+  border-radius: 60px;
+  transition: 0.3s;
+  color: #83B62F;
+}
+.panel-link__item a:hover{
+  text-decoration: none;
+  border-color: #83B62F;
+}
+.panel-link__item a img{
+  margin-left: 5px;
+  margin-top: 3px;
+}
+a .hoverImg{
+  display: none;
+  margin-left: 5px;
+  margin-top: 3px
+}
+.panel-link:hover .hoverImg{
+  display: block;
+}
+.panel-link:hover .staticImg{
+  display: none;
+}
+.panel-link-container{
+  margin-bottom: 50px;
+}
+.main-content-banner{
+  padding: 43px 70px 37px 70px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.main-content-banner-mask{
+  background-image: url('../img/main-content-banner.png');
+  background-size: cover;
+  margin: 0 -40px;
+}
+.main-content-banner__title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.main-content-banner__subtitles{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.main-content-banner__subtitles div{
+  border-right: 2px solid #FFFFFF;
+  padding: 2px 0;
+  padding-right: 25px;
+  margin-right: 25px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 23px;
+}
+.main-content-banner__subtitles div:last-child{
+  border: unset;
+  margin: 0;
+  padding-right: 0;
+}
+.main-content-banner__text{
+  text-align: center;
+  font-family: 'SegoeUIBold';
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 42px;
+}
+.main-content-banner form{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.main-content-banner form p{
+  font-size: 16px;
+  line-height: 21px;
+  font-family: 'SegoeUIBold';
+}
+.main-content-banner form input{
+  border: none;
+  height: 60px;
+  width: 300px;
+  font-size: 18px;
+  padding: 0 10px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  margin-right: 24px;
+}
+.main-content-banner form .greenBtn{
+  width: 244px;
+}
 
 
 
@@ -2200,5 +2410,8 @@ nav .active{
   }
   .sale-card__title b{
     font-size: 70px;
+  }
+  .main-content-banner{
+	padding: 43px 40px 37px 40px;
   }
 }

@@ -343,6 +343,33 @@ $(document).ready(function(){
 		// autoplaySpeed: 5000,
 		swipeToSlide: true,
 	});
+	$('.house-project-card-slider').slick({
+		infinite: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: true,
+		adaptiveHeight: true,
+		dots: true,
+		prevArrow: '.house-project-card-slider-prev',
+		nextArrow: '.house-project-card-slider-next',
+		dotsClass: "my-dots",
+		// autoplay: true,
+		// autoplaySpeed: 5000,
+		swipeToSlide: true,
+	});
+	$('.project-card-portfolio-slider').slick({
+		infinite: false,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		arrows: true,
+		dots: true,
+		prevArrow: '.project-card-portfolio-slider-prev',
+		nextArrow: '.project-card-portfolio-slider-next',
+		dotsClass: "my-dots",
+		// autoplay: true,
+		// autoplaySpeed: 5000,
+		swipeToSlide: true,
+	});
 
 
 	$('.house-view-slider').slick({
