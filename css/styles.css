@@ -2047,6 +2047,26 @@ a .hoverImg{
 .main-content-banner form .greenBtn{
   width: 244px;
 }
+.mb-60{
+  margin-bottom: 60px;
+}
+.publication-links__title{
+  font-size: 24px;
+  line-height: 25px;
+  margin-bottom: 18px;
+}
+.publication-links li a:hover{
+  color: inherit;
+}
+.publication-links li{
+  margin-bottom: 17px; 
+  list-style: none; /* Убираем исходные маркеры */
+    background: url(../img/icons/liDot.svg) no-repeat 0 9px; /* Параметры фона */
+    padding-left: 17px; /* Смещаем текст вправо */ 
+}
+.publication-links ul{
+  padding-left: 33px;
+}
 
 
 

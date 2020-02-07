@@ -8,7 +8,7 @@
 				<div class="">
 					<ol class="breadcrumb p-0">
 				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
-			    		<li class="breadcrumb-item active" aria-current="page"></li>
+			    		<li class="breadcrumb-item active" aria-current="page">О SIP-панелях</li>
 				 	</ol>
 				</div>
 			</div>
