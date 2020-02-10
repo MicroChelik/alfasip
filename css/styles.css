@@ -72,6 +72,7 @@ header p,
 .advantage__title p,
 .frame__sort p,
 .sale__phone p,
+.calculation-table__row p,
 .show-more p,
 .house-table__item p,
 .videos-container__description h3,
@@ -2066,6 +2067,90 @@ a .hoverImg{
 }
 .publication-links ul{
   padding-left: 33px;
+}
+.calculation-table{
+  border-radius: 5px;
+  border: 2px solid #1E1F21;
+  margin-bottom: 17px;
+}
+.calculation-table .calculation-table__row:nth-child(odd) div{
+  background-color: #F2F2F2;
+}
+.calculation-table .calculation-table__row:nth-last-child(1) div{
+  border-bottom: 0;
+}
+.calculation-table .calculation-table__row:first-child .calculation-table__service{
+  border-radius: 5px 1px 1px 1px;
+}
+.calculation-table .calculation-table__row:nth-last-child(1) .calculation-table__service{
+  border-radius: 1px 1px 1px 5px;
+}
+.calculation-table .calculation-table__row:first-child .calculation-table__count{
+  border-radius: 1px 5px 1px 1px;
+}
+.calculation-table .calculation-table__row:nth-last-child(1) .calculation-table__count{
+  border-radius: 1px 1px 5px 1px;
+}
+.calculation-table__row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.calculation-table__row div{
+  background-color: #E6E5E5;
+}
+.calculation-table__row div{
+  border-radius: 1px;
+}
+.calculation-table__service{
+  flex: 0 0 70%;
+  max-width: 70%;
+  padding: 5px 10px 5px 16px;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff; 
+}
+.calculation-table__count{
+  flex: 0 0 30%;
+  max-width: 30%;
+  padding: 5px 10px 5px 24px;
+  border-bottom: 3px solid #fff; 
+}
+.calculation-title{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  padding-left: 5px;
+  margin-bottom: 18px;
+}
+.print{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FB9722;
+  text-decoration: underline;
+  border: none;
+  background-color: #fff;
+}
+.final-price{
+  display: flex;
+  justify-content: space-between;
+  max-width: 96%;
+  margin-bottom: 18px;
+}
+.final-price p{
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: 'SegoeUIBold';
+}
+.calculation-buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calculation-buttons .greenTranpBtn{
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 41px;
 }
 
 
