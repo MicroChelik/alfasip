@@ -297,6 +297,27 @@ $(document).ready(function(){
 			}
 		]
 	});
+	$('.video-slider').slick({
+		infinite: false,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		arrows: true,
+		dots: true,
+		dotsClass: "my-dots",
+		prevArrow: '.video-slider-prev',
+		nextArrow: '.video-slider-next',
+		// autoplay: true,
+		// autoplaySpeed: 5000,
+		swipeToSlide: true,
+		responsive: [
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 1,
+				}
+			}
+		]
+	});
 	$('.sertificates-slider').slick({
 		infinite: false,
 		slidesToShow: 4,
