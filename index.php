@@ -905,22 +905,22 @@
 					<div class="office-card-container">
 						<div class="office-card">
 							<div>
-								<img src="img/office1.png">
+								<img src="img/office1.png" alt="Фотография офиса">
 							</div>
 						</div>
 						<div class="office-card">
 							<div>
-								<img src="img/office1.png">
+								<img src="img/office1.png" alt="Фотография офиса">
 							</div>
 						</div>
 						<div class="office-card">
 							<div>
-								<img src="img/office1.png">
+								<img src="img/office1.png" alt="Фотография офиса">
 							</div>
 						</div>
 						<div class="office-card">
 							<div>
-								<img src="img/office1.png">
+								<img src="img/office1.png" alt="Фотография офиса">
 							</div>
 						</div>
 					</div>

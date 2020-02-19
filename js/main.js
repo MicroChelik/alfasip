@@ -78,6 +78,12 @@ $(document).ready(function(){
 
 	// })
 
+	$('.open-phones').click(function(){
+		$(this).toggleClass('rotate');
+		$('.contacts-phones').slideToggle();
+		$('.contacts-card').toggleClass('more');
+	});
+
 	$(function() {
 		$(window).scroll(function() {
 			if($(this).scrollTop() >= 300) {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600&display=swap&subset=cyrillic');
 
 @font-face {
     font-family: "SegoeUIRegular";
@@ -118,7 +118,13 @@ footer a:hover{
   border-radius: 80px;
   font-size: 14px;
   height: 56px;
+  transition: 0.3s;
   border: none;
+}
+.first-line__button:hover{
+  /*box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;*/
+  box-shadow: 2px 3px 20px #83B62F;
 }
 .first-line__actions,
 .first-line__actions div{
@@ -132,6 +138,11 @@ footer a:hover{
 .contacts-card{
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  transition: 0.4s;
+}
+.contacts-card p a:hover{
+  color: unset;
+  text-decoration: none;
 }
 .contacts-card__city{
   font-size: 14px;
@@ -144,7 +155,8 @@ footer a:hover{
   line-height: 21px;
   text-transform: uppercase;
   color: #1E1F21;
-  font-family: SegoeUIBold;
+  font-family: 'Montserrat';
+  font-weight: 500;
 }
 .contacts-card__modal{
   font-size: 15px;
@@ -198,8 +210,15 @@ nav ul{
   box-shadow: 0px 3px 6px rgba(87, 55, 16, 0.15);
   border-radius: 68px;
   height: 60px;
+  transition: 0.3s;
+  border: 1px solid #FB961F;
   padding: 0 40px;
-  border: none;
+  /*border: none;*/
+}
+.orangeBtn:hover{
+  /*background: transparent;
+  color: inherit;*/
+  box-shadow: 2px 3px 20px #FB9722;
 }
 .whiteTranspBtn{
   height: 60px;
@@ -208,7 +227,13 @@ nav ul{
   color: #fff;
   box-sizing: border-box;
   padding: 0 40px;
+  transition: 0.3s;
   border-radius: 65px;
+}
+.whiteTranspBtn:hover{
+  /*border-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.15);*/
+  box-shadow: 2px 3px 15px #FFFFFF;
 }
 .banner__info{
   color: #fff;
@@ -596,10 +621,17 @@ footer .last-row{
   background: linear-gradient(103.23deg, rgba(255, 255, 255, 0) 5.08%, rgba(0, 0, 0, 0.06) 93.8%), #83B62F;
   box-shadow: 0px 6px 8px rgba(51, 73, 14, 0.18);
   border-radius: 102px;
-  border: none;
+  border: 1px solid #83B62F;
   color: #fff;
   height: 60px;
+  transition: 0.3s;
   padding: 0 70px;
+}
+.greenBtn:hover{
+  /*color: #83B62F;
+  background: transparent;*/
+  box-shadow: 2px 3px 15px #83B62F;
+
 }
 .house-slider-description .subTitle{
   font-family: SegoeUIBold;
@@ -1747,6 +1779,7 @@ h3{
 .test-card__progress .count{
   color: #83B62F;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   font-size: 24px;
   line-height: 21px;
   margin-right: 15px;
@@ -2491,6 +2524,59 @@ a .hoverImg{
   align-items: flex-start;
   margin-top: 10px;
 }
+.a-block:hover{
+  color: inherit;
+      
+}
+.a-block{
+  display: flex;
+  align-items: center;
+}
+
+.contacts-phones{
+  position: absolute;
+  background-color: #fff;
+  padding: 20px;
+  width: 250px;
+ /* bottom: -155px;*/
+ display: none;
+ margin-left: -20px;
+  box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.15);
+}
+.more{
+  box-shadow: 0px 20px 5px rgba(0, 0, 0, 0.15);
+}
+.open-phones{
+  transition: 0.3s;
+  cursor: pointer;
+}
+.rotate{
+  transform: rotate(180deg);
+}
+.contacts-phones__title{
+  margin: 0 -20px;
+  padding: 0 20px;
+  border-bottom: 1px solid rgba(30, 31, 33, 0.1);
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+}
+.contacts-phones p a{
+  font-size: 15px;
+  line-height: 21px; 
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+.contacts-phones__numbers p{
+  margin-bottom: 15px;
+}
+.contacts-phones__subtitle{
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.8;
+}
 
 
 
@@ -2532,6 +2618,93 @@ a .hoverImg{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fancybox-content{
+  padding: 0 !important;
+}
+.fancybox-content .card{
+  border-radius: 5px;
+  max-width: 500px;
+  border: 0;
+}
+.fancybox-content .card-body{
+  padding: 0;
+}
+.fancybox-content .card-body p{
+  margin-bottom: 0;
+}
+.modal-title{
+  text-align: center;
+  background-color: #FB961F;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: 'SegoeUIBold';
+}
+.modal-subtitle{
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  padding: 19px 0;
+  line-height: 25px;
+}
+.fancybox-content form{
+  padding: 0px 27px 37px 29px;
+}
+.fancybox-content .card-body form p{
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.fancybox-content form input{
+  width: 364px;
+  height: 50px;
+  margin-bottom: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  border: 0;
+  background: #E0E0E0;
+  border-radius: 5px;
+}
+.fancybox-content form .greenBtn{
+  border-radius: 5px;
+  width: 364px;
+  margin-top: 16px;
+}
+.fancybox-content .fancybox-close-small{
+  color: #fff !important;
+}
 
 .my-dots {
   display: block;
