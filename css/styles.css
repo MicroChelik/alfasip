@@ -2646,7 +2646,11 @@ a .hoverImg{
 
 
 
-
+.slick-slide,
+button,
+a{
+  outline: none !important;
+}
 .fancybox-content{
   padding: 0 !important;
 }
