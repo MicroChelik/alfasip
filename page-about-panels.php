@@ -7,7 +7,7 @@
 			<div aria-label="breadcrumb" class="breadcrumbNav">
 				<div class="">
 					<ol class="breadcrumb p-0">
-				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
+				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg" alt="Главная"></a></li>
 			    		<li class="breadcrumb-item active" aria-current="page">О SIP-панелях</li>
 				 	</ol>
 				</div>
@@ -38,7 +38,7 @@
 							 echo '<div class="col-lg-4">
 									<div class="panel-link">
 										<div class="panel-link__img">
-											<img src="img/panel-link.png">
+											<img src="img/panel-link.png" alt="Фотография">
 										</div>
 										<div class="panel-link__description">
 											<div class="panel-link__text">
@@ -48,8 +48,8 @@
 											</div>
 											<div class="panel-link__item">
 												<a href="">Подробнее
-													<img src="img/icons/arrowGreenRight.svg" class="staticImg">
-													<img src="img/icons/arrowWhiteRight.svg" class="hoverImg">
+													<img src="img/icons/arrowGreenRight.svg" alt="Перейти" class="staticImg">
+													<img src="img/icons/arrowWhiteRight.svg" alt="Перейти" class="hoverImg">
 												</a>
 											</div>
 										</div>
@@ -60,7 +60,7 @@
 					<!-- <div class="col-lg-4">
 						<div class="panel-link">
 							<div class="panel-link__img">
-								<img src="img/panel-link.png">
+								<img src="img/panel-link.png" alt="Фотография">
 							</div>
 							<div class="panel-link__description">
 								<div class="panel-link__text">
@@ -70,8 +70,8 @@
 								</div>
 								<div class="panel-link__item">
 									<a href="">Подробнее
-										<img src="img/icons/arrowGreenRight.svg" class="staticImg">
-										<img src="img/icons/arrowWhiteRight.svg" class="hoverImg">
+										<img src="img/icons/arrowGreenRight.svg" alt="Перейти" class="staticImg">
+										<img src="img/icons/arrowWhiteRight.svg" alt="Перейти" class="hoverImg">
 									</a>
 								</div>
 							</div>

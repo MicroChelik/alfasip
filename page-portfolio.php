@@ -7,7 +7,7 @@
 			<div aria-label="breadcrumb" class="breadcrumbNav">
 				<div class="">
 					<ol class="breadcrumb p-0">
-				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
+				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg" alt="Главная"></a></li>
 			    		<li class="breadcrumb-item active" aria-current="page">Наши работы:</li>
 				 	</ol>
 				</div>
@@ -35,7 +35,7 @@
 						    echo '<div class="col-lg-4">
 									<div class="portfolio__item">
 										<div class="portfolio__img">
-											<img src="img/portfolio.png">
+											<img src="img/portfolio.png" alt="Фотография">
 										</div>
 										<div class="portfolio__mask">
 											<a href="">Подробнее</a>
@@ -50,7 +50,7 @@
 						    echo '<div class="col-lg-4">
 									<div class="portfolio__item hide">
 										<div class="portfolio__img">
-											<img src="img/portfolio.png">
+											<img src="img/portfolio.png" alt="Фотография">
 										</div>
 										<div class="portfolio__mask">
 											<a href="">Подробнее</a>
@@ -65,7 +65,7 @@
 					<!-- <div class="col-lg-4">
 						<div class="portfolio__item">
 							<div class="portfolio__img">
-								<img src="img/portfolio.png">
+								<img src="img/portfolio.png" alt="Фотография">
 							</div>
 							<div class="portfolio__mask">
 								<a href="">Подробнее</a>

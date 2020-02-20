@@ -43,8 +43,8 @@
 					<div class="contacts-card">
 						<div class="contacts-card__info">
 							<p class="contacts-card__city">Ижевск</p>
-							<p class="contacts-card__phone"><a href="tel:+7 (3412) 90-79-61">+7 (3412) 90-79-61</a></p>
-							<a class="contacts-card__modal" data-fancybox data-animation-duration="700" data-src="#callBackModal" href="javascript:;">
+							<p class="contacts-card__phone"><a href="tel:+7(3412)90-79-61">+7 (3412) 90-79-61</a></p>
+							<a class="contacts-card__modal a-modal" data-fancybox data-animation-duration="700" data-src="#callBackModal" href="javascript:;">
 								<p>Заказать звонок</p>
 							</a>
 							<div style="display: none;" id="callBackModal" class="animated-modal">
@@ -56,7 +56,7 @@
 										<div class="modal-subtitle">
 											<p>Заказать звонок менеджера</p>
 										</div>
-										<form action = "javascript: void(null);" method="post" id="">
+										<form action = "javascript: void(null);" method="post">
 											<p>Ваше имя:</p>
 											<input type="text">
 											<p>Email или телефон:</p>

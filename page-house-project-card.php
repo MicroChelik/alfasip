@@ -7,7 +7,7 @@
 			<div aria-label="breadcrumb" class="breadcrumbNav">
 				<div class="">
 					<ol class="breadcrumb p-0">
-				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
+				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg" alt="Главная"></a></li>
 				    	<li class="breadcrumb-item"><a href="index.php">Наши работы</a></li>
 			    		<li class="breadcrumb-item active" aria-current="page">Проект Гамма</li>
 				 	</ol>
@@ -36,14 +36,14 @@
 							<div class="house-project-card-slider__slide slider-slide">
 								<div>
 									<a href="img/project-card.png" data-fancybox="images">
-										<img src="img/project-card.png">
+										<img src="img/project-card.png" alt="Фотография дома">
 									</a>
 								</div>
 							</div>
 							<div class="house-project-card-slider__slide slider-slide">
 								<div>
 									<a href="img/project-card.png" data-fancybox="images">
-										<img src="img/project-card.png">
+										<img src="img/project-card.png" alt="Фотография дома">
 									</a>
 								</div>
 							</div>
@@ -102,7 +102,7 @@
 						    echo '<div class="col-lg-4">
 									<div class="image-div">
 										<a href="img/project-card2.png" data-fancybox="images">
-											<img src="img/project-card2.png">
+											<img src="img/project-card2.png" alt="Фотография дома">
 										</a>
 									</div>
 								</div>';
@@ -130,7 +130,7 @@
 					<div class="slider-slide">
 						<div class="portfolio__item">
 							<div class="portfolio__img">
-								<img src="img/portfolio.png">
+								<img src="img/portfolio.png" alt="Фотография">
 							</div>
 							<div class="portfolio__mask">
 								<a href="">Подробнее</a>
@@ -143,7 +143,7 @@
 					<div class="slider-slide">
 						<div class="portfolio__item">
 							<div class="portfolio__img">
-								<img src="img/portfolio.png">
+								<img src="img/portfolio.png" alt="Фотография">
 							</div>
 							<div class="portfolio__mask">
 								<a href="">Подробнее</a>
@@ -156,7 +156,7 @@
 					<div class="slider-slide">
 						<div class="portfolio__item">
 							<div class="portfolio__img">
-								<img src="img/portfolio.png">
+								<img src="img/portfolio.png" alt="Фотография">
 							</div>
 							<div class="portfolio__mask">
 								<a href="">Подробнее</a>
@@ -169,7 +169,7 @@
 					<div class="slider-slide">
 						<div class="portfolio__item">
 							<div class="portfolio__img">
-								<img src="img/portfolio.png">
+								<img src="img/portfolio.png" alt="Фотография">
 							</div>
 							<div class="portfolio__mask">
 								<a href="">Подробнее</a>
@@ -182,7 +182,7 @@
 					<div class="slider-slide">
 						<div class="portfolio__item">
 							<div class="portfolio__img">
-								<img src="img/portfolio.png">
+								<img src="img/portfolio.png" alt="Фотография">
 							</div>
 							<div class="portfolio__mask">
 								<a href="">Подробнее</a>

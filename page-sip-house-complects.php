@@ -7,7 +7,7 @@
 			<div aria-label="breadcrumb" class="breadcrumbNav">
 				<div class="">
 					<ol class="breadcrumb p-0">
-				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
+				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg" alt="Главная"></a></li>
 				    	<li class="breadcrumb-item"><a href="index.php">Проекты домов из СИП панелей</a></li>
 			    		<li class="breadcrumb-item active" aria-current="page">Дома из СИП панелей 80 кв .м</li>
 				 	</ol>
@@ -35,7 +35,7 @@
 					<div class="col-lg-5 complect__img">
 						<p class="complect__title">MINI</p>
 						<div class="complect__photo">
-							<img src="img/complect.png">
+							<img src="img/complect.png" alt="Изображение">
 						</div>
 					</div>
 					<div class="complect__description">
@@ -47,7 +47,7 @@
 							<li>СИП-Панели стен 174мм</li>
 							<li>СИП-Панели стен 174мм</li>
 						</ul>
-						<a href="" class="greenBtn"><img src="img/icons/ruble.svg">Цена за м  от 5000 руб.</a>
+						<a href="" class="greenBtn"><img src="img/icons/ruble.svg" alt="Рубль">Цена за м  от 5000 руб.</a>
 					</div>
 					<div class="col-lg-11 complect__text">
 						<p>
@@ -59,7 +59,7 @@
 					<div class="col-lg-5 complect__img">
 						<p class="complect__title">MINI</p>
 						<div class="complect__photo">
-							<img src="img/complect.png">
+							<img src="img/complect.png" alt="Изображение">
 						</div>
 					</div>
 					<div class="complect__description">
@@ -71,7 +71,7 @@
 							<li>СИП-Панели стен 174мм</li>
 							<li>СИП-Панели стен 174мм</li>
 						</ul>
-						<a href="" class="greenBtn"><img src="img/icons/ruble.svg">Цена за м  от 5000 руб.</a>
+						<a href="" class="greenBtn"><img src="img/icons/ruble.svg" alt="Рубль">Цена за м  от 5000 руб.</a>
 					</div>
 					<div class="col-lg-11 complect__text">
 						<p>

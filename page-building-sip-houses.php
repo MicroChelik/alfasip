@@ -7,7 +7,7 @@
 			<div aria-label="breadcrumb" class="breadcrumbNav">
 				<div class="">
 					<ol class="breadcrumb p-0">
-				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
+				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg" alt="Главная"></a></li>
 			    		<li class="breadcrumb-item active" aria-current="page">Строительство</li>
 				 	</ol>
 				</div>
@@ -42,12 +42,12 @@
 						    echo '<div class="col-lg-4">
 									<div class="stage">
 										<div class="stage__img">
-											<img src="img/stage.png">
+											<img src="img/stage.png" alt="Фотография">
 										</div>
 										<div class="stage__text">
 											<p>Проектирование</p>
 											<div class="h2-link">
-												<a href="">Подробнее <img class="staticImg" src="img/icons/greenH2Arrow.svg" alt="Перейти"><img src="img/icons/arrowWhiteRight.svg" class="hoverImg"></a>
+												<a href="">Подробнее <img class="staticImg" src="img/icons/greenH2Arrow.svg" alt="Перейти"><img src="img/icons/arrowWhiteRight.svg" alt="Иконка" class="hoverImg"></a>
 											</div>
 										</div>
 									</div>
@@ -57,12 +57,12 @@
 					<!-- <div class="col-lg-4">
 						<div class="stage">
 							<div class="stage__img">
-								<img src="img/stage.png">
+								<img src="img/stage.png" alt="Фотография">
 							</div>
 							<div class="stage__text">
 								<p>Проектирование</p>
 								<div class="h2-link">
-									<a href="">Подробнее <img class="staticImg" src="img/icons/greenH2Arrow.svg" alt="Перейти"><img src="img/icons/arrowWhiteRight.svg" class="hoverImg"></a>
+									<a href="">Подробнее <img class="staticImg" src="img/icons/greenH2Arrow.svg" alt="Перейти"><img src="img/icons/arrowWhiteRight.svg" alt="Иконка" class="hoverImg"></a>
 								</div>
 							</div>
 						</div>
@@ -78,22 +78,22 @@
 						<div class="video-slider slider">
 							<div class="slider-slide">
 								<div class="frame__video">
-									<iframe width="100%" height="315" src="https://www.youtube.com/embed/xrbbBGVg16I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="100%" height="315" src="https://www.youtube.com/embed/xrbbBGVg16I" style="border: 0px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 							</div>
 							<div class="slider-slide">
 								<div class="frame__video">
-									<iframe width="100%" height="315" src="https://www.youtube.com/embed/xrbbBGVg16I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="100%" height="315" src="https://www.youtube.com/embed/xrbbBGVg16I" style="border: 0px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 							</div>
 							<div class="slider-slide">
 								<div class="frame__video">
-									<iframe width="100%" height="315" src="https://www.youtube.com/embed/xrbbBGVg16I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="100%" height="315" src="https://www.youtube.com/embed/xrbbBGVg16I" style="border: 0px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 							</div>
 							<div class="slider-slide">
 								<div class="frame__video">
-									<iframe width="100%" height="315" src="https://www.youtube.com/embed/xrbbBGVg16I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="100%" height="315" src="https://www.youtube.com/embed/xrbbBGVg16I" style="border: 0px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 							</div>
 						</div>
@@ -117,7 +117,7 @@
 									<div class="houses-type-card">
 										<a href="">
 											<div class="houses-type-card__img">
-												<img src="img/house-type.png">
+												<img src="img/house-type.png" alt="Фотография">
 											</div>
 											<div class="houses-type-card__text">
 												<p class="houses-type-card__title">Коттеджи</p>
@@ -132,7 +132,7 @@
 						<div class="houses-type-card">
 							<a href="">
 								<div class="houses-type-card__img">
-									<img src="img/house-type.png">
+									<img src="img/house-type.png" alt="Фотография">
 								</div>
 								<div class="houses-type-card__text">
 									<p class="houses-type-card__title">Коттеджи</p>

@@ -15,7 +15,7 @@
 				</div>
 				<div class="col-lg-6 first-row__contacts">
 					<div>
-						<img src="img/icons/mail.png">
+						<img src="img/icons/mail.png" alt="почта">
 						<p><a href="mailto:alfa.udm@mail.ru">alfa.udm@mail.ru</a></p>
 					</div>
 					<div>

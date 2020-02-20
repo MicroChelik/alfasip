@@ -7,7 +7,7 @@
 			<div aria-label="breadcrumb" class="breadcrumbNav">
 				<div class="">
 					<ol class="breadcrumb p-0">
-				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
+				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg" alt="Главная"></a></li>
 			    		<li class="breadcrumb-item active" aria-current="page">Цены на СИП-панели</li>
 				 	</ol>
 				</div>
@@ -40,7 +40,7 @@
 						<h3 class="mb-0 ml-5">Прайс-лист на СИП-панели</h3>
 					</div>
 					<div class="col-lg-auto px-0">
-						<button class="orangeBtn"><img src="img/icons/download.svg">Скачать прайс</button>
+						<button class="orangeBtn"><img src="img/icons/download.svg" alt="Скачать">Скачать прайс</button>
 					</div>
 				</div>
 				<div class="row mx-none">
@@ -54,7 +54,7 @@
 							</tr>
 							<tr>
 								<td rowspan="3">
-									<img src="img/priceImg.png">
+									<img src="img/priceImg.png" alt="Фотография">
 								</td>
 								<td>
 									2500x625x118
@@ -91,7 +91,7 @@
 							<tr class="table-border"></tr>
 							<tr>
 								<td rowspan="3">
-									<img src="img/priceImg.png">
+									<img src="img/priceImg.png" alt="Фотография">
 								</td>
 								<td>
 									2500x625x118
@@ -138,7 +138,7 @@
 							</tr>
 							<tr>
 								<td rowspan="3">
-									<img src="img/priceImg.png">
+									<img src="img/priceImg.png" alt="Фотография">
 								</td>
 								<td>
 									2500x625x118
@@ -175,7 +175,7 @@
 							<tr class="table-border"></tr>
 							<tr>
 								<td rowspan="3">
-									<img src="img/priceImg.png">
+									<img src="img/priceImg.png" alt="Фотография">
 								</td>
 								<td>
 									2500x625x118
@@ -260,7 +260,7 @@
 				<div class="row cottage-advantages price-advantages">
 					<div class="col-lg-4 cottage-advantage">
 						<div class="cottage-advantage__img">
-							<img src="img/icons/advantage1.png">
+							<img src="img/icons/advantage1.png" alt="Иконка">
 						</div>
 						<div>
 							<p>Преимущество 1</p>
@@ -273,7 +273,7 @@
 					</div>
 					<div class="col-lg-4 cottage-advantage">
 						<div class="cottage-advantage__img">
-							<img src="img/icons/advantage1.png">
+							<img src="img/icons/advantage1.png" alt="Иконка">
 						</div>
 						<div>
 							<p>Преимущество 2 <br> в две строчки</p>
@@ -286,7 +286,7 @@
 					</div>
 					<div class="col-lg-4 cottage-advantage">
 						<div class="cottage-advantage__img">
-							<img src="img/icons/advantage1.png">
+							<img src="img/icons/advantage1.png" alt="Иконка">
 						</div>
 						<div>
 							<p>Преимущество 1</p>

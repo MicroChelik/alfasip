@@ -7,7 +7,7 @@
 			<div aria-label="breadcrumb" class="breadcrumbNav">
 				<div class="">
 					<ol class="breadcrumb p-0">
-				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
+				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg" alt="Главная"></a></li>
 			    		<li class="breadcrumb-item active" aria-current="page">О компании</li>
 				 	</ol>
 				</div>
@@ -34,7 +34,7 @@
 					<div class="col-lg-3 company-links__img-block">
 						<div class="company-links__img">
 							<a href="">
-								<img src="img/icons/history.svg">
+								<img src="img/icons/history.svg" alt="Иконка">
 							</a>
 						</div>
 					</div>
@@ -49,7 +49,7 @@
 					<div class="col-lg-3 company-links__img-block">
 						<div class="company-links__img">
 							<a href="">
-								<img src="img/icons/sertificates.svg">
+								<img src="img/icons/sertificates.svg" alt="Иконка">
 							</a>
 						</div>
 					</div>

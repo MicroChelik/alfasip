@@ -7,7 +7,7 @@
 			<div aria-label="breadcrumb" class="breadcrumbNav">
 				<div class="">
 					<ol class="breadcrumb p-0">
-				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
+				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg" alt="Главная"></a></li>
 			    		<li class="breadcrumb-item active" aria-current="page">Проекты домов из СИП панелей</li>
 				 	</ol>
 				</div>
@@ -35,14 +35,14 @@
 							<div class="house-projects-slider__slide slider-slide">
 								<div>
 									<a href="img/house-projects-slider.png" data-fancybox="images">
-										<img src="img/house-projects-slider.png">
+										<img src="img/house-projects-slider.png" alt="Фото дома">
 									</a>
 								</div>
 							</div>
 							<div class="house-projects-slider__slide slider-slide">
 								<div>
 									<a href="img/house-projects-slider.png" data-fancybox="images">
-										<img src="img/house-projects-slider.png">
+										<img src="img/house-projects-slider.png" alt="Фото дома">
 									</a>
 								</div>
 							</div>
@@ -50,12 +50,12 @@
 						<div class="house-plan">
 							<div class="house-plan__photo">
 								<a href="img/house-plan__photo1.png" data-fancybox="images">
-									<img src="img/house-plan__photo1.png">
+									<img src="img/house-plan__photo1.png" alt="Фото дома">
 								</a>
 							</div>
 							<div class="house-plan__photo">
 								<a href="img/house-plan__photo2.png" data-fancybox="images">
-									<img src="img/house-plan__photo2.png">
+									<img src="img/house-plan__photo2.png" alt="Фото дома">
 								</a>
 							</div>
 						</div>
@@ -148,7 +148,7 @@
 					</div>
 					<div class="col-lg-4 house-project-advantage">
 						<div class="house-project-advantage__img">
-							<img src="img/icons/house-project-advantage__img3.svg">
+							<img src="img/icons/house-project-advantage__img3.svg" alt="Преимущество">
 						</div>
 						<div class="house-project-advantage__text">
 							<p>Возможность поэтапной оплаты строительства</p>

@@ -78,6 +78,47 @@ $(document).ready(function(){
 
 	// })
 
+	// $('#range').on("input", function() {
+ //    $('.output').val(this.value +",000  $" );
+ //    }).trigger("change");
+
+    var inputSlider = document.getElementById("myRange");
+    var output = document.getElementById("value");
+
+    var inputSlider2 = document.getElementById("myRange2");
+    var output2 = document.getElementById("value2");
+    var prettify = inputSlider2.value.toString().replace(/(\d{1,3}(?=(?:\d\d\d)+(?!\d)))/g, "$1" + ' ');
+    console.log(prettify);
+
+    output.innerHTML = inputSlider.value;
+    output2.innerHTML = prettify;
+
+    inputSlider.oninput = function() {
+    	output.innerHTML = this.value;
+    }
+    inputSlider2.oninput = function() {
+    	output2.innerHTML = this.value.toString().replace(/(\d{1,3}(?=(?:\d\d\d)+(?!\d)))/g, "$1" + ' ');
+    }
+
+    inputSlider.addEventListener("mousemove", function(){
+    	var x = inputSlider.value;
+    	var color = 'linear-gradient(90deg, rgb(131,182,47)' +x +'%, rgb(214,214,214)' + x + '%)';
+    	inputSlider.style.background = color;
+    });
+    inputSlider2.addEventListener("mousemove", function(){
+    	var x = inputSlider2.value/30000;
+    	var color = 'linear-gradient(90deg, rgb(131,182,47)' +x +'%, rgb(214,214,214)' + x + '%)';
+    	inputSlider2.style.background = color;
+    });
+
+
+
+
+	$('.frame__sort-toggle').click(function(){
+		$(this).toggleClass('rotate');
+	});
+	
+
 	$('.open-phones').click(function(){
 		$(this).toggleClass('rotate');
 		$('.contacts-phones').slideToggle();

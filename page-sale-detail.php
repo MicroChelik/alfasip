@@ -7,7 +7,7 @@
 			<div aria-label="breadcrumb" class="breadcrumbNav">
 				<div class="">
 					<ol class="breadcrumb p-0">
-				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
+				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg" alt="Главная" alt="Главная"></a></li>
 			    		<li class="breadcrumb-item active" aria-current="page">Акции</li>
 				 	</ol>
 				</div>
@@ -65,7 +65,7 @@
 						</ul>
 						<p>Подробности по условиям акции вы можете уточнить у наших специалистов по телефону:</p>
 						<div class="sale__phone">
-							<img src="img/icons/greenPhone.svg" class="mr-3">
+							<img src="img/icons/greenPhone.svg" alt="Телефон" class="mr-3">
 							<p class="mr-3"><a href="tel:8(800)60-01-28">8 (800) 60-01-28</a></p>
 							<p>Звонок бесплатный</p>
 						</div>

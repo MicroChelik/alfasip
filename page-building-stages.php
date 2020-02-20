@@ -7,7 +7,7 @@
 			<div aria-label="breadcrumb" class="breadcrumbNav">
 				<div class="">
 					<ol class="breadcrumb p-0">
-				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
+				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg" alt="Главная"></a></li>
 				    	<li class="breadcrumb-item"><a href="index.php">Строительство</a></li>
 			    		<li class="breadcrumb-item active" aria-current="page">Этапы строительства СИП дома</li>
 				 	</ol>
@@ -43,12 +43,12 @@
 						    echo '<div class="col-lg-4">
 									<div class="stage">
 										<div class="stage__img">
-											<img src="img/stage.png">
+											<img src="img/stage.png" alt="Фотография">
 										</div>
 										<div class="stage__text">
 											<p>Проектирование</p>
 											<div class="h2-link">
-												<a href="">Подробнее <img class="staticImg" src="img/icons/greenH2Arrow.svg" alt="Перейти"><img src="img/icons/arrowWhiteRight.svg" class="hoverImg"></a>
+												<a href="">Подробнее <img class="staticImg" src="img/icons/greenH2Arrow.svg" alt="Перейти"><img src="img/icons/arrowWhiteRight.svg" alt="Перейти" class="hoverImg"></a>
 											</div>
 										</div>
 									</div>
@@ -58,12 +58,12 @@
 					<!-- <div class="col-lg-4">
 						<div class="stage">
 							<div class="stage__img">
-								<img src="img/stage.png">
+								<img src="img/stage.png" alt="Фотография">
 							</div>
 							<div class="stage__text">
 								<p>Проектирование</p>
 								<div class="h2-link">
-									<a href="">Подробнее <img class="staticImg" src="img/icons/greenH2Arrow.svg" alt="Перейти"><img src="img/icons/arrowWhiteRight.svg" class="hoverImg"></a>
+									<a href="">Подробнее <img class="staticImg" src="img/icons/greenH2Arrow.svg" alt="Перейти"><img src="img/icons/arrowWhiteRight.svg" alt="Перейти" class="hoverImg"></a>
 								</div>
 							</div>
 						</div>

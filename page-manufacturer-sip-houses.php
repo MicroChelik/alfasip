@@ -7,7 +7,7 @@
 			<div aria-label="breadcrumb" class="breadcrumbNav">
 				<div class="">
 					<ol class="breadcrumb p-0">
-				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
+				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg" alt="Главная"></a></li>
 				    	<li class="breadcrumb-item"><a href="index.php">Строительство</a></li>
 			    		<li class="breadcrumb-item active" aria-current="page">Дома от производителя</li>
 				 	</ol>
@@ -46,7 +46,7 @@
 									<a href="">
 										<div class="houses-options">
 											<div class="houses-options__img">
-												<img src="img/houses-options.png">
+												<img src="img/houses-options.png" alt="Фотография дома">
 											</div>
 											<div class="houses-options__text">
 												<p class="houses-options__value">Коттеджи</p>
@@ -61,7 +61,7 @@
 						<a href="">
 							<div class="houses-options">
 								<div class="houses-options__img">
-									<img src="img/houses-options.png">
+									<img src="img/houses-options.png" alt="Фотография дома">
 								</div>
 								<div class="houses-options__text">
 									<p class="houses-options__value">Коттеджи</p>
@@ -80,20 +80,25 @@
 						for ($i = 1; $i <= 4; $i++) {
 						    echo '<div class="col-lg-3">
 									<div class="project-square-type">
-										<div>
-											<img src="img/icons/project-icon.png" alt="иконка">
-											<p>до 100 м<sup><small>2</small></sup></p>
-										</div>
+										<a href="">
+											<div>
+												<img src="img/icons/project-icon.png" alt="иконка">
+												<p>до 100 м<sup><small>2</small></sup></p>
+											</div>
+										</a>
 									</div>
 								</div>';
 						}
 					?>
+										
 					<!-- <div class="col-lg-3">
 						<div class="project-square-type">
-							<div>
-								<img src="img/icons/project-icon.png" alt="иконка">
-								<p>до 100 м<sup><small>2</small></sup></p>
-							</div>
+							<a href="">
+								<div>
+									<img src="img/icons/project-icon.png" alt="иконка">
+									<p>до 100 м<sup><small>2</small></sup></p>
+								</div>
+							</a>
 						</div>
 					</div> -->
 					
@@ -111,7 +116,7 @@
 						for ($i = 1; $i <= 3; $i++) {
 						    echo '<div class="col-lg-4 manufacturer-advantage">
 									<div class="manufacturer-advantage__block">
-										<img src="img/icons/manufacturer-advantage.svg">
+										<img src="img/icons/manufacturer-advantage.svg" alt="Иконка Преимущества">
 										<div>
 											<p>Преимущество 1</p>
 										</div>
@@ -119,7 +124,7 @@
 								</div>
 								<div class="col-lg-4 manufacturer-advantage">
 									<div class="manufacturer-advantage__block">
-										<img src="img/icons/manufacturer-advantage.svg">
+										<img src="img/icons/manufacturer-advantage.svg" alt="Иконка Преимущества">
 										<div>
 											<p>Преимущество 2 в две строчки</p>
 										</div>

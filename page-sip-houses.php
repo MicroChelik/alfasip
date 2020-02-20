@@ -7,7 +7,7 @@
 			<div aria-label="breadcrumb" class="breadcrumbNav">
 				<div class="">
 					<ol class="breadcrumb p-0">
-				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
+				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg" alt="Главная"></a></li>
 			    		<li class="breadcrumb-item active" aria-current="page">Дома из Сип панелей</li>
 				 	</ol>
 				</div>
@@ -81,7 +81,7 @@
 				<div class="row cottage-advantages">
 					<div class="col-lg-4 cottage-advantage">
 						<div class="cottage-advantage__img">
-							<img src="img/icons/advantage1.png">
+							<img src="img/icons/advantage1.png" alt="Преимущество">
 						</div>
 						<div>
 							<p>Преимущество 1</p>
@@ -89,7 +89,7 @@
 					</div>
 					<div class="col-lg-4 cottage-advantage">
 						<div class="cottage-advantage__img">
-							<img src="img/icons/advantage1.png">
+							<img src="img/icons/advantage1.png" alt="Преимущество">
 						</div>
 						<div>
 							<p>Преимущество 2 <br> в две строчки</p>
@@ -97,7 +97,7 @@
 					</div>
 					<div class="col-lg-4 cottage-advantage">
 						<div class="cottage-advantage__img">
-							<img src="img/icons/advantage1.png">
+							<img src="img/icons/advantage1.png" alt="Преимущество">
 						</div>
 						<div>
 							<p>Преимущество 1</p>
@@ -105,7 +105,7 @@
 					</div>
 					<div class="col-lg-4 cottage-advantage">
 						<div class="cottage-advantage__img">
-							<img src="img/icons/advantage1.png">
+							<img src="img/icons/advantage1.png" alt="Преимущество">
 						</div>
 						<div>
 							<p>Преимущество 2 <br> в две строчки</p>
@@ -113,7 +113,7 @@
 					</div>
 					<div class="col-lg-4 cottage-advantage">
 						<div class="cottage-advantage__img">
-							<img src="img/icons/advantage1.png">
+							<img src="img/icons/advantage1.png" alt="Преимущество">
 						</div>
 						<div>
 							<p>Преимущество 1</p>
@@ -121,7 +121,7 @@
 					</div>
 					<div class="col-lg-4 cottage-advantage">
 						<div class="cottage-advantage__img">
-							<img src="img/icons/advantage1.png">
+							<img src="img/icons/advantage1.png" alt="Преимущество">
 						</div>
 						<div>
 							<p>Преимущество 2 <br> в две строчки</p>

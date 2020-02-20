@@ -7,8 +7,8 @@
 			<div aria-label="breadcrumb" class="breadcrumbNav">
 				<div class="">
 					<ol class="breadcrumb p-0">
-				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
-				    	<li class="breadcrumb-item"><a href="index.php">О компании</li>
+				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg" alt="Главная"></a></li>
+				    	<li class="breadcrumb-item"><a href="">О компании</a></li>
 			    		<li class="breadcrumb-item active" aria-current="page">История компании</li>
 				 	</ol>
 				</div>

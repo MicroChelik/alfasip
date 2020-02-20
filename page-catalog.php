@@ -7,7 +7,7 @@
 			<div aria-label="breadcrumb" class="breadcrumbNav">
 				<div class="">
 					<ol class="breadcrumb p-0">
-				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg"></a></li>
+				    	<li class="breadcrumb-item"><a href="index.php"><img src="img/icons/home.svg" alt="Главная"></a></li>
 			    		<li class="breadcrumb-item active" aria-current="page">Проекты домов из СИП панелей</li>
 				 	</ol>
 				</div>
@@ -36,12 +36,43 @@
 							<h3>Подбор проекта</h3>
 							<form class="main-filters">
 								<div class="main-filters__range">
-									<p class="title">Общая площадь <span lass="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></span></p>
-									<input type="text" id="dd">
-									<div class="form-group">
-									    <label for="formControlRange">Example Range input</label>
-									    <input type="range" min="100" max="200" step="10" class="form-control-range" id="formControlRange">
-									  </div>
+									<div class="inputTitle">
+										<p class="title">Общая площадь</p>
+										<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
+									</div>
+									<div class="slideContainer">
+										<div class="input-numbers">
+											<p>0 м<sup><small>2</small></sup></p>
+											<div class="d-flex align-items-center">
+												<div class="value-container">
+													<span id="value"></span>
+												</div>
+												<p>м<sup><small>2</small></sup></p>
+											</div>
+										</div>
+										<input type="range" min="1" max="100" value="1" id="myRange" class="inputSlider">
+									</div>
+
+									<div class="inputTitle">
+										<p class="title">Стоимость</p>
+										<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
+									</div>
+									<div class="slideContainer">
+										<div class="input-numbers">
+											<p>0 Р</p>
+											<div class="d-flex align-items-center">
+												<div class="value-container">
+													<span id="value2"></span>
+												</div>
+												<p>Р</p>
+											</div>
+										</div>
+										<input type="range" min="0" max="3000000" value="1" id="myRange2" class="inputSlider">
+									</div>
+									
+
+
+
 								</div>
 								<div class="main-filters__checkboxes">
 									<p class="title">Планировка дома</p>
@@ -101,34 +132,42 @@
 					</div>
 					<div class="col-lg-3">
 						<div class="project-square-type">
-							<div>
-								<img src="img/icons/project-icon.png" alt="иконка">
-								<p>до 100 м</p>
-							</div>
+							<a href="">
+								<div>
+									<img src="img/icons/project-icon.png" alt="иконка">
+									<p>до 100 м</p>
+								</div>
+							</a>
 						</div>
 					</div>
 					<div class="col-lg-3">
 						<div class="project-square-type">
-							<div>
-								<img src="img/icons/project-icon.png" alt="иконка">
-								<p>до 100 м</p>
-							</div>
+							<a href="">
+								<div>
+									<img src="img/icons/project-icon.png" alt="иконка">
+									<p>до 100 м</p>
+								</div>
+							</a>
 						</div>
 					</div>
 					<div class="col-lg-3">
 						<div class="project-square-type">
-							<div>
-								<img src="img/icons/project-icon.png" alt="иконка">
-								<p>до 100 м</p>
-							</div>
+							<a href="">
+								<div>
+									<img src="img/icons/project-icon.png" alt="иконка">
+									<p>до 100 м</p>
+								</div>
+							</a>
 						</div>
 					</div>
 					<div class="col-lg-3">
 						<div class="project-square-type">
-							<div>
-								<img src="img/icons/project-icon.png" alt="иконка">
-								<p>до 100 м</p>
-							</div>
+							<a href="">
+								<div>
+									<img src="img/icons/project-icon.png" alt="иконка">
+									<p>до 100 м</p>
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>

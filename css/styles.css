@@ -69,6 +69,7 @@ button{
 header p,
 .house-sizes__size p,
 .section-footer__item p,
+.input-numbers p,
 .advantage__title p,
 .company-links p,
 .frame__sort p,
@@ -118,7 +119,9 @@ footer a:hover{
   border-radius: 80px;
   font-size: 14px;
   height: 56px;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
   border: none;
 }
 .first-line__button:hover{
@@ -210,7 +213,9 @@ nav ul{
   box-shadow: 0px 3px 6px rgba(87, 55, 16, 0.15);
   border-radius: 68px;
   height: 60px;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
   border: 1px solid #FB961F;
   padding: 0 40px;
   /*border: none;*/
@@ -227,7 +232,9 @@ nav ul{
   color: #fff;
   box-sizing: border-box;
   padding: 0 40px;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
   border-radius: 65px;
 }
 .whiteTranspBtn:hover{
@@ -307,7 +314,9 @@ h2{
 }
 .houses-hits-slider__content,
 .projects-slider__content{
-  transition: 0.3s;	
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;	
 }
 .houses-hits-slider__content:hover,
 .projects-slider__content:hover{
@@ -335,7 +344,9 @@ h2{
   line-height: 21px;
   color: #83B62F;
   background-color: #fff;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
 }
 .greenTranpBtn:hover{
   background-color: #83B62F;
@@ -530,7 +541,9 @@ footer .last-row{
 }
 .calc-form__values p{
   font-size: 16px;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
   cursor: pointer;
   margin-bottom: 0;
   line-height: 21px;
@@ -624,7 +637,9 @@ footer .last-row{
   border: 1px solid #83B62F;
   color: #fff;
   height: 60px;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
   padding: 0 70px;
 }
 .greenBtn:hover{
@@ -988,6 +1003,9 @@ footer .last-row{
 }
 .frame__sort-toggle{
   cursor: pointer;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
 }
 .frame__sort-content{
   display: flex;
@@ -1043,9 +1061,13 @@ footer .last-row{
 .breadcrumb{
   background-color: unset;
   margin: 45px 0;
+  margin-left: 55px;
 }
-.breadcrumb a,
-.breadcrumb a:hover{
+.breadcrumb a{
+  color: rgba(30, 31, 33, 0.5);
+}
+.breadcrumb a:hover,
+.breadcrumb-item.active{
   color: #83B62F;
 }
 .main-content-container .h2-link{
@@ -1060,9 +1082,23 @@ footer .last-row{
   border-radius: 4px;
   color: #fff;
   height: 150px;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
+}
+.project-square-type a{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.project-square-type a:hover{
+  color: #fff;
+  text-decoration: none; 
+}
+.project-square-type:hover{
+  box-shadow: 0px 6px 5px 2px rgba(0, 0, 0, 0.2)
 }
 .project-square-type img{
   margin-bottom: 15px;
@@ -1089,7 +1125,9 @@ footer .last-row{
 .catalog-filters__button img,
 .filters,
 .catalog-filters__button span{
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
 }
 
 .catalog-filters__button span{
@@ -1173,6 +1211,12 @@ footer .last-row{
   text-align: center;
   padding: 4px 23px;
   cursor: pointer;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
+}
+.filter-sizes-block__line div:hover{
+  box-shadow: 0px 2px 10px rgba(50, 50, 50, 0.5);
 }
 h3{
   font-size: 24px;
@@ -1192,6 +1236,9 @@ h3{
   color: #fff;
   font-size: 16px;
   font-family: 'SegoeUIBold';
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
 }
 .show-more{
   display: flex;
@@ -1207,6 +1254,14 @@ h3{
   cursor: pointer;
   user-select: none;
   margin-bottom: 30px;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
+}
+.green-link:hover,
+.greenWhiteTranspBtn .whiteTranspBtn:hover,
+.show-more:hover{
+  box-shadow: 2px 3px 20px #83B62F;
 }
 .show-more img{
   margin-right: 10px;
@@ -1221,7 +1276,9 @@ h3{
 .catalog-items .projects-slider__slide{
   opacity: 1;
   height: auto;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
   transform: none;
 }
 .catalog-banner{
@@ -1337,6 +1394,10 @@ h3{
   font-family: 'SegoeUIBold';
   margin-bottom: 0px;
 }
+.main-content-container h2{
+  font-size: 32px;
+  line-height: 43px;
+}
 .main-content-container .h2-block p{
   margin-bottom: 0;
   font-size: 20px;
@@ -1344,6 +1405,9 @@ h3{
 }
 .sale-end .sale-card{
   border-color: #959595;
+}
+.sale-end button:hover{
+  box-shadow: unset;
 }
 .sale-end div,
 .sale-end p,
@@ -1477,6 +1541,9 @@ h3{
   font-family: 'SegoeUIBold';
   line-height: 21px;
 }
+.sale__phone a:hover{
+  color: unset;
+}
 .sale-detail .orangeBtn img{
   border-right: 1px solid #c77716b0;
   padding-right: 10px;
@@ -1499,7 +1566,9 @@ h3{
   border-radius: 5px;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 50px;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
 }
 .houses-options__img img{
   max-width: 100%;
@@ -1591,7 +1660,9 @@ h3{
 }
 .videos-container__col{
   height: auto;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
 }
 .house-plan{
   display: flex;
@@ -1724,7 +1795,9 @@ h3{
   border: 1px solid #000000;
   margin-bottom: 10px;
   background-color: #fff;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
   border-radius: 10px;
 }
 .estimate__item .checkbox + label:before{
@@ -1839,7 +1912,9 @@ h3{
   position: relative;
   width: 100%;
   margin-bottom: 30px;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
 }
 .portfolio__img img{
   max-width: 100%;
@@ -1876,7 +1951,9 @@ h3{
   padding: 9px 38px;
   border: 1px solid #fff;
   border-radius:  20px;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
 }
 .portfolio__mask a:hover{
   border-color: rgba(0, 0, 0, 0.0);
@@ -1967,7 +2044,9 @@ h3{
 .panel-link{
   border-radius: 5px;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
   margin-bottom: 50px;
 }
 .panel-link:hover{
@@ -1994,7 +2073,9 @@ h3{
   padding: 4px 4px 5px 9px;
   border: 1px solid #83B62F;
   border-radius: 60px;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
   color: #83B62F;
 }
 .panel-link__item a:hover{
@@ -2166,6 +2247,9 @@ a .hoverImg{
   border: none;
   background-color: #fff;
 }
+.print:hover{
+  text-decoration: none;
+}
 .final-price{
   display: flex;
   justify-content: space-between;
@@ -2195,7 +2279,9 @@ a .hoverImg{
 .stage{
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
   margin-bottom: 40px;
 }
 .stage:hover{
@@ -2262,7 +2348,9 @@ a .hoverImg{
   font-family: 'SegoeUIBold';
 }
 .houses-type-card{
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
   margin-bottom: 37px;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
@@ -2364,6 +2452,13 @@ a .hoverImg{
   line-height: 21px;
   font-family: 'SegoeUIBold';
   background-color: #fff;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
+}
+.orangeTranspBtn:hover{
+  background-color: #FB9722;
+  color: #fff;
 }
 .main-content-container .complect-subdescription{
   max-width: 93%;
@@ -2395,6 +2490,8 @@ a .hoverImg{
 .about-company-advantages p{
   font-size: 16px;
   margin-bottom: 37px;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 .about-company-advantages .about-company-advantages__subtitle{
   font-size: 20px;
@@ -2501,22 +2598,26 @@ a .hoverImg{
   bottom: -50px;
   height: 0px;
   color: #fff;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
   padding: 37px 15px;
 }
-.cottage-advantage:hover .advantage-description{
+.price-advantages .cottage-advantage:hover .advantage-description{
   transform: scaleY(1);
   height: auto;
   position: static;
 }
-.cottage-advantage:hover{
+.price-advantages .cottage-advantage:hover{
   background-color: #83B62F;
   color: #fff;
   box-shadow: 0px 3px 40px #83B62F;
 }
 .price-advantages .cottage-advantage{
   flex-wrap: wrap;
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
   padding-top: 20px;
   margin-bottom: 36px;
 }
@@ -2547,7 +2648,9 @@ a .hoverImg{
   box-shadow: 0px 20px 5px rgba(0, 0, 0, 0.15);
 }
 .open-phones{
-  transition: 0.3s;
+  -webkit-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
   cursor: pointer;
 }
 .rotate{
@@ -2639,11 +2742,125 @@ a .hoverImg{
 
 
 
+.inputTitle{
+  display: flex;
+  margin-bottom: 11px;
+}
+.inputTitle .help-icon{
+  margin-bottom: 0;
+}
+.inputTitle .title{
+  flex: 0 0 auto;
+  margin-bottom: 0;
+}
+.input-numbers{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 11px;
+}
+.input-numbers .value-container{
+  background: #FFFFFF;
+  border: 1px solid #D6D6D6;
+  border-radius: 4px;
+  padding: 1px 18px 2px 17px;
+  margin-right: 4px;
+  min-width: 58px;
+  text-align: center;
+}
+.value-container span{
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.8;
+  color: #1E1F21;
+}
+.input-numbers p{
+  font-size: 18px;
+  line-height: 23px;
+  opacity: 0.7;
+}
+
+.slideContainer{
+  /*width: 75%;*/
+  /*margin-top: 200px;*/
+}
+.inputSlider{
+  -webkit-appearance: none;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, rgb(131,182,47) 1%, rgb(214,214,214) 1%);
+  outline: none;
+/*  opacity: 0.7;*/
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 12px;
+  box-shadow: 0px 1px 10px 1px black;
+  margin-bottom: 40px;
+}
+/*.inputSlider:hover{
+  opacity: 1;
+}*/
+
+.inputSlider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearence: none;
+  width: 8px;
+  height: 8px;
+  border: 2.4px solid #fff;
+  background: #83B62F;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.inputSlider::-moz-range-thumb{
+  -webkit-appearance: none;
+  appearence: none;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/*.inputSlider::after{
+  content: "100";
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  left: 27%;
+  top: 26%;
+}
+.inputSlider::before{
+  content: "0";
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  left: 5%;
+  top: 26%;
+}
+*/
 
 
 
 
 
+
+
+.fancybox-slide{
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+/*  transform: translateY(-20px) perspective(600px) rotateX(10deg);*/
+} 
+.fancybox-slide--complete{
+  transform: translateY(20px) perspective(600px) rotateX(-10deg) !important;
+}
+.fancybox-content{
+	transform: translateY(-20px) perspective(600px) rotateX(10deg);
+}
+.fancybox-slide--image{
+  transform: unset !important;
+}
 
 
 .slick-slide,
