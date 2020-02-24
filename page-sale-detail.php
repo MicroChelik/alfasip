@@ -70,7 +70,9 @@
 							<p>Звонок бесплатный</p>
 						</div>
 						<div class="d-flex">
-							<button class="orangeBtn mr-3"><img src="img/icons/phoneImg.png" alt="Звонок">Получить консультацию</button>
+							<a class="contacts-card__modal a-modal" data-fancybox data-animation-duration="700" data-src="#callBackModal" href="javascript:;">
+								<button class="orangeBtn mr-3"><img src="img/icons/phoneImg.png" alt="Звонок">Получить консультацию</button>
+							</a>
 							<button class="greenTranpBtn">Выбрать проект</button>
 						</div>
 					</div>

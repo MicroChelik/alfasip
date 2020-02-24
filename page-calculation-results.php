@@ -95,7 +95,9 @@
 							Болеее точная смета составляется после разработки архитектурно-планировачного и конструктивного решения. Возможно изготовление SIP-панелей различной толщины по индивидуальному заказу.
 						</p>
 						<div class="calculation-buttons">
-							<button class="greenBtn">Заказать подробный расчёт проекта</button>
+							<a class="contacts-card__modal a-modal" data-fancybox data-animation-duration="700" data-src="#callBackModal" href="javascript:;">
+								<button class="greenBtn">Заказать подробный расчёт проекта</button>
+							</a>
 							<button class="greenTranpBtn">Новый расчёт</button>
 						</div>
 					</div>

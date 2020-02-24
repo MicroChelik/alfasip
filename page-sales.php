@@ -120,6 +120,12 @@
 						</ul>
 						<button class="greenBtn">Детали акции</button>
 					</div>
+					<div class="col-12">
+						<div class="show-more show-more__sales">
+							<img src="img/icons/refresh.svg" alt="иконка">
+							<p>Показать еще (<span>1</span> из <span>9</span>)</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -2681,9 +2681,22 @@ a .hoverImg{
   opacity: 0.8;
 }
 
-
-
-
+.cottage-advantage .price-icon-container img{
+  border: none;
+  padding-right: 0;
+}
+.cottage-advantage .price-icon-container{
+  padding-left: 15px;
+}
+.price-icon-container .price-icon-hover{
+  display: none;
+}
+.cottage-advantage:hover .price-icon-hover{
+  display: block;
+}
+.cottage-advantage:hover .price-icon{
+  display: none;
+}
 
 
 

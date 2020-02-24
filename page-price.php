@@ -259,8 +259,9 @@
 				</div>
 				<div class="row cottage-advantages price-advantages">
 					<div class="col-lg-4 cottage-advantage">
-						<div class="cottage-advantage__img">
-							<img src="img/icons/advantage1.png" alt="Иконка">
+						<div class="cottage-advantage__img price-icon-container">
+							<img src="img/icons/priceIcon1.png" alt="Иконка" class="price-icon">
+							<img src="img/icons/priceIcon1Hover.png" alt="Иконка" class="price-icon-hover">
 						</div>
 						<div>
 							<p>Преимущество 1</p>
@@ -272,8 +273,9 @@
 						</div>
 					</div>
 					<div class="col-lg-4 cottage-advantage">
-						<div class="cottage-advantage__img">
-							<img src="img/icons/advantage1.png" alt="Иконка">
+						<div class="cottage-advantage__img price-icon-container">
+							<img src="img/icons/priceIcon2.png" alt="Иконка" class="price-icon">
+							<img src="img/icons/priceIcon2Hover.png" alt="Иконка" class="price-icon-hover">
 						</div>
 						<div>
 							<p>Преимущество 2 <br> в две строчки</p>
@@ -285,8 +287,9 @@
 						</div>
 					</div>
 					<div class="col-lg-4 cottage-advantage">
-						<div class="cottage-advantage__img">
-							<img src="img/icons/advantage1.png" alt="Иконка">
+						<div class="cottage-advantage__img price-icon-container">
+							<img src="img/icons/priceIcon3.png" alt="Иконка" class="price-icon">
+							<img src="img/icons/priceIcon3Hover.png" alt="Иконка" class="price-icon-hover">
 						</div>
 						<div>
 							<p>Преимущество 1</p>
