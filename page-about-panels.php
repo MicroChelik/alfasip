@@ -1,6 +1,9 @@
 <?php
 	include('html-start.php');
 ?>
+<?php
+	include('header.php');
+?>
 <div class="container">
 	<div class="row">
 		<div class="col-lg-7 offset-lg-3">

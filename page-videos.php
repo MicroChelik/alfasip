@@ -1,6 +1,9 @@
 <?php
 	include('html-start.php');
 ?>
+<?php
+	include('header.php');
+?>
 <div class="container">
 	<div class="row">
 		<div class="col-lg-7 offset-lg-3">
@@ -51,6 +54,67 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-lg-6 videos-container__col">
+						<div class="videos-container__item">
+							<div class="videos-container__video">
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/SgSsF5j-ym0" style="border:0px;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="videos-container__description">
+								<h3>Стройплощадка: сборка перекрытия и стен в доме из СИП - панелей</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 videos-container__col">
+						<div class="videos-container__item">
+							<div class="videos-container__video">
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/SgSsF5j-ym0" style="border:0px;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="videos-container__description">
+								<h3>Стройплощадка: сборка перекрытия и стен в доме из СИП - панелей</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 videos-container__col">
+						<div class="videos-container__item">
+							<div class="videos-container__video">
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/SgSsF5j-ym0" style="border:0px;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="videos-container__description">
+								<h3>Стройплощадка: сборка перекрытия и стен в доме из СИП - панелей</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 videos-container__col">
+						<div class="videos-container__item">
+							<div class="videos-container__video">
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/SgSsF5j-ym0" style="border:0px;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="videos-container__description">
+								<h3>Стройплощадка: сборка перекрытия и стен в доме из СИП - панелей</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 videos-container__col">
+						<div class="videos-container__item">
+							<div class="videos-container__video">
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/SgSsF5j-ym0" style="border:0px;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="videos-container__description">
+								<h3>Стройплощадка: сборка перекрытия и стен в доме из СИП - панелей</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 videos-container__col">
+						<div class="videos-container__item">
+							<div class="videos-container__video">
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/SgSsF5j-ym0" style="border:0px;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="videos-container__description">
+								<h3>Стройплощадка: сборка перекрытия и стен в доме из СИП - панелей</h3>
+							</div>
+						</div>
+					</div>
+
 					<div class="col-lg-6 videos-container__col hide">
 						<div class="videos-container__item">
 							<div class="videos-container__video">

@@ -35,52 +35,25 @@
 $(document).ready(function(){
 	
 
-	// $('.newses-sort-view .list').click(function(){
-	//   $('.newses-list-slider__slide').addClass('list');
-	//   $('.view img').removeClass('show');
-	//   $('.view-list .active').addClass('show');
-	//   $('.view-grid .disable').addClass('show')
-	// });
-	// $('.newses-sort-view .grid').click(function(){
-	//   $('.newses-list-slider__slide').removeClass('list');
-	//   $('.view img').removeClass('show');
-	//   $('.view-list .disable').addClass('show');
-	//   $('.view-grid .active').addClass('show')
-	// });
+	$('.menuFive').click(function(){
+		if ($('.menu').hasClass('show')) {
+			$('.menu').removeClass('show');
+		}
+		else{
+			$('.menu').addClass('show');
+		}
+	})
+	$('.menuFiveMob').click(function(){
+		$('.men').toggleClass('active');
+	});
 
-	// $('.menuFive').click(function(){
-	// 	if ($('.menu').hasClass('show')) {
-	// 		$('.menu').removeClass('show');
-	// 	}
-	// 	else{
-	// 		$('.menu').addClass('show');
-	// 	}
-	// })
-	// $('.menuFiveMob').click(function(){
-	// 	$('.men').toggleClass('active');
-	// });
-	// $('.search input').focus(function(){
-	// 	$('.mobile-home-link img').hide();
-	// });
-	// $('.search input').blur(function(){
-	// 	$('.mobile-home-link img').show();
-	// });
-
-	// $('.company-history__date').click(function(){
-	// 	$('.company-history__date').removeClass('active');
-	// 	$(this).addClass('active');
-	// 	var $name = $(this).attr("data"),
-	// 		$blockName = '.block';
-	// 	$blockName += $name;
-	// 	console.log($blockName);
-	// 	$('.block').removeClass('show');
-	// 	$($blockName).addClass('show');
-
-	// })
-
-	// $('#range').on("input", function() {
- //    $('.output').val(this.value +",000  $" );
- //    }).trigger("change");
+	const menuFive = document.querySelector('.menuFive');
+	const menuFive2 = document.querySelector('.menuFiveMob');
+	 function addClassFunFive() {
+        this.classList.toggle("clickMenuFive");
+    }
+	menuFive.addEventListener('click', addClassFunFive);
+	menuFive2.addEventListener('click', addClassFunFive);
 
     var inputSlider = document.getElementById("myRange");
     var output = document.getElementById("value");
@@ -245,7 +218,7 @@ $(document).ready(function(){
 	// 	$slick.slick({
 	// 		dots: true,
 	// 		arrows: true,
-	// 		infinite: false,
+	// 		infinite: true,
 	// 		slidesToShow: 4,
 	// 		slidesToScroll: 1,
 	// 		autoplay: true,
@@ -275,7 +248,7 @@ $(document).ready(function(){
 
 
 	$('.houses-hits-slider').slick({
-		infinite: false,
+		infinite: true,
 		slidesToShow: 4,
 		slidesToScroll: 1,
 		arrows: true,
@@ -296,7 +269,7 @@ $(document).ready(function(){
 		]
 	});
 	$('.projects-slider').slick({
-		infinite: false,
+		infinite: true,
 		slidesToShow: 4,
 		slidesToScroll: 1,
 		arrows: true,
@@ -317,7 +290,7 @@ $(document).ready(function(){
 		]
 	});
 	$('.employee-slider').slick({
-		infinite: false,
+		infinite: true,
 		slidesToShow: 4,
 		slidesToScroll: 1,
 		arrows: true,
@@ -338,7 +311,7 @@ $(document).ready(function(){
 		]
 	});
 	$('.house-reviews-slider').slick({
-		infinite: false,
+		infinite: true,
 		slidesToShow: 4,
 		slidesToScroll: 1,
 		arrows: true,
@@ -359,7 +332,7 @@ $(document).ready(function(){
 		]
 	});
 	$('.video-slider').slick({
-		infinite: false,
+		infinite: true,
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		arrows: true,
@@ -380,7 +353,7 @@ $(document).ready(function(){
 		]
 	});
 	$('.sertificates-slider').slick({
-		infinite: false,
+		infinite: true,
 		slidesToShow: 4,
 		slidesToScroll: 1,
 		arrows: true,
@@ -401,7 +374,7 @@ $(document).ready(function(){
 		]
 	});
 	$('.frame-employee-slider').slick({
-		infinite: false,
+		infinite: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: true,
@@ -414,7 +387,7 @@ $(document).ready(function(){
 		swipeToSlide: true,
 	});
 	$('.house-projects-slider').slick({
-		infinite: false,
+		infinite: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: false,
@@ -426,7 +399,7 @@ $(document).ready(function(){
 		swipeToSlide: true,
 	});
 	$('.house-project-card-slider').slick({
-		infinite: false,
+		infinite: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: true,
@@ -440,7 +413,7 @@ $(document).ready(function(){
 		swipeToSlide: true,
 	});
 	$('.project-card-portfolio-slider').slick({
-		infinite: false,
+		infinite: true,
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		arrows: true,
@@ -455,7 +428,7 @@ $(document).ready(function(){
 
 
 	$('.house-view-slider').slick({
-		infinite: false,
+		infinite: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		adaptiveHeight: true,
@@ -470,7 +443,7 @@ $(document).ready(function(){
 		swipeToSlide: true,
 	});
 	$('.for-house-view-slider').slick({
-		infinite: false,
+		infinite: true,
 		slidesToShow: 4,
 		asNavFor: '.house-view-slider',
 		slidesToScroll: 1,

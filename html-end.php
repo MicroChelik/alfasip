@@ -1,15 +1,15 @@
 	<footer>
 		<div class="container">
 			<div class="row first-row">
-				<div class="col-lg-3">
+				<div class="col-lg-auto">
 					<div class="first-line__logo">
 						<img src="img/logo.png" alt="logo">
 						<p>
-							Строительство домов из SIP панелей в Удмуртии
+							Строительство домов<br> из SIP панелей в Удмуртии
 						</p>
 					</div>
 				</div>
-				<div class="col-lg-3 d-flex justify-content-center align-items-start">
+				<div class="col-lg-auto d-flex justify-content-center align-items-start">
 					<img src="img/icons/placemark.png" alt="Адрес" class="mr-2 mt-1">
 					<p>г. Ижевск, ул. Ленина, д.146,<br>офис 41 (здание «Гарант»)</p>
 				</div>

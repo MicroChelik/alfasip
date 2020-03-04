@@ -1,6 +1,9 @@
 <?php
 	include('html-start.php');
 ?>
+<?php
+	include('header-main.php');
+?>
 
 	<section class="banner">
 		<div class="banner__gradient">
@@ -295,6 +298,11 @@
 	<section class="section greyBg">
 		<div class="container">
 			<div class="row">
+				<div class="col-12 d-block d-lg-none">
+					<div class="h2-block">
+						<h2>Растущий дом</h2>
+					</div>
+				</div>
 				<div class="col-lg-6">
 
 					<div class="house-view-slider slider">
@@ -330,7 +338,7 @@
 						</div>
 					</div>
 
-					<div class="row justify-content-between house-view-slider-arrows slider-arrows d-lg-flex d-none">
+					<div class="row justify-content-between house-view-slider-arrows slider-arrows d-flex">
 						<div class="col-auto">
 							<img src="img/icons/arrow-left.png" class="house-view-slider-prev" alt="назад">
 						</div>
@@ -373,7 +381,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6 house-slider-description">
-					<h2 class="mb-3">Растущий дом</h2>
+					<h2 class="mb-3 d-none d-lg-block">Растущий дом</h2>
 					<p class="subTitle">Подзаголовок в несколько слов</p>
 					<p>
 						Итак, вы доверили воплощение своей мечты - возведение дома под ключ - компании «Дачный сезон». Теперь, вероятно, вас больше всего интересует ход строительства:
@@ -395,13 +403,15 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 offset-lg-1">
-						<h2 class="mb-3">Дом за миллион</h2>
-						<p>
-							Итак, вы доверили воплощение своей мечты - возведение дома под ключ - компании «Дачный сезон». Теперь, вероятно, вас больше всего интересует ход строительства:
-						</p>
-						<p>
-							когда и кем будут производиться работы и как за этим можно будет дистанционно наблюдать. Благодаря нашей схеме, дом любой архитектурной сложности возводится быстро и легко
-						</p>
+						<div class="bg-section1__text">
+							<h2 class="mb-3">Дом за миллион</h2>
+							<p>
+								Итак, вы доверили воплощение своей мечты - возведение дома под ключ - компании «Дачный сезон». Теперь, вероятно, вас больше всего интересует ход строительства:
+							</p>
+							<p>
+								когда и кем будут производиться работы и как за этим можно будет дистанционно наблюдать. Благодаря нашей схеме, дом любой архитектурной сложности возводится быстро и легко
+							</p>
+						</div>
 						<button class="greenBtn">Подробнее</button>
 					</div>
 				</div>
@@ -457,6 +467,11 @@
 					<img src="img/icons/arrow-right.png" class="employee-slider-next slider-arrow-right" alt="вперед">
 				</div>
 			</div>
+			<div class="row justify-content-center d-flex d-lg-none">
+				<div class="col-10">
+					<a href="" class="lightGreenBtn">Все сотрудники (54) <img src="img/icons/whiteBtnArrow.svg"></a>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -465,7 +480,7 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="h2-block">
-						<h2>Почему выбирают именно нас</h2>
+						<h2>Почему выбирают <br class="d-block d-lg-none"> именно нас</h2>
 					</div>
 				</div>
 				<?php 
@@ -725,6 +740,11 @@
 					<img src="img/icons/arrow-right.png" class="house-reviews-slider-next slider-arrow-right" alt="вперед">
 				</div>
 			</div>
+			<div class="row justify-content-center d-flex d-lg-none">
+				<div class="col-10">
+					<a href="" class="lightGreenBtn">Смотреть все проекты <img src="img/icons/whiteBtnArrow.svg"></a>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -772,8 +792,8 @@
 				</div>
 			</div>
 			<div class="row justify-content-center mt-lg-5">
-				<div class="col-lg-auto">
-					<button class="orangeBtn">Смотреть все сертификаты</button>
+				<div class="col-auto">
+					<button class="orangeBtn">Скачать</button>
 				</div>
 			</div>
 		</div>
@@ -837,10 +857,10 @@
 							<p>
 								Экологичность СИП-панелей, выпускаемых Альфа-СИП, высока не только в сравнении с другими видами аналогичных стройматериалов, но и сама по себе, удовлетворяя самым 
 							</p>
-							<div class="d-flex justify-content-between">
-								<button class="orangeBtn">Записаться на экскурсию</button>
-								<div class="">
-									<p class="mb-0">или позвоните</p>
+							<div class="d-flex justify-content-lg-between bg-section3__buttons">
+								<button class="orangeBtn order-2 order-lg-0">Записаться на экскурсию</button>
+								<div class="order-1 order-lg-0">
+									<p class="mb-0 d-none d-lg-block">или позвоните</p>
 									<div class="phonecall-div">
 										<p><a href="tel:+7(3412)907961"><img src="img/icons/phoneImg.png" alt="Звонок" class="mr-1">+7 (3412) 90-79-61</a></p>
 									</div>

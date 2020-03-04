@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,900&display=swap&subset=cyrillic');
 
 @font-face {
     font-family: "SegoeUIRegular";
@@ -179,7 +179,7 @@ footer a:hover{
 .contacts-card{
   display: flex;
   justify-content: space-between;
-  padding: 13px 20px;
+  padding: 10px 20px;
   max-width: 250px;
   width: 100%;
 }
@@ -206,6 +206,10 @@ nav ul{
   list-style: none;
   margin-bottom: 0;
   padding-left: 0;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  max-width: 98%;
 }
 .orangeBtn{
   color: #fff;
@@ -265,6 +269,7 @@ nav ul{
   font-size: 55px;
   line-height: 58px;
   color: #FFFFFF;
+  font-family: 'SegoeUIBold';
   margin-bottom: 20px;
 }
 .banner{
@@ -494,6 +499,7 @@ footer .last-row{
 .calc-form input{
   display: flex;
   margin: auto;
+  font-size: 19px;
   width: 100%;
   height: 65px;
   font-family: SegoeUIBold;
@@ -889,7 +895,8 @@ footer .last-row{
   text-decoration: none;
 }
 .banner__text-margin{
-  padding-right: 80px;
+  padding-right: 60px;
+  padding-left: 20px;
 }
 .block-link{
   background-image: url('../img/link-bg.png');
@@ -1092,6 +1099,9 @@ footer .last-row{
   align-items: center;
   height: 100%;
   width: 100%;
+  font-size: 19px;
+  line-height: 32px;
+  font-family: 'SegoeUIBold';
 }
 .project-square-type a:hover{
   color: #fff;
@@ -1102,6 +1112,9 @@ footer .last-row{
 }
 .project-square-type img{
   margin-bottom: 15px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 .catalog-filters__button{
   margin-bottom: 0;
@@ -1114,6 +1127,7 @@ footer .last-row{
   margin-bottom: 30px;
   color: #83B62F;
   cursor: pointer;
+  padding-right: 10%;
   font-size: 16px;
 }
 .catalog-filters__button img{
@@ -1166,6 +1180,16 @@ footer .last-row{
   border-radius: 4px;
   height: 235px;
   text-align: center;
+}
+.filter-image-block__img{
+  margin-bottom: 30px;
+}
+.filters-row .green-link a{
+  font-size: 20px;
+  line-height: 21px;
+}
+.filter-image-block h3{
+  margin-bottom: 0;
 }
 .filter-image-block .h2-link{
   justify-content: center;
@@ -1342,6 +1366,9 @@ h3{
   padding: 40px;
   margin-bottom: 40px;
 }
+.house-selection h3{
+  margin-bottom: 20px;
+}
 .main-filters{
   display: flex;
   flex-wrap: wrap;
@@ -1366,7 +1393,7 @@ h3{
 }
 .main-filters__checkboxes .checkbox-div{
   align-items: center;
-  margin-bottom: 18px;
+  margin-bottom: 15px;
   flex: 0 0 48%;
   max-width: 48%;
 }
@@ -1380,7 +1407,7 @@ h3{
 }
 .main-filters .orangeBtn{
   height: 52px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .main-filters .title{
   flex: 0 0 100%;
@@ -1686,14 +1713,17 @@ h3{
   min-height: 60px;
 }
 .house-table .house-table__item:nth-child(odd){
-  border-bottom: 0.3px solid #000;
-  border-right: 0.3px solid #000;
+  border-bottom: 0.3px solid rgba(0,0,0,0.7);
+  border-right: 0.3px solid rgba(0,0,0,0.7);
 }
 .house-table .house-table__item:nth-child(even){
-  border-bottom: 0.3px solid #000;
+  border-bottom: 0.4px solid rgba(0,0,0,0.7);
 }
 .house-table .house-table__item:nth-last-child(-n+2){
   border-bottom: none;
+}
+.house-table .house-table__item:nth-last-child(2){
+  border-right: 0.4px solid rgba(0,0,0,0.7);
 }
 .house-table__item .house-table__count{
   font-family: Impact;
@@ -1704,7 +1734,8 @@ h3{
   color: #83B62F;
 }
 .house-table__item p{
-  font-weight: 600;
+  /*font-weight: 600;*/
+  font-family: 'SegoeUIBold';
   font-size: 13px;
   line-height: 23px;
   color: #000;
@@ -1748,9 +1779,20 @@ h3{
 }
 .call-card .orangeBtn{
   height: 40px;
+  width: 100%;
+  padding: 0;
 }
 .house-project-description .green-link{
   margin-bottom: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 25px;
+  background: linear-gradient(259.33deg, #83B62F 0%, #86C919 33.33%, #86C919 80.73%, #83B62F 100%);
+}
+.house-project-description .green-link b{
+  font-weight: 900;
 }
 .house-project-advantage{
   display: flex;
@@ -2268,9 +2310,9 @@ a .hoverImg{
   align-items: center;
 }
 .calculation-buttons .greenTranpBtn{
-  padding-left: 30px;
-  padding-right: 30px;
-  height: 41px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 60px;
 }
 .stage__img img{
   width: 100%;
@@ -2404,12 +2446,12 @@ a .hoverImg{
 }
 .complect__description .greenBtn img{
   padding-right: 12px;
-  margin-right: auto;
+  margin-right: 20px;
   border-right: 1px solid rgba(117,163,42,0.5);
 }
 .complect__description{
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
-  max-width: 440px;
+  max-width: 455px;
   width: 100%;
   padding: 20px 40px 20px 50px; 
 }
@@ -2698,6 +2740,69 @@ a .hoverImg{
   display: none;
 }
 
+.mobile-header{
+  display: none;
+}
+.house-sizes-container:nth-last-child(1){
+  margin-bottom: 0;
+}
+
+.bg-section1__text{
+  max-width: 562px;
+}
+.house-reviews-slider__review-text{
+  margin-right: -5px;
+}
+.frame-title{
+  font-size: 20px;
+  line-height: 25px;
+  font-family: 'SegoeUIBold';
+}
+.projects-slider__price p span{
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.house-project-description .green-link:hover{
+  box-shadow: 0px 2px 10px rgba(131, 182, 47, 0.5);
+}
+.slideContainer .ruble{
+  font-family: sans-serif;
+}
+.project-card__review{
+  padding: 30px 60px 50px 37px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 60px;
+}
+.project-card__review .house-reviews-slider__review-text{
+  padding-left: 42px;
+  margin-bottom: 0;
+}
+.project-card__review-name{
+  width: 78%;
+  border-bottom: 0.5px solid rgba(30, 31, 33, 0.5);
+  padding-bottom: 20px;
+}
+.project-card__review .house-reviews-slider__photo img{
+  height: 100px;
+  width: 100px;
+}
+.project-card__review .house-reviews-slider__photo{
+  margin-right: 40px;
+}
+.project-card__review .house-reviews-slider__reviewer{
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+.project-card_description .mb-sm{
+  margin-bottom: 10px;
+}
+.project-card_description .orangeBtn,
+.project-card_description  .greenBtn{
+  height: 50px;
+}
+.complect-first-row{
+  margin-bottom: 60px;
+}
 
 
 
@@ -2743,13 +2848,45 @@ a .hoverImg{
 
 
 
-
-
-
-
-
-
-
+.menuFive{
+  width: 25px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.menuFive span{
+  background-color:#000;
+  position: absolute;
+  border-radius: 2px;
+  transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+  width:100%;
+  height: 2px;
+  transition-duration: 500ms
+}
+.menuFive span:nth-child(1){
+  top:0px;
+  left: 0px;
+}
+.menuFive span:nth-child(2){
+  top:7px;
+  left: 0px;
+}
+.menuFive span:nth-child(3){
+  bottom:0px;
+  left: 0px;
+}
+.clickMenuFive span:nth-child(1){
+  transform: rotate(45deg);
+  top: 7px;
+}
+.clickMenuFive span:nth-child(2){
+  transform: scale(.1);
+}
+.clickMenuFive span:nth-child(3){
+  transform: rotate(-45deg);
+  top: 7px;
+}
 
 
 
@@ -2808,7 +2945,7 @@ a .hoverImg{
   transition: opacity 0.2s;
   border-radius: 12px;
   box-shadow: 0px 1px 10px 1px black;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 /*.inputSlider:hover{
   opacity: 1;
@@ -2817,9 +2954,9 @@ a .hoverImg{
 .inputSlider::-webkit-slider-thumb{
   -webkit-appearance: none;
   appearence: none;
-  width: 8px;
-  height: 8px;
-  border: 2.4px solid #fff;
+  width: 15px;
+  height: 15px;
+  border: 5px solid #fff;
   background: #83B62F;
   border-radius: 50%;
   cursor: pointer;
@@ -3228,6 +3365,9 @@ nav .active{
   .container{
     max-width: 1440px;
   }
+  .complect__description {
+    max-width: 490px;
+  }
 }
 
 
@@ -3235,11 +3375,374 @@ nav .active{
 
 
 @media (max-width: 960px){
+  body{
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .desktop-header,
+  .h2-block .h2-link,
+  .breadcrumbNav{
+    display: none;
+  }
+  .logo-text{
+    font-size: 9px;
+    line-height: 12px;
+    margin-left: 14px;
+    margin-right: 15px;
+  }
+  .mobile-header__top-line{
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 11px;
+    padding-bottom: 13px;
+  }
+  .menuFive{
+    margin-left: 15px;
+  }
+  .mobile-call{
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'SegoeUIBold';
+    padding-bottom: 10px;
+    border-bottom: 0.3px solid #83B62F;
+    margin-bottom: 10px;
+    color: #83B62F;
+  }
+  .mobile-call a:hover{
+    text-decoration: none;
+    color: #83B62F;
+  }
+  .mobile-call img{
+    margin-left: 12px;
+    margin-bottom: 3px;
+  }
+  .main-header{
+    background: transparent;
+    color: #fff;
+    position: absolute;
+  }
+  .main-header .mobile-call{
+    color: #fff;
+    border-color: #fff;
+  }
+  .main-header .menuFive span{
+    background-color: #fff;
+  }
+  .mobile-header{
+    display: block;
+  }
+  .banner__info h1{
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'SegoeUIBold';
+  }
+  .banner__info li{
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .banner__info li:first-child{
+    margin-bottom: 20px;
+  }
+  .banner__info ul{
+    margin-bottom: 32px;
+  }
+  .banner__info{
+    padding: 0 14px;
+  }
+  .banner__buttons button{
+    width: 100%;
+    margin-bottom: 13px;
+    height: 40px;
+  }
+  .banner__buttons{
+    margin-bottom: 20px;
+  }
+  .banner__video{
+    padding: 0 10px;
+  }
+  .banner__video iframe{
+    min-height: unset;
+    max-height: 182px;
+  }
+  .banner__gradient{
+    padding-top: 130px;
+    padding-bottom: 25px;
+  }
+  .banner{
+    background-position-x: 43%;
+  }
+  h2{
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+  }
+  .h2-block{
+    justify-content: center;
+  }
+  .section,
+  .section-small{
+    padding: 30px 0;
+  }
+  .h2-block{
+    margin-bottom: 30px;
+  }
+  .houses-hits-slide__block{
+    padding: 20px;
+  }
+  .special-blocks .col-lg-4{
+    padding: 0px;
+  }
+  .special-blocks__block{
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+    background-position-y: 99%;
+    min-height: 165px;
+  }
+  .special-blocks .col-lg-4:nth-last-child(1) .special-blocks__block{
+    margin-bottom: 0;
+    background-position-y: unset;
+  }
+  .special-blocks__title{
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 14px;
+  }
+  .h2-link a{
+    font-size: 15px;
+  }
+  .greenBg{
+    padding: 20px 0;
+  }
+  .section-calculation h2{
+    font-size: 22px;
+    line-height: 29px;
+    padding: 0 30px;
+    margin-bottom: 36px;
+  }
+  .section-calculation .subTitle{
+    margin-bottom: 24px;
+  }
+  .calc-form{
+    padding: 0;
+  }
+  .calc-form__values p{
+    font-size: 12px;
+    line-height: 21px;
+  }
+  .calc-form__sum{
+    font-size: 14px;
+    line-height: 28px;
+    display: flex;
+  }
+  .calc-form__sum b{
+    font-size: 30px;
+    line-height: 21px;
+  }
+  .calc-form__buttons{
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .calc-form__buttons button:nth-last-child(1){
+    margin-bottom: 0;
+  }
+  .calc-form__buttons button{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 27px;
+    height: 40px;
+  }
+  .house-sizes-container .title{
+    font-size: 16px;
+  }
+  .house-sizes-container{
+    margin-right: 0;
+  }
+  .for-house-main-slider__content{
+    height: 55px;
+  }
+  .house-view-slider-arrows{
+    top: -120px;
+  }
+  .house-view-slider-prev{
+    position: relative;
+    right: 30px;
+  }
+  .house-view-slider-next{
+    position: relative;
+    right: -30px;
+  }
+  .for-house-view-slider{
+    margin-bottom: 20px;
+  }
+  .greenBtn,
+  .orangeBtn{
+    height: 40px;
+  }
+  .house-slider-description .greenBtn{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .bg-section1{
+    background-image: url('../img/bg8.png');
+  }
+  .bg-section1 .col-lg-6{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 430px;
+  }
+  .bg-section1 .col-lg-6 .greenBtn{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0;
+  }
 
+  .lightGreenBtn{
+    background: #95C34A;
+    border-radius: 102px;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'SegoeUIBold';
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .lightGreenBtn img{
+    margin-top: 2px;
+    margin-left: 30px;
+  }
+  .lightGreenBtn:hover{
+    text-decoration: none;
+    color: #fff;
+  }
+  .advantage{
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .advantage__title p,
+  .section-footer__item p{
+    font-size: 16px;
+  }
+  .section-footer__block{
+    flex-wrap: wrap;
+  }
+  .section-footer{
+    flex: 0 0 93%;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .section-footer__item{
+    margin-bottom: 22px;
+    margin-left: 7%;
+  }
+  .section-footer__item:nth-last-child(1){
+    margin-bottom: 0;
+  }
+  .difference-card__title p{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .house-reviews-slider__img img{
+    width: 100%;
+  }
+  .convenience-container .convenience:nth-last-child(-n+3),
+  .convenience-container .convenience{
+    margin-bottom: 30px;
+  }
+  .convenience-container .convenience:nth-last-child(1){
+    margin-bottom: 0;
+  }
+  .bg-section3 .banner__video{
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .banner__text-margin{
+    padding: 0 10px;
+  }
+  .banner__text-margin h2{
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  .bg-section3__buttons{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .phonecall-div{
+    margin-bottom: 24px;
+  }
+  .phonecall-div p{
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .phonecall-div img{
+    margin-bottom: 3px;
+  }
+  .block-link{
+    margin-bottom: 35px;
+  }
+  .convenience__description {
+    flex: 0 0 76%;
+    max-width: 76%;
+  }
+  .calc-form__sum span{
+    font-size: 14px;
+  }
+  footer .first-line__logo img{
+    width: 75px;
+    margin-right: 22px;
+  }
+  footer .first-line__logo{
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 45px;
+    margin-top: 16px;
+  }
+  footer .container{
+    padding: 0 50px;
+  }
+  .first-row__contacts{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .first-row__contacts div{
+    margin-bottom: 15px;
+  }
+  .first-row__contacts div:first-child{
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  footer .first-row{
+    padding-bottom: 35px;
+  }
+  footer .last-row{
+    padding: 16px 0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 }
 
 
-@media (min-width: 1300px) and (max-width: 1919px){
+@media (min-width: 1200px) and (max-width: 1919px){
   .container{
     max-width: 1300px;
   }
@@ -3264,4 +3767,87 @@ nav .active{
   .main-content-banner{
 	padding: 43px 40px 37px 40px;
   }
+  .slider-arrow-right{
+    right: -35px;
+  }
+  .slider-arrow-left{
+    right: 35px;
+  }
+  .section-calculation h2{
+    font-size: 37px;
+  }
+  .bg-section1{
+    background-position-x: 38%;
+  }
+  .bg-section3{
+    background-position-x: 74%;
+  }
+  .advantage{
+    -ms-flex: 0 0 33.333333% !important;
+    flex: 0 0 33.333333% !important;
+    max-width: 33.333333% !important;
+    margin-right: 0;
+  }
+  .banner__gradient{
+    padding: 70px 0;
+  }
+  .house-reviews-slider .slider-slide{
+    padding: 0 10px;
+  }
+  .house-reviews-slider__reviewer p:first-child{
+    margin-right: -30px;
+  }
+  .projects-slider__price p{
+    font-size: 18px;
+  }
+  .projects-slider__price .h2-link{
+    font-size: 13px;
+    align-items: unset;
+  }
+  .projects-slider__block{
+    padding: 0 21px;
+  }
+  .greenWhiteTranspBtn .whiteTranspBtn{
+    font-size: 19px;
+  }
+  .house-selection{
+    padding: 30px;
+  }
+  .main-content-container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .project-card__slider-container{
+    -ms-flex: 0 0 62% !important;
+    flex: 0 0 62% !important;
+    max-width: 62% !important;
+  }
+  .project-card_description{
+    -ms-flex: 0 0 37% !important;
+    flex: 0 0 37% !important;
+    max-width: 37% !important;
+  }
+  .price-banner a{
+    font-size: 27px;
+  }
+  .price-table td{
+    min-width: 141px;
+  }
+  .main-content-container .price-banner,
+  .main-content-container .mx-none{
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .table-buttons a{
+    font-size: 12px;
+    font-family: 'SegoeUIBold';
+    white-space: nowrap;
+  }
+  .main-content-banner-mask{
+    margin: 0 -20px;
+  }
+
+
+
+  
 }

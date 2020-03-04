@@ -44,7 +44,7 @@
 
 			<div class="frame">
 				<div class="frame__sort frame__sort-square">
-					<p>Подбор по площади</p>
+					<p class="frame-title">Подбор по площади</p>
 					<img src="img/icons/tape-sort-arrow.svg" alt="Раскрыть/Скрыть" class="frame__sort-toggle">
 				</div>
 				<div class="frame__sort-content">
@@ -59,7 +59,7 @@
 					</div>
 				</div>
 				<div class="frame__sort frame__sort-size">
-					<p>Подбор по размеру</p>
+					<p class="frame-title">Подбор по размеру</p>
 					<img src="img/icons/tape-sort-arrow.svg" alt="Раскрыть/Скрыть" class="frame__sort-toggle">
 				</div>
 				<div class="frame__sort-content frame__sort-size-content">
@@ -82,7 +82,7 @@
 					</div>
 				</div>
 				<div class="frame__sort frame__sort-size">
-					<p>Подбор по этажности и опциям</p>
+					<p class="frame-title">Подбор по этажности и опциям</p>
 					<img src="img/icons/tape-sort-arrow.svg" alt="Раскрыть/Скрыть" class="frame__sort-toggle">
 				</div>
 				<div class="frame__sort-content frame__sort-size-content">

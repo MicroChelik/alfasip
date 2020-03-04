@@ -1,6 +1,9 @@
 <?php
 	include('html-start.php');
 ?>
+<?php
+	include('header.php');
+?>
 <div class="container">
 	<div class="row">
 		<div class="col-lg-7 offset-lg-3">
@@ -61,7 +64,7 @@
 														</div>
 													</div>
 													<div class="projects-slider__price">
-														<p>от 683 200 ₽</p>
+														<p>от 683 200 <span>&#8381;</span></p>
 														<div class="h2-link">
 															<a href="">Подробнее <img src="img/icons/greenH2Arrow.svg" alt="Перейти"></a>
 														</div>

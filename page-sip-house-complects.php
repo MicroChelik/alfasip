@@ -1,6 +1,9 @@
 <?php
 	include('html-start.php');
 ?>
+<?php
+	include('header.php');
+?>
 <div class="container">
 	<div class="row">
 		<div class="col-lg-7 offset-lg-3">
@@ -23,7 +26,7 @@
 		?>
 		<div class="col-lg-9 pr-0">
 			<div class="main-content-container">
-				<div class="row">
+				<div class="row complect-first-row">
 					<div class="col-12">
 						<h1 class="mb-3">Домокомплекты из СИП-панелей</h1>
 						<p>
@@ -34,6 +37,30 @@
 				<div class="row complect">
 					<div class="col-lg-5 complect__img">
 						<p class="complect__title">MINI</p>
+						<div class="complect__photo">
+							<img src="img/complect.png" alt="Изображение">
+						</div>
+					</div>
+					<div class="complect__description">
+						<ul>
+							<li>СИП-Панели стен 174мм</li>
+							<li>СИП-Панели цокольного перекрытия толщ. 174 мм</li>
+							<li>Проект</li>
+							<li>СИП-Панели стен 174мм</li>
+							<li>СИП-Панели стен 174мм</li>
+							<li>Перечень метизов и пиломатериалов для сборки</li>
+						</ul>
+						<a href="" class="greenBtn"><img src="img/icons/ruble.svg" alt="Рубль">Цена за м  от 5000 руб.</a>
+					</div>
+					<div class="col-lg-11 complect__text">
+						<p>
+							На нашем производстве обустроено несколько технологических участков - участок для материалов, рассчитаных на одну сменуж; участок для нанесения клея; пресс-станок для изготовления панелей шириной 400-650 мм (на основе плит GreenBoard и для панелей перекрытия); пресс-станок для изготовления панелей шириной более 650 мм; стол для проверки качества продукции и участок раскроя панелей. 
+						</p>
+					</div>
+				</div>
+				<div class="row complect">
+					<div class="col-lg-5 complect__img">
+						<p class="complect__title">MIDI 1</p>
 						<div class="complect__photo">
 							<img src="img/complect.png" alt="Изображение">
 						</div>
@@ -57,7 +84,31 @@
 				</div>
 				<div class="row complect">
 					<div class="col-lg-5 complect__img">
-						<p class="complect__title">MINI</p>
+						<p class="complect__title">MIDI 2</p>
+						<div class="complect__photo">
+							<img src="img/complect.png" alt="Изображение">
+						</div>
+					</div>
+					<div class="complect__description">
+						<ul>
+							<li>СИП-Панели стен 174мм</li>
+							<li>СИП-Панели стен 174мм</li>
+							<li>СИП-Панели стен 174мм</li>
+							<li>СИП-Панели стен 174мм</li>
+							<li>СИП-Панели стен 174мм</li>
+							<li>СИП-Панели стен 174мм</li>
+						</ul>
+						<a href="" class="greenBtn"><img src="img/icons/ruble.svg" alt="Рубль">Цена за м  от 5000 руб.</a>
+					</div>
+					<div class="col-lg-11 complect__text">
+						<p>
+							На нашем производстве обустроено несколько технологических участков - участок для материалов, рассчитаных на одну сменуж; участок для нанесения клея; пресс-станок для изготовления панелей шириной 400-650 мм (на основе плит GreenBoard и для панелей перекрытия); пресс-станок для изготовления панелей шириной более 650 мм; стол для проверки качества продукции и участок раскроя панелей. 
+						</p>
+					</div>
+				</div>
+				<div class="row complect">
+					<div class="col-lg-5 complect__img">
+						<p class="complect__title">MAXI</p>
 						<div class="complect__photo">
 							<img src="img/complect.png" alt="Изображение">
 						</div>

@@ -1,6 +1,9 @@
 <?php
 	include('html-start.php');
 ?>
+<?php
+	include('header.php');
+?>
 <div class="container">
 	<div class="row">
 		<div class="col-lg-7 offset-lg-3">
@@ -24,7 +27,7 @@
 			<div class="main-content-container">
 				<div class="row">
 					<div class="col-12">
-						<div class="h2-block">
+						<div class="h2-block mb-lg-4">
 							<h1>Проект дома «Альфа» 105 (91) м<sup><small>2</small></sup></h1>
 						</div>
 					</div>
@@ -112,9 +115,9 @@
 							</div>
 						</div>
 						<div class="green-link">
-							<a href="">
-								Цена от 123 000 руб
-							</a>
+						
+								<span>Цена от <b>123 000</b> руб</span>
+							
 						</div>
 						<div class="greenWhiteTranspBtn">
 							<button class="whiteTranspBtn"><img src="img/icons/calculatorGreen.svg" alt="Калькулятор">Конфигуратор строительства</button>
@@ -156,7 +159,7 @@
 					</div>
 				</div>
 				<div class="row justify-content-center">
-					<div class="col-11">
+					<div class="col-12">
 						<div class="estimate-title">
 							<p class="mb-0">Состав материалов и работ</p>
 						</div>

@@ -1,6 +1,9 @@
 <?php
 	include('html-start.php');
 ?>
+<?php
+	include('header.php');
+?>
 <div class="container">
 	<div class="row">
 		<div class="col-lg-7 offset-lg-3">
@@ -31,7 +34,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-8">
+					<div class="col-lg-7 project-card__slider-container">
 						<div class="house-project-card-slider slider">
 							<div class="house-project-card-slider__slide slider-slide">
 								<div>
@@ -57,11 +60,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4">
-						<p>
+					<div class="col-lg-5 project-card_description">
+						<p class="mb-sm">
 							Одноэтажный дом по проекту, разработанному индивидуально для заказчика в комплектации под ключ по канадской каркасной технологии в Солнечногорском районе. 
 						</p>
-						<p>
+						<p class="mb-sm">
 							Наружная и внутренняя отделка дома - имитация бруса класса А, наружный фасад выкрашен в нежный кремовый цвет. Кровля - металочерепмца 0,5 мм, свесы подшивы ПВХ софитами.
 						</p>
 						<div class="house-table">
@@ -118,7 +121,27 @@
 				</div>
 				<div class="row">
 					<div class="col-12">
-						
+						<h3>Отзыв от хозяина:</h3>
+					</div>
+					<div class="col-12">
+						<div class="project-card__review">
+							<div class="house-reviews-slider__review">
+								<div class="house-reviews-slider__reviewer">
+									<div class="house-reviews-slider__photo">
+										<img src="img/reviewBig.png" alt="Фото Покупателя">
+									</div>
+									<div class="project-card__review-name">
+										<p>Пётр Петров, г. Ижевск</p>
+										<p>27 января  2019 года</p>
+									</div>
+								</div>
+								<div>
+									<p class="house-reviews-slider__review-text">
+										Выражаем признательность за осуществление нашей мечты - строительство нового дома, красивого и тёплого! Проект дома нам понравился сразу, но  первоначально мы отнеслись с недоверием и к предлагаемым скидкам и к обещанной экономии: большей, чем в других фирмах, строящих аналогичные дома. Но рискнули и нисколько не жалеем. Все оказалось правдой: и цены, указанные на сайте. и превосходное качество материалов и выдержанные несмотря на плохие погодные условия сроки строительства. Спасибо бригаде строителей, очень профессиональных, добросовестных, доброжелательных и скромных, оставивших после себя не только построенный дом, но и чистоту и порядок на участке и не повредивших ни одного зелёного насаждения.
+									</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="row">

@@ -1,6 +1,9 @@
 <?php
 	include('html-start.php');
 ?>
+<?php
+	include('header.php');
+?>
 <div class="container">
 	<div class="row">
 		<div class="col-lg-7 offset-lg-3">
@@ -59,12 +62,12 @@
 									</div>
 									<div class="slideContainer">
 										<div class="input-numbers">
-											<p>0 Р</p>
+											<p>0 <span class="ruble">&#8381;</span></p>
 											<div class="d-flex align-items-center">
 												<div class="value-container">
 													<span id="value2"></span>
 												</div>
-												<p>Р</p>
+												<p><span class="ruble">&#8381;</span></p>
 											</div>
 										</div>
 										<input type="range" min="0" max="3000000" value="1" id="myRange2" class="inputSlider">
@@ -77,43 +80,43 @@
 								<div class="main-filters__checkboxes">
 									<p class="title">Планировка дома</p>
 									<div class="checkbox-div">
-										<input type="checkbox" required="" class="checkbox" id="checkbox">
+										<input type="checkbox" class="checkbox" id="checkbox">
 										<label for="checkbox"></label>
 										<p>Одноэтажный дом</p>
 										<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
 									</div>
 									<div class="checkbox-div">
-										<input type="checkbox" required="" class="checkbox" id="checkbox2">
+										<input type="checkbox" class="checkbox" id="checkbox2">
 										<label for="checkbox2"></label>
 										<p>Одноэтажный дом</p>
 										<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
 									</div>
 									<div class="checkbox-div">
-										<input type="checkbox" required="" class="checkbox" id="checkbox3">
+										<input type="checkbox" class="checkbox" id="checkbox3">
 										<label for="checkbox3"></label>
 										<p>Дом с мансардным этажом</p>
 										<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
 									</div>
 									<div class="checkbox-div">
-										<input type="checkbox" required="" class="checkbox" id="checkbox4">
+										<input type="checkbox" class="checkbox" id="checkbox4">
 										<label for="checkbox4"></label>
 										<p>Одноэтажный дом</p>
 										<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
 									</div>
 									<div class="checkbox-div">
-										<input type="checkbox" required="" class="checkbox" id="checkbox5">
+										<input type="checkbox" class="checkbox" id="checkbox5">
 										<label for="checkbox5"></label>
 										<p>Одноэтажный дом</p>
 										<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
 									</div>
 									<div class="checkbox-div">
-										<input type="checkbox" required="" class="checkbox" id="checkbox6">
+										<input type="checkbox" class="checkbox" id="checkbox6">
 										<label for="checkbox6"></label>
 										<p>Одноэтажный дом</p>
 										<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
 									</div>
 									<div class="checkbox-div">
-										<input type="checkbox" required="" class="checkbox" id="checkbox7">
+										<input type="checkbox" class="checkbox" id="checkbox7">
 										<label for="checkbox7"></label>
 										<p>Одноэтажный дом</p>
 										<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
@@ -135,7 +138,7 @@
 							<a href="">
 								<div>
 									<img src="img/icons/project-icon.png" alt="иконка">
-									<p>до 100 м</p>
+									<p>до 100 м<sup><small>2</small></sup></p>
 								</div>
 							</a>
 						</div>
@@ -145,7 +148,7 @@
 							<a href="">
 								<div>
 									<img src="img/icons/project-icon.png" alt="иконка">
-									<p>до 100 м</p>
+									<p>до 100 м<sup><small>2</small></sup></p>
 								</div>
 							</a>
 						</div>
@@ -155,7 +158,7 @@
 							<a href="">
 								<div>
 									<img src="img/icons/project-icon.png" alt="иконка">
-									<p>до 100 м</p>
+									<p>до 100 м<sup><small>2</small></sup></p>
 								</div>
 							</a>
 						</div>
@@ -184,7 +187,7 @@
 							<div class="col-lg-6">
 								<div class="filter-image-block filter-image-block1">
 									<div>
-										<img src="img/icons/house-icon.svg" alt="иконка">
+										<img src="img/icons/house-icon.svg" alt="иконка" class="filter-image-block__img">
 										<h3>Дома за миллион</h3>
 										<div class="h2-link">
 											<a href="">Подробнее<img src="img/icons/greenH2Arrow.svg" alt="Перейти"></a>
@@ -195,7 +198,7 @@
 							<div class="col-lg-6">
 								<div class="filter-image-block filter-image-block1">
 									<div>
-										<img src="img/icons/house-icon.svg" alt="иконка">
+										<img src="img/icons/house-icon.svg" alt="иконка" class="filter-image-block__img">
 										<h3>Дома за миллион</h3>
 										<div class="h2-link">
 											<a href="">Подробнее<img src="img/icons/greenH2Arrow.svg" alt="Перейти"></a>
@@ -241,17 +244,17 @@
 							</div>
 							<div class="col-lg-4">
 								<div class="green-link">
-									<a href="">от 300 000 руб. до 600 000 руб.</a>
+									<a href="">300 000 - 600 000 руб.</a>
 								</div>
 							</div>
 							<div class="col-lg-4">
 								<div class="green-link">
-									<a href="">от 300 000 руб. до 600 000 руб.</a>
+									<a href="">600 000 - 900 000 руб.</a>
 								</div>
 							</div>
 							<div class="col-lg-4">
 								<div class="green-link">
-									<a href="">от 300 000 руб. до 600 000 руб.</a>
+									<a href="">900 000 - 1 300 000 руб.</a>
 								</div>
 							</div>
 						</div>
@@ -277,7 +280,7 @@
 														</div>
 													</div>
 													<div class="projects-slider__price">
-														<p>от 683 200 ₽</p>
+														<p>от 683 200 <span>&#8381;</span></p>
 														<div class="h2-link">
 															<a href="">Подробнее <img src="img/icons/greenH2Arrow.svg" alt="Перейти"></a>
 														</div>
@@ -302,7 +305,7 @@
 														</div>
 													</div>
 													<div class="projects-slider__price">
-														<p>от 683 200 ₽</p>
+														<p>от 683 200 <span>&#8381;</span></p>
 														<div class="h2-link">
 															<a href="">Подробнее <img src="img/icons/greenH2Arrow.svg" alt="Перейти"></a>
 														</div>

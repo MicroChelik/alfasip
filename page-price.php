@@ -1,6 +1,9 @@
 <?php
 	include('html-start.php');
 ?>
+<?php
+	include('header.php');
+?>
 <div class="container">
 	<div class="row">
 		<div class="col-lg-7 offset-lg-3">
@@ -39,7 +42,7 @@
 					<div class="col-lg-auto">
 						<h3 class="mb-0 ml-5">Прайс-лист на СИП-панели</h3>
 					</div>
-					<div class="col-lg-auto px-0">
+					<div class="col-lg-auto">
 						<button class="orangeBtn"><img src="img/icons/download.svg" alt="Скачать">Скачать прайс</button>
 					</div>
 				</div>
@@ -214,11 +217,11 @@
 
 					<div class="table-buttons">
 						<a href="" class="orangeBtn">Цены на Домокомплекты из СИП панелей</a>
-						<a href="" class="orangeBtn">Цены на строительство за м</a>
+						<a href="" class="orangeBtn">Цены на строительство за м<small><sup>2</sup></small></a>
 						<a href="" class="greenBtn">Подобрать проект</a>
 					</div>
 				</div>
-				<div class="main-content-banner-mask">
+				<div class="main-content-banner-mask mb-5">
 					<div class="main-content-banner">
 						<div class="main-content-banner__title">
 							<h2>Электрощит «под ключ» всего за 4000 рублей</h2>
