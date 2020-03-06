@@ -116,7 +116,7 @@
 						</div>
 						<div class="green-link">
 						
-								<span>Цена от <b>123 000</b> руб</span>
+								<span>Цена от 123 000 руб.</span>
 							
 						</div>
 						<div class="greenWhiteTranspBtn">
@@ -172,11 +172,53 @@
 									<p>SIP-панели стен 174 мм</p>
 								</div>
 							</div>
+							<div class="estimate__item active">
+								<div class="checkbox-div">
+									<input type="checkbox" checked="checked"  required="" class="checkbox" id="estimate-checkbox2">
+									<label for="estimate-checkbox2"></label>
+									<p>Монтаж домокомплекта</p>
+								</div>
+							</div>
+							<div class="estimate__item active">
+								<div class="checkbox-div">
+									<input type="checkbox" checked="checked"  required="" class="checkbox" id="estimate-checkbox3">
+									<label for="estimate-checkbox3"></label>
+									<p>Покрытие кровли</p>
+								</div>
+							</div>
+							<div class="estimate__item active">
+								<div class="checkbox-div">
+									<input type="checkbox" checked="checked"  required="" class="checkbox" id="estimate-checkbox4">
+									<label for="estimate-checkbox4"></label>
+									<p>Дверь входная 1 шт.</p>
+								</div>
+							</div>
 							<div class="estimate__item">
 								<div class="checkbox-div">
-									<input type="checkbox" required="" class="checkbox" id="estimate-checkbox2">
-									<label for="estimate-checkbox2"></label>
-									<p>SIP-панели стен 174 мм</p>
+									<input type="checkbox" required="" class="checkbox" id="estimate-checkbox5">
+									<label for="estimate-checkbox5"></label>
+									<p>Мансардное окно, Velux, 94х140 см, 1 шт.</p>
+								</div>
+							</div>
+							<div class="estimate__item">
+								<div class="checkbox-div">
+									<input type="checkbox" required="" class="checkbox" id="estimate-checkbox6">
+									<label for="estimate-checkbox6"></label>
+									<p>Окно французкое 1 шт.</p>
+								</div>
+							</div>
+							<div class="estimate__item">
+								<div class="checkbox-div">
+									<input type="checkbox" required="" class="checkbox" id="estimate-checkbox7">
+									<label for="estimate-checkbox7"></label>
+									<p>Подшивка свесов кровли</p>
+								</div>
+							</div>
+							<div class="estimate__item">
+								<div class="checkbox-div">
+									<input type="checkbox" required="" class="checkbox" id="estimate-checkbox8">
+									<label for="estimate-checkbox8"></label>
+									<p>Уборка дома и территории за собой</p>
 								</div>
 							</div>
 							<div class="estimate-price">

@@ -1013,6 +1013,7 @@ footer .last-row{
   -webkit-transition: all ease .2s;
   -o-transition: all ease .2s;
   transition: all ease .2s;
+  transform: rotate(180deg);
 }
 .frame__sort-content{
   display: flex;
@@ -1784,7 +1785,7 @@ h3{
 }
 .house-project-description .green-link{
   margin-bottom: 20px;
-  font-family: Montserrat;
+  /*font-family: Montserrat;*/
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -2698,6 +2699,9 @@ a .hoverImg{
 .rotate{
   transform: rotate(180deg);
 }
+.frame .rotate{
+  transform: rotate(0deg);
+}
 .contacts-phones__title{
   margin: 0 -20px;
   padding: 0 20px;
@@ -2780,7 +2784,7 @@ a .hoverImg{
 .project-card__review-name{
   width: 78%;
   border-bottom: 0.5px solid rgba(30, 31, 33, 0.5);
-  padding-bottom: 20px;
+  padding-bottom: 29px;
 }
 .project-card__review .house-reviews-slider__photo img{
   height: 100px;
@@ -2793,19 +2797,42 @@ a .hoverImg{
   align-items: flex-end;
   margin-bottom: 25px;
 }
-.project-card_description .mb-sm{
-  margin-bottom: 10px;
-}
+
 .project-card_description .orangeBtn,
 .project-card_description  .greenBtn{
   height: 50px;
+  font-size: 19px;
+  white-space: nowrap;
 }
 .complect-first-row{
   margin-bottom: 60px;
 }
-
-
-
+.project-card__review .house-reviews-slider__review-text{
+  opacity: 1;
+}
+.house-table__item{
+  	min-height: 56px;
+  }
+  .house-table,
+  .house-project-description .green-link{
+  	margin-bottom: 15px;
+  }
+  .house-project-description .whiteTranspBtn{
+  	margin-bottom: 20px;
+  }
+  .price-table img{
+  	margin: 30px 0;
+  }
+  .price-table .table-bottom-img{
+  	margin-bottom: 0;
+  	margin-top: 60px;
+  	max-width: 90%;
+  }
+  .price-table .price-table-big-img{
+  	max-width: 90%;
+    margin-left: auto;
+    display: flex;
+  }
 
 
 
@@ -3846,6 +3873,24 @@ nav .active{
   .main-content-banner-mask{
     margin: 0 -20px;
   }
+  .project-card_description .mb-sm{
+    font-size: 13px;
+  }
+  .breadcrumb{
+  	margin-left: 35px;
+  }
+  .house-project-description .green-link,
+  .house-project-description .whiteTranspBtn{
+    height: 50px;
+  }
+  .house-table__item{
+  	min-height: 53px;
+  }
+  .house-table,
+  .house-project-description .green-link{
+  	margin-bottom: 15px;
+  }
+  
 
 
 

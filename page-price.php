@@ -71,61 +71,61 @@
 							</tr>
 							<tr>
 								<td>
-									2500x625x118
+									2500x625x168
 								</td>
 								<td>
 									9
 								</td>
 								<td>
-									1805 руб.
+									1815 руб.
 								</td>
 							</tr>
 							<tr>
 								<td>
-									2500x625x118
+									2500x625x218
 								</td>
 								<td>
 									9
 								</td>
 								<td>
-									1905 руб.
+									2020 руб.
 								</td>
 							</tr>
 							<tr class="table-border"></tr>
 							<tr>
 								<td rowspan="3">
-									<img src="img/priceImg.png" alt="Фотография">
+									<img src="img/priceImg2.png" alt="Фотография">
 								</td>
 								<td>
-									2500x625x118
+									2500x625x124
 								</td>
 								<td>
-									9
+									12
 								</td>
 								<td>
-									1605 руб.
-								</td>
-							</tr>
-							<tr>
-								<td>
-									2500x625x118
-								</td>
-								<td>
-									9
-								</td>
-								<td>
-									1805 руб.
+									1815 руб.
 								</td>
 							</tr>
 							<tr>
 								<td>
-									2500x625x118
+									2500x625x174
 								</td>
 								<td>
-									9
+									12
 								</td>
 								<td>
-									1905 руб.
+									2020 руб.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2500x625x224
+								</td>
+								<td>
+									12
+								</td>
+								<td>
+									2225 руб.
 								</td>
 							</tr>
 						</table>
@@ -141,75 +141,169 @@
 							</tr>
 							<tr>
 								<td rowspan="3">
-									<img src="img/priceImg.png" alt="Фотография">
+									<img src="img/priceImg3.png" class="table-bottom-img" alt="Фотография">
 								</td>
 								<td>
-									2500x625x118
+									2500x1250x118
 								</td>
 								<td>
 									9
 								</td>
 								<td>
-									1605 руб.
+									2910 руб.
 								</td>
 							</tr>
 							<tr>
 								<td>
-									2500x625x118
+									2500x1250x168
 								</td>
 								<td>
 									9
 								</td>
 								<td>
-									1805 руб.
+									3330 руб.
 								</td>
 							</tr>
 							<tr>
 								<td>
-									2500x625x118
+									2500x1250x218
 								</td>
 								<td>
 									9
 								</td>
 								<td>
-									1905 руб.
+									3740 руб.
 								</td>
 							</tr>
 							<tr class="table-border"></tr>
 							<tr>
 								<td rowspan="3">
-									<img src="img/priceImg.png" alt="Фотография">
+									<img src="img/priceImg4.png" class="table-bottom-img" alt="Фотография">
 								</td>
 								<td>
-									2500x625x118
+									2500x1250x124
 								</td>
 								<td>
-									9
+									12
 								</td>
 								<td>
-									1605 руб.
-								</td>
-							</tr>
-							<tr>
-								<td>
-									2500x625x118
-								</td>
-								<td>
-									9
-								</td>
-								<td>
-									1805 руб.
+									3330 руб.
 								</td>
 							</tr>
 							<tr>
 								<td>
-									2500x625x118
+									2500x1250x174
 								</td>
 								<td>
-									9
+									12
 								</td>
 								<td>
-									1905 руб.
+									3740 руб.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2500x1250x224
+								</td>
+								<td>
+									12
+								</td>
+								<td>
+									4150 руб.
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="price-table">
+						<table>
+							<tr>
+								<th>Вид панели</th>
+								<th>Размер, мм</th>
+								<th>Толщина OSB, мм</th>
+								<th>Цена за панель</th>
+							</tr>
+							<tr>
+								<td rowspan="3">
+									<img src="img/priceImg5.png" alt="Фотография">
+								</td>
+								<td>
+									2800x625x124
+								</td>
+								<td>
+									12
+								</td>
+								<td>
+									1990 руб.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2800x625x174
+								</td>
+								<td>
+									12
+								</td>
+								<td>
+									2220 руб.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2800x625x224
+								</td>
+								<td>
+									12
+								</td>
+								<td>
+									2450 руб.
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="price-table">
+						<table>
+							<tr>
+								<th>Вид панели</th>
+								<th>Размер, мм</th>
+								<th>Толщина OSB, мм</th>
+								<th>Цена за панель</th>
+							</tr>
+							<tr>
+								<td rowspan="3">
+									<img src="img/priceImg6.png" class="price-table-big-img" alt="Фотография">
+								</td>
+								<td>
+									2800x1250x124
+								</td>
+								<td>
+									12
+								</td>
+								<td>
+									3680 руб.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2800x1250x174
+								</td>
+								<td>
+									12
+								</td>
+								<td>
+									4140 руб.
+								</td>
+							</tr>
+							<tr>
+								<td>
+									2800x1250x224
+								</td>
+								<td>
+									12
+								</td>
+								<td>
+									4600 руб.
 								</td>
 							</tr>
 						</table>

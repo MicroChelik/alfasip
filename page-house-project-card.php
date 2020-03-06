@@ -146,7 +146,7 @@
 				</div>
 				<div class="row">
 					<div class="col-12">
-						<h3>Другие объекты:</h3>
+						<h3>Другие объекты</h3>
 					</div>
 				</div>
 				<div class="project-card-portfolio-slider slider">

@@ -148,7 +148,7 @@
 							<a href="">
 								<div>
 									<img src="img/icons/project-icon.png" alt="иконка">
-									<p>до 100 м<sup><small>2</small></sup></p>
+									<p>100-150 м<sup><small>2</small></sup></p>
 								</div>
 							</a>
 						</div>
@@ -158,7 +158,7 @@
 							<a href="">
 								<div>
 									<img src="img/icons/project-icon.png" alt="иконка">
-									<p>до 100 м<sup><small>2</small></sup></p>
+									<p>150-200 м<sup><small>2</small></sup></p>
 								</div>
 							</a>
 						</div>
@@ -168,7 +168,7 @@
 							<a href="">
 								<div>
 									<img src="img/icons/project-icon.png" alt="иконка">
-									<p>до 100 м</p>
+									<p>от 200 м<sup><small>2</small></sup></p>
 								</div>
 							</a>
 						</div>
@@ -198,8 +198,8 @@
 							<div class="col-lg-6">
 								<div class="filter-image-block filter-image-block1">
 									<div>
-										<img src="img/icons/house-icon.svg" alt="иконка" class="filter-image-block__img">
-										<h3>Дома за миллион</h3>
+										<img src="img/icons/house-icon2.svg" alt="иконка" class="filter-image-block__img">
+										<h3>Растущие дома</h3>
 										<div class="h2-link">
 											<a href="">Подробнее<img src="img/icons/greenH2Arrow.svg" alt="Перейти"></a>
 										</div>
