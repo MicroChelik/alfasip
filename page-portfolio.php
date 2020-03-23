@@ -23,7 +23,7 @@
 		<?php
 			include('tape.php');
 		?>
-		<div class="col-lg-9 pr-0">
+		<div class="col-lg-9 pr-lg-0">
 			<div class="main-content-container">
 				<div class="row">
 					<div class="col-12">

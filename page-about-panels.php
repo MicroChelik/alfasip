@@ -23,14 +23,14 @@
 		<?php
 			include('tape.php');
 		?>
-		<div class="col-lg-9 pr-0">
+		<div class="col-lg-9 pr-lg-0">
 			<div class="main-content-container">
 				<div class="row">
 					<div class="col-12">
 						<div class="h2-block">
 							<h1>О SIP-панелях</h1>
 						</div>
-						<p class="h2-block">
+						<p class="h2-block d-lg-flex d-none">
 							Собственный завод СИП панелей. Оборудование, на котором мы изготавливаем для Вас SIP- панели, признаю не только самым высокотехнологичным, но и самым производительным в России. В итоге ваша выгода не только лучшее качество но и лучшая цена!
 						</p>
 					</div>
@@ -90,8 +90,14 @@
 							<div>
 								<p>Однофазовый 4000 р.</p>
 							</div>
+							<div class="banner__line_mobile">
+								
+							</div>
 							<div>
 								<p>Трёхфазный 6000 р.</p>
+							</div>
+							<div class="banner__line_mobile">
+								
 							</div>
 							<div>
 								<p>Комплект заземления 500 р.</p>
@@ -103,7 +109,8 @@
 						<form>
 							<div>
 								<p>Телефон:</p>
-								<input type="tel">
+								<input type="tel" class="banner__input_desktop">
+								<input type="tel" class="banner__input_mobile" placeholder="Телефон">
 							</div>
 							<button class="greenBtn" type="submit">Купить</button>
 						</form>

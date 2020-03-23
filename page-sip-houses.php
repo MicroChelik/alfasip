@@ -23,7 +23,7 @@
 		<?php
 			include('tape.php');
 		?>
-		<div class="col-lg-9 pr-0">
+		<div class="col-lg-9 pr-lg-0">
 			<div class="main-content-container">
 				<div class="row">
 					<div class="col-12">
@@ -81,7 +81,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row cottage-advantages">
+				<div class="row cottage-advantages sip-houses-advantages">
 					<div class="col-lg-4 cottage-advantage">
 						<div class="cottage-advantage__img">
 							<img src="img/icons/advantage1.png" alt="Преимущество">
@@ -133,15 +133,21 @@
 				</div>
 				<div class="main-content-banner-mask mb-60">
 					<div class="main-content-banner">
-						<div class="main-content-banner__title">
-							<h2>Электрощит «под ключ» всего за 4000 рублей</h2>
+						<div class="main-content-banner__title mob-text-center">
+							<h2 class="mob-text-center">Электрощит «под ключ» всего за 4000 рублей</h2>
 						</div>
 						<div class="main-content-banner__subtitles">
 							<div>
 								<p>Однофазовый 4000 р.</p>
 							</div>
+							<div class="banner__line_mobile">
+								
+							</div>
 							<div>
 								<p>Трёхфазный 6000 р.</p>
+							</div>
+							<div class="banner__line_mobile">
+								
 							</div>
 							<div>
 								<p>Комплект заземления 500 р.</p>
@@ -153,7 +159,8 @@
 						<form>
 							<div>
 								<p>Телефон:</p>
-								<input type="tel">
+								<input type="tel" class="banner__input_desktop">
+								<input type="tel" class="banner__input_mobile" placeholder="Телефон">
 							</div>
 							<button class="greenBtn" type="submit">Купить</button>
 						</form>
@@ -161,7 +168,7 @@
 				</div>
 				<div class="row">
 					<div class="col-12">
-						<h1 class="mb-lg-4">Преимущества СИП-панелей нашего производства</h1>
+						<h1 class="mb-lg-4 mb-3">Преимущества СИП-панелей нашего производства</h1>
 						<p>
 							На нашем производстве обустроено несколько технологических участков - участок для материалов, рассчитаных на одну сменуж; участок для нанесения клея; пресс-станок для изготовления панелей шириной 400-650 мм (на основе плит GreenBoard и для панелей перекрытия); пресс-станок для изготовления панелей шириной более 650 мм; стол для проверки качества продукции и участок раскроя панелей. 
 						</p>

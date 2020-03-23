@@ -23,7 +23,7 @@
 		<?php
 			include('tape.php');
 		?>
-		<div class="col-lg-9 pr-0">
+		<div class="col-lg-9 pr-lg-0">
 			<div class="main-content-container">
 				<div class="row">
 					<div class="col-12">
@@ -34,14 +34,14 @@
 					</div>
 				</div>
 				<div class="row company-links">
-					<div class="col-lg-3 company-links__img-block">
+					<div class="col-lg-3 col-3 company-links__img-block">
 						<div class="company-links__img">
 							<a href="">
 								<img src="img/icons/history.svg" alt="Иконка">
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-8">
+					<div class="col-lg-8 col-9">
 						<h3>История компании</h3>
 						<p>
 							Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития. Товарищи!
@@ -49,14 +49,14 @@
 					</div>
 				</div>
 				<div class="row company-links">
-					<div class="col-lg-3 company-links__img-block">
+					<div class="col-3 company-links__img-block">
 						<div class="company-links__img">
 							<a href="">
 								<img src="img/icons/sertificates.svg" alt="Иконка">
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-8">
+					<div class="col-lg-8 col-9">
 						<h3>История компании</h3>
 						<p>
 							Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития. Товарищи!

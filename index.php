@@ -31,7 +31,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section">
+	<section class="section main-page-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -73,7 +73,7 @@
 					</div>
 				</div> -->
 			</div>
-			<div class="row justify-content-between houses-hits-slider-arrows slider-arrows d-lg-flex d-none">
+			<div class="row justify-content-between houses-hits-slider-arrows slider-arrows d-flex mobile-arrows">
 				<div class="col-auto">
 					<img src="img/icons/arrow-left.png" class="houses-hits-slider-prev slider-arrow-left" alt="назад">
 				</div>
@@ -123,7 +123,7 @@
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section main-page-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -183,7 +183,7 @@
 					</div>
 				</div> -->
 			</div>
-			<div class="row justify-content-between projects-slider-arrows slider-arrows d-lg-flex d-none">
+			<div class="row justify-content-between projects-slider-arrows slider-arrows d-flex mobile-arrows">
 				<div class="col-auto">
 					<img src="img/icons/arrow-left.png" class="projects-slider-prev slider-arrow-left" alt="назад">
 				</div>
@@ -402,7 +402,7 @@
 		<div class="section">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6 offset-lg-1">
+					<div class="col-lg-6 offset-lg-1 bg-section1__column">
 						<div class="bg-section1__text">
 							<h2 class="mb-3">Дом за миллион</h2>
 							<p>
@@ -459,7 +459,7 @@
 					</div>
 				</div> -->
 			</div>
-			<div class="row justify-content-between employee-slider-arrows slider-arrows d-lg-flex d-none">
+			<div class="row justify-content-between employee-slider-arrows slider-arrows d-lg-flex d-flex">
 				<div class="col-auto">
 					<img src="img/icons/arrow-left.png" class="employee-slider-prev slider-arrow-left" alt="назад">
 				</div>
@@ -646,7 +646,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="slider house-reviews-slider">
+			<div class="slider house-reviews-slider house-reviews-slider_mobile">
 
 				<?php 
 					for ($i = 1; $i <= 6; $i++) {
@@ -686,53 +686,61 @@
 													<p class="mb-0"><a href="">Читать весь отзыв</a></p>
 												</div>
 											</div>
+											<div class="house-reviews-slider__review_mobile">
+												<p>Проект Альфа  г.	«Чемошур»  2016 год</p>
+											</div>
 										</div>
 									</div>
 								</div>';
 					}
 				?>
 
-				<!-- <div class="slider-slide">
-					<div class="house-reviews-slider__content slider-content">
-						<div class="house-reviews-slider__img">
-							<img src="img/reviews1.png" alt="Фотография Дома">
-						</div>
-						<div class="house-reviews-slider__text">
-							<div class="house-reviews-slider__info">
-								<div>
-									<div class="house-reviews-slider__name">
-										<p>Дельта</p>
-										<p class="square">298 м<sup><small>2</small></sup></p>
+								<!-- <div class="slider-slide">
+									<div class="house-reviews-slider__content slider-content">
+										<div class="house-reviews-slider__img">
+											<a href="">
+												<img src="img/reviews1.png" alt="Фотография Дома">
+											</a>
+										</div>
+										<div class="house-reviews-slider__text">
+											<div class="house-reviews-slider__info">
+												<div>
+													<div class="house-reviews-slider__name">
+														<p>Дельта</p>
+														<p class="square">298 м<sup><small>2</small></sup></p>
+													</div>
+													<div class="house-reviews-slider__price">
+														<p>от 683 200 ₽</p>
+													</div>
+												</div>
+											</div>
+											<div class="house-reviews-slider__review">
+												<div class="house-reviews-slider__reviewer">
+													<div class="house-reviews-slider__photo">
+														<img src="img/client1.png" alt="Фото Покупателя">
+													</div>
+													<div>
+														<p>Александр Александров</p>
+														<p>Хозяин дома</p>
+													</div>
+												</div>
+												<div>
+													<p class="house-reviews-slider__review-text">
+														Мы довольно продолжительное время рассуждали о личном домике в пригородной зоне. После покупки участка земли стал вопрос о постройке жилья. Мы предпочли... 
+													</p>
+													<p class="mb-0"><a href="">Читать весь отзыв</a></p>
+												</div>
+											</div>
+											<div class="house-reviews-slider__review_mobile">
+												<p>Проект Альфа  г.	«Чемошур»  2016 год</p>
+											</div>
+										</div>
 									</div>
-									<div class="house-reviews-slider__price">
-										<p>от 683 200 ₽</p>
-									</div>
-								</div>
-							</div>
-							<div class="house-reviews-slider__review">
-								<div class="house-reviews-slider__reviewer">
-									<div class="house-reviews-slider__photo">
-										<img src="img/client1.png" alt="Фото Покупателя">
-									</div>
-									<div>
-										<p>Александр Александров</p>
-										<p>Хозяин дома</p>
-									</div>
-								</div>
-								<div>
-									<p class="house-reviews-slider__review-text">
-										Мы довольно продолжительное время рассуждали о личном домике в пригородной зоне. После покупки участка земли стал вопрос о постройке жилья. Мы предпочли... 
-									</p>
-									<p class="mb-0"><a href="">Читать весь отзыв</a></p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
+								</div> -->
 
 
 			</div>
-			<div class="row justify-content-between house-reviews-arrows slider-arrows d-lg-flex d-none">
+			<div class="row justify-content-between house-reviews-arrows slider-arrows d-lg-flex mobile-arrows">
 				<div class="col-auto">
 					<img src="img/icons/arrow-left.png" class="house-reviews-slider-prev slider-arrow-left" alt="назад">
 				</div>
@@ -789,6 +797,20 @@
 				</div>
 				<div class="col-auto">
 					<img src="img/icons/arrow-right.png" class="sertificates-slider-next slider-arrow-right" alt="вперед">
+				</div>
+			</div>
+			<div class="row d-lg-none d-flex">
+				<div class="col-6 sertificate-mobile">
+					<img src="img/sertificate1.png" alt="Сертификат">
+				</div>
+				<div class="col-6 sertificate-mobile">
+					<img src="img/sertificate1.png" alt="Сертификат">
+				</div>
+				<div class="col-6 sertificate-mobile">
+					<img src="img/sertificate1.png" alt="Сертификат">
+				</div>
+				<div class="col-6 sertificate-mobile">
+					<img src="img/sertificate1.png" alt="Сертификат">
 				</div>
 			</div>
 			<div class="row justify-content-center mt-lg-5">
@@ -913,7 +935,7 @@
 		</div>
 	</section>
 
-	<section class="greyBg section">
+	<section class="greyBg section d-lg-block d-none">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">

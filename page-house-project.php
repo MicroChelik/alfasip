@@ -23,7 +23,7 @@
 		<?php
 			include('tape.php');
 		?>
-		<div class="col-lg-9 pr-0">
+		<div class="col-lg-9 pr-lg-0">
 			<div class="main-content-container">
 				<div class="row">
 					<div class="col-12">
@@ -73,43 +73,43 @@
 							</div>
 							<div class="house-table__item">
 								<div>
-									<p>Габаритная площадь</p>
-									<p class="house-table__count">70 М<sup><small>2</small></sup></p>
+									<p>Габаритные размеры</p>
+									<p class="house-table__count">7,25 х 9,4 м</p>
 								</div>
 							</div>
 							<div class="house-table__item">
 								<div>
-									<p>Габаритная площадь</p>
-									<p class="house-table__count">70 М<sup><small>2</small></sup></p>
+									<p>Колличество этажей</p>
+									<p class="house-table__count">1</p>
 								</div>
 							</div>
 							<div class="house-table__item">
 								<div>
-									<p>Габаритная площадь</p>
-									<p class="house-table__count">70 М<sup><small>2</small></sup></p>
+									<p>Колличество комнат</p>
+									<p class="house-table__count">3</p>
 								</div>
 							</div>
 							<div class="house-table__item">
 								<div>
-									<p>Габаритная площадь</p>
-									<p class="house-table__count">70 М<sup><small>2</small></sup></p>
+									<p>Высота 1-го этажа </p>
+									<p class="house-table__count">2,5 М</p>
 								</div>
 							</div>
 							<div class="house-table__item">
 								<div>
-									<p>Габаритная площадь</p>
-									<p class="house-table__count">70 М<sup><small>2</small></sup></p>
+									<p>Высота 2-го этажа </p>
+									<p class="house-table__count">-</p>
 								</div>
 							</div>
 							<div class="house-table__item">
 								<div>
-									<p>Габаритная площадь</p>
-									<p class="house-table__count">70 М<sup><small>2</small></sup></p>
+									<p>Площадь помещений</p>
+									<p class="house-table__count">60 М<sup><small>2</small></sup></p>
 								</div>
 							</div>
 							<div class="house-table__item">
 								<div>
-									<p>Габаритная площадь</p>
+									<p>Площадь застройки</p>
 									<p class="house-table__count">70 М<sup><small>2</small></sup></p>
 								</div>
 							</div>
@@ -159,66 +159,101 @@
 					</div>
 				</div>
 				<div class="row justify-content-center">
-					<div class="col-12">
+					<div class="col-12 mob-px-0">
 						<div class="estimate-title">
 							<p class="mb-0">Состав материалов и работ</p>
 						</div>
 						<div class="estimate">
-							<p>Реальная стоимость может отличаться в большую или меньшую сторону.</p>
+							<p class="estimate__title">Реальная стоимость может отличаться в большую или меньшую сторону.</p>
 							<div class="estimate__item active">
 								<div class="checkbox-div">
 									<input type="checkbox" checked="checked" required="" class="checkbox" id="estimate-checkbox">
 									<label for="estimate-checkbox"></label>
-									<p>SIP-панели стен 174 мм</p>
+									<p>Фундамент. свайно-винтовой</p>
 								</div>
 							</div>
 							<div class="estimate__item active">
 								<div class="checkbox-div">
 									<input type="checkbox" checked="checked"  required="" class="checkbox" id="estimate-checkbox2">
 									<label for="estimate-checkbox2"></label>
-									<p>Монтаж домокомплекта</p>
+									<p>Комплект СИП-панелей</p>
 								</div>
 							</div>
 							<div class="estimate__item active">
 								<div class="checkbox-div">
 									<input type="checkbox" checked="checked"  required="" class="checkbox" id="estimate-checkbox3">
 									<label for="estimate-checkbox3"></label>
-									<p>Покрытие кровли</p>
+									<p>Комплект пиломатериал</p>
 								</div>
 							</div>
 							<div class="estimate__item active">
 								<div class="checkbox-div">
 									<input type="checkbox" checked="checked"  required="" class="checkbox" id="estimate-checkbox4">
 									<label for="estimate-checkbox4"></label>
-									<p>Дверь входная 1 шт.</p>
+									<p>Комплект пены и метизов</p>
 								</div>
 							</div>
-							<div class="estimate__item">
+							<div class="estimate__item active">
 								<div class="checkbox-div">
-									<input type="checkbox" required="" class="checkbox" id="estimate-checkbox5">
+									<input type="checkbox" checked="checked"  required="" class="checkbox" id="estimate-checkbox5">
 									<label for="estimate-checkbox5"></label>
-									<p>Мансардное окно, Velux, 94х140 см, 1 шт.</p>
+									<p>Монтаж коробки дома</p>
 								</div>
 							</div>
-							<div class="estimate__item">
+							<div class="estimate__item active">
 								<div class="checkbox-div">
-									<input type="checkbox" required="" class="checkbox" id="estimate-checkbox6">
+									<input type="checkbox" checked="checked"  required="" class="checkbox" id="estimate-checkbox6">
 									<label for="estimate-checkbox6"></label>
-									<p>Окно французкое 1 шт.</p>
+									<p>Стропильная система</p>
 								</div>
 							</div>
 							<div class="estimate__item">
 								<div class="checkbox-div">
 									<input type="checkbox" required="" class="checkbox" id="estimate-checkbox7">
 									<label for="estimate-checkbox7"></label>
-									<p>Подшивка свесов кровли</p>
+									<p>Кровельное покрытие металлочерепица</p>
 								</div>
 							</div>
 							<div class="estimate__item">
 								<div class="checkbox-div">
 									<input type="checkbox" required="" class="checkbox" id="estimate-checkbox8">
 									<label for="estimate-checkbox8"></label>
-									<p>Уборка дома и территории за собой</p>
+									<p>Окна</p>
+								</div>
+							</div>
+							<div class="estimate__item">
+								<div class="checkbox-div">
+									<input type="checkbox" required="" class="checkbox" id="estimate-checkbox9">
+									<label for="estimate-checkbox9"></label>
+									<p>Входная дверь</p>
+								</div>
+							</div>
+							<div class="estimate__item">
+								<div class="checkbox-div">
+									<input type="checkbox" required="" class="checkbox" id="estimate-checkbox10">
+									<label for="estimate-checkbox10"></label>
+									<p>Наружная отделка стен</p>
+								</div>
+							</div>
+							<div class="estimate__item">
+								<div class="checkbox-div">
+									<input type="checkbox" required="" class="checkbox" id="estimate-checkbox11">
+									<label for="estimate-checkbox11"></label>
+									<p>Отделка цоколя</p>
+								</div>
+							</div>
+							<div class="estimate__item">
+								<div class="checkbox-div">
+									<input type="checkbox" required="" class="checkbox" id="estimate-checkbox12">
+									<label for="estimate-checkbox12"></label>
+									<p>Облицовка свесов кровли</p>
+								</div>
+							</div>
+							<div class="estimate__item">
+								<div class="checkbox-div">
+									<input type="checkbox" required="" class="checkbox" id="estimate-checkbox13">
+									<label for="estimate-checkbox13"></label>
+									<p>Крыльцо</p>
 								</div>
 							</div>
 							<div class="estimate-price">

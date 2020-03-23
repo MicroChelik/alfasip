@@ -23,8 +23,8 @@
 		<?php
 			include('tape.php');
 		?>
-		<div class="col-lg-9 pr-0">
-			<div class="main-content-container">
+		<div class="col-lg-9 pr-lg-0">
+			<div class="main-content-container page-sales">
 				<div class="row">
 					<div class="col-12">
 						<div class="h2-block">
@@ -59,7 +59,7 @@
 							<li><p>Условие акции кратко 1</p></li>
 							<li><p>Условие акции кратко 2</p></li>
 						</ul>
-						<button class="greenBtn">Детали акции</button>
+						<button class="greenBtn page-sales-greenBtn">Детали акции</button>
 					</div>
 					<div class="col-12 sale sale-end">
 						<div class="sale-card">
@@ -90,7 +90,7 @@
 							<li><p>Условие акции кратко 1</p></li>
 							<li><p>Условие акции кратко 2</p></li>
 						</ul>
-						<button class="greenBtn">Детали акции</button>
+						<button class="greenBtn page-sales-greenBtn">Детали акции</button>
 					</div>
 					<div class="col-12 sale sale-end">
 						<div class="sale-card">
@@ -121,7 +121,7 @@
 							<li><p>Условие акции кратко 1</p></li>
 							<li><p>Условие акции кратко 2</p></li>
 						</ul>
-						<button class="greenBtn">Детали акции</button>
+						<button class="greenBtn page-sales-greenBtn">Детали акции</button>
 					</div>
 					<div class="col-12">
 						<div class="show-more show-more__sales">

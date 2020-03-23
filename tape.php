@@ -17,7 +17,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row justify-content-end frame-employee-slider-arrows slider-arrows d-lg-flex d-none">
+				<div class="row justify-content-end frame-employee-slider-arrows slider-arrows d-lg-flex d-flex">
 					<div class="col-auto">
 						<img src="img/icons/tape-arrow-left.svg" class="frame-employee-slider-prev" alt="назад">
 					</div>

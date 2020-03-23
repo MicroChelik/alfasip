@@ -23,11 +23,11 @@
 		<?php
 			include('tape.php');
 		?>
-		<div class="col-lg-9 pr-0">
+		<div class="col-lg-9 pr-lg-0">
 			<div class="main-content-container">
 				<div class="row">
 					<div class="col-12">
-						<h1 class="mb-4">Строительство домов из СИП-панелей</h1>
+						<h1 class="mb-lg-4 mb-2">Строительство домов из СИП-панелей</h1>
 						<p>
 							Одноэтажный дом по проекту, разработанному индивидуально для заказчика в комплектации под ключ по канадской каркасной технологии в Солнечногорском районе. 
 						</p>
@@ -100,7 +100,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row justify-content-between video-slider-arrows slider-arrows d-lg-flex d-none">
+						<div class="row justify-content-between video-slider-arrows slider-arrows d-flex mobile-arrows">
 							<div class="col-auto">
 								<img src="img/icons/arrow-left.png" class="video-slider-prev slider-arrow-left" alt="назад">
 							</div>
@@ -112,7 +112,7 @@
 				</div>
 				<div class="row">
 					<div class="col-12">
-						<h2 class="mb-4">Дома от производителя</h2>
+						<h2 class="mb-lg-4 mb-5">Дома от производителя</h2>
 					</div>
 					<?php 
 						for ($i = 1; $i <= 6; $i++) {

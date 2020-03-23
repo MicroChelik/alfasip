@@ -107,6 +107,66 @@
 				</ul>
 			</div>
 		</nav>
+		<div class="mobile-menu">
+			<div class="mobile-menu__container">
+				<div class="mobile-menu__column">
+					<div class="mobile-menu__block">
+						<button class="first-line__button">
+							<img src="img/icons/calculator.svg" alt="Калькулятор">
+							Калькулятор SIP дома
+						</button>
+					</div>
+					<div class="mobile-menu__block">
+						<h3>Проекты домов</h3>
+						<ul class="ul-list ul-disc-hover">
+							<li><a href="">Дома до 100 м<small><sup>2</sup></small> </a></li>
+							<li><a href="">Дома 100-150 м<small><sup>2</sup></small> </a></li>
+							<li><a href="">Дома 150-200 м<small><sup>2</sup></small> </a></li>
+							<li><a href="">Дома от 200 м<small><sup>2</sup></small> </a></li>
+						</ul>
+					</div>
+					<div class="mobile-menu__block mobile-menu__block_h3">
+						<h3 class="mb-1"><a href="" class="hoverA">Акции</a></h3>
+						<h3 class="mb-0"><a href="" class="hoverA">Спецпредложения</a></h3>
+					</div>
+					<div class="mobile-menu__block">
+						<ul>
+							<li><a href="">О компании</a></li>
+							<li><a href="">Производство</a></li>
+							<li>
+								<div class="d-flex align-items-center justify-content-between">
+									<a href="" class="hoverA">Строительство</a>
+									<img src="img/icons/greenArrow.svg" class="mobile-menu__toggle" alt="раскрыть/скрыть">
+								</div>
+								<ul class="ul-list ul-disc-hover">
+									<li><a href="">Этапы работ</a></li>
+									<li><a href="">Видео</a></li>
+									<li><a href="">Дома от производителя</a></li>
+								</ul>
+							</li>
+							<li>
+								<div class="d-flex align-items-center justify-content-between">
+									<a href="" class="hoverA">Цены</a>
+									<img src="img/icons/greenArrow.svg" class="mobile-menu__toggle" alt="раскрыть/скрыть">
+								</div>
+								<ul class="ul-list ul-disc-hover">
+									<li><a href="">Цены на домокомплекты</a></li>
+									<li><a href="">Цены на строительство</a></li>
+								</ul>
+							</li>
+							<li><a href="">О SIP-панелях</a></li>
+							<li><a href="">Сотрудничество</a></li>
+							<li><a href="">Наши работы</a></li>
+							<li><a href="">Статьи</a></li>
+							<li><a href="">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+				<div>
+					<img src="img/icons/close.svg" class="closeMenu">
+				</div>
+			</div>
+		</div>
 		<div class="container mobile-header main-header">
 			<div class="row mobile-header__top-line">
 				<div class="col-auto">
@@ -128,7 +188,7 @@
 			<div class="row justify-content-center">
 				<div class="col-auto mobile-call">
 					<p>
-						<a href="tel:8(800)600-01-28">8 (800) 600-01-28 <img src="img/icons/phoneMobile.svg"></a>
+						<a href="tel:8(800)600-01-28">8 (800) 600-01-28 <img src="img/icons/whitePhone.svg"></a>
 					</p>
 				</div>
 			</div>

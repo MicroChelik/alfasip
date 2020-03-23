@@ -23,7 +23,7 @@
 		<?php
 			include('tape.php');
 		?>
-		<div class="col-lg-9 pr-0">
+		<div class="col-lg-9 pr-lg-0">
 			<div class="main-content-container">
 				<div class="row">
 					<div class="col-12">
@@ -34,7 +34,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12">
+					<div class="col-12 house-selection-container">
 						<div class="house-selection">
 							<h3>Подбор проекта</h3>
 							<form class="main-filters">
@@ -122,18 +122,18 @@
 										<p class="help-icon" data-toggle="tooltip" data-placement="top" title="полезная информация"><img src="img/icons/question.svg" alt="подсказка"></p>
 									</div>
 								</div>
-								<div>
+								<div class="main-filters__btn">
 									<button class="orangeBtn">Применить фильтр (<span>62</span>)</button>
 								</div>
 							</form>
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row project-square-type-container">
 					<div class="col-12">
 						<h3>Выбрать проект по площади</h3>
 					</div>
-					<div class="col-lg-3">
+					<div class="col-lg-3 col-9">
 						<div class="project-square-type">
 							<a href="">
 								<div>
@@ -143,31 +143,31 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-3">
+					<div class="col-lg-3 col-9">
 						<div class="project-square-type">
 							<a href="">
 								<div>
-									<img src="img/icons/project-icon.png" alt="иконка">
+									<img src="img/icons/project-icon2.png" alt="иконка">
 									<p>100-150 м<sup><small>2</small></sup></p>
 								</div>
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-3">
+					<div class="col-lg-3 col-9">
 						<div class="project-square-type">
 							<a href="">
 								<div>
-									<img src="img/icons/project-icon.png" alt="иконка">
+									<img src="img/icons/project-icon3.png" alt="иконка">
 									<p>150-200 м<sup><small>2</small></sup></p>
 								</div>
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-3">
+					<div class="col-lg-3 col-9">
 						<div class="project-square-type">
 							<a href="">
 								<div>
-									<img src="img/icons/project-icon.png" alt="иконка">
+									<img src="img/icons/project-icon4.png" alt="иконка">
 									<p>от 200 м<sup><small>2</small></sup></p>
 								</div>
 							</a>
@@ -183,7 +183,7 @@
 						</p>
 					</div>
 					<div class="filters show-filters">
-						<div class="filters-row">
+						<div class="filters-row mob-mb-0">
 							<div class="col-lg-6">
 								<div class="filter-image-block filter-image-block1">
 									<div>
@@ -196,7 +196,7 @@
 								</div>
 							</div>
 							<div class="col-lg-6">
-								<div class="filter-image-block filter-image-block1">
+								<div class="filter-image-block filter-image-block2 mob-mb-0">
 									<div>
 										<img src="img/icons/house-icon2.svg" alt="иконка" class="filter-image-block__img">
 										<h3>Растущие дома</h3>
@@ -208,11 +208,12 @@
 							</div>
 						</div>
 						<div class="filters-row">
-							<div class="col-12">
+							<div class="col-12 filter-size-container">
 								<div class="filter-sizes-block">
 									<h3>Подбор дома по размерам</h3>
 									<div class="filter-sizes-block__line">
 										<p class="title">Дома с шириной 5 метров:</p>
+										<div><a href="">5 на 5</a></div>
 										<div><a href="">5 на 5</a></div>
 										<div><a href="">5 на 5</a></div>
 										<div><a href="">5 на 5</a></div>
@@ -240,7 +241,7 @@
 						</div>
 						<div class="filters-row">
 							<div class="col-12">
-								<h3>Проекты домов по бюджету</h3>
+								<h3 class="text-center text-lg-left">Проекты домов по бюджету</h3>
 							</div>
 							<div class="col-lg-4">
 								<div class="green-link">
@@ -262,7 +263,7 @@
 				</div>
 				<div class="row catalog-items">
 					<div class="col-12">
-						<h3>Популярные проекты</h3>
+						<h3 class="text-center text-lg-left">Популярные проекты</h3>
 					</div>
 					<?php 
 						for ($i = 1; $i <= 6; $i++) {

@@ -24,7 +24,7 @@
 		<?php
 			include('tape.php');
 		?>
-		<div class="col-lg-9 pr-0">
+		<div class="col-lg-9 pr-lg-0">
 			<div class="main-content-container">
 				<div class="row">
 					<div class="col-12">
@@ -51,7 +51,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row justify-content-between house-project-card-slider-arrows slider-arrows d-lg-flex d-none">
+						<div class="row justify-content-between house-project-card-slider-arrows slider-arrows d-flex">
 							<div class="col-auto">
 								<img src="img/icons/arrow-left.png" class="house-project-card-slider-prev slider-arrow-left" alt="назад">
 							</div>
@@ -60,6 +60,19 @@
 							</div>
 						</div>
 					</div>
+					<div class="row project-card-photos d-lg-none mobile-project-card-photos">
+						<?php 
+							for ($i = 1; $i <= 6; $i++) {
+							    echo '<div class="col-6">
+										<div class="image-div">
+											<a href="img/project-card2.png" data-fancybox="images">
+												<img src="img/project-card2.png" alt="Фотография дома">
+											</a>
+										</div>
+									</div>';
+							};
+						?>
+					</div>
 					<div class="col-lg-5 project-card_description">
 						<p class="mb-sm">
 							Одноэтажный дом по проекту, разработанному индивидуально для заказчика в комплектации под ключ по канадской каркасной технологии в Солнечногорском районе. 
@@ -67,7 +80,7 @@
 						<p class="mb-sm">
 							Наружная и внутренняя отделка дома - имитация бруса класса А, наружный фасад выкрашен в нежный кремовый цвет. Кровля - металочерепмца 0,5 мм, свесы подшивы ПВХ софитами.
 						</p>
-						<div class="house-table">
+						<div class="house-table project-card-house-table">
 							<div class="house-table__item">
 								<div>
 									<p class="house-table__count">125 М<sup><small>2</small></sup></p>
@@ -99,7 +112,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row project-card-photos">
+				<div class="row project-card-photos d-none d-lg-flex">
 					<?php 
 						for ($i = 1; $i <= 6; $i++) {
 						    echo '<div class="col-lg-4">
@@ -123,7 +136,7 @@
 					<div class="col-12">
 						<h3>Отзыв от хозяина:</h3>
 					</div>
-					<div class="col-12">
+					<div class="col-12 mob-px-0">
 						<div class="project-card__review">
 							<div class="house-reviews-slider__review">
 								<div class="house-reviews-slider__reviewer">
@@ -216,7 +229,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row justify-content-between project-card-portfolio-slider-arrows slider-arrows d-lg-flex d-none">
+				<div class="row justify-content-between project-card-portfolio-slider-arrows slider-arrows d-flex">
 					<div class="col-auto">
 						<img src="img/icons/arrow-left.png" class="project-card-portfolio-slider-prev slider-arrow-left" alt="назад">
 					</div>

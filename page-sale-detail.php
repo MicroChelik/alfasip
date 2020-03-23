@@ -23,7 +23,7 @@
 		<?php
 			include('tape.php');
 		?>
-		<div class="col-lg-9 pr-0">
+		<div class="col-lg-9 pr-lg-0">
 			<div class="main-content-container">
 				<div class="row sale-detail">
 					<div class="col-12">
@@ -71,9 +71,9 @@
 							<p class="mr-3"><a href="tel:8(800)60-01-28">8 (800) 60-01-28</a></p>
 							<p>Звонок бесплатный</p>
 						</div>
-						<div class="d-flex">
+						<div class="d-lg-flex sale-detail__buttons">
 							<a class="contacts-card__modal a-modal" data-fancybox data-animation-duration="700" data-src="#callBackModal" href="javascript:;">
-								<button class="orangeBtn mr-3"><img src="img/icons/phoneImg.png" alt="Звонок">Получить консультацию</button>
+								<button class="orangeBtn mr-lg-3"><img src="img/icons/phoneImg.png" alt="Звонок">Получить консультацию</button>
 							</a>
 							<button class="greenTranpBtn">Выбрать проект</button>
 						</div>
