@@ -67,17 +67,17 @@
 					</div>
 					<div class="col-lg-4">
 						<div class="green-link">
-							<a href="">от 300 000 руб. до 600 000 руб.</a>
+							<a href="">300 000 - 600 000 руб.</a>
 						</div>
 					</div>
 					<div class="col-lg-4">
 						<div class="green-link">
-							<a href="">от 300 000 руб. до 600 000 руб.</a>
+							<a href="">600 000 - 900 000 руб.</a>
 						</div>
 					</div>
 					<div class="col-lg-4">
 						<div class="green-link">
-							<a href="">от 300 000 руб. до 600 000 руб.</a>
+							<a href="">900 000 - 1 300 000 руб.</a>
 						</div>
 					</div>
 				</div>
@@ -181,11 +181,6 @@
 		</div>
 	</div>
 </div>
-
-
-
-
-
 <?php
 	include('html-end.php');
 ?>

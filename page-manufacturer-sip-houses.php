@@ -60,41 +60,12 @@
 								</div>';
 						}
 					?>
-					<!-- <div class="col-lg-4">
-						<a href="">
-							<div class="houses-options">
-								<div class="houses-options__img">
-									<img src="img/houses-options.png" alt="Фотография дома">
-								</div>
-								<div class="houses-options__text">
-									<p class="houses-options__value">Коттеджи</p>
-									<p class="houses-options__count">135 - проектов</p>
-								</div>
-							</div>
-						</a>
-					</div> -->
-					
 				</div>
-				<div class="row manufacturer-block">
+				<div class="row manufacturer-block manufacturer-block-center mb-mob-40">
 					<div class="col-12">
 						<h2 class="mob-text-center">Выбрать проект по площади</h2>
 					</div>
-					<?php 
-						for ($i = 1; $i <= 4; $i++) {
-						    echo '<div class="col-lg-3">
-									<div class="project-square-type">
-										<a href="">
-											<div>
-												<img src="img/icons/project-icon.png" alt="иконка">
-												<p>до 100 м<sup><small>2</small></sup></p>
-											</div>
-										</a>
-									</div>
-								</div>';
-						}
-					?>
-										
-					<!-- <div class="col-lg-3">
+					<div class="col-lg-3 col-9">
 						<div class="project-square-type">
 							<a href="">
 								<div>
@@ -103,10 +74,39 @@
 								</div>
 							</a>
 						</div>
-					</div> -->
-					
+					</div>
+					<div class="col-lg-3 col-9">
+						<div class="project-square-type">
+							<a href="">
+								<div>
+									<img src="img/icons/project-icon2.png" alt="иконка">
+									<p>100-150 м<sup><small>2</small></sup></p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-9">
+						<div class="project-square-type">
+							<a href="">
+								<div>
+									<img src="img/icons/project-icon3.png" alt="иконка">
+									<p>150-200 м<sup><small>2</small></sup></p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-9">
+						<div class="project-square-type">
+							<a href="">
+								<div>
+									<img src="img/icons/project-icon4.png" alt="иконка">
+									<p>от 200 м<sup><small>2</small></sup></p>
+								</div>
+							</a>
+						</div>
+					</div>
 				</div>
-				<div class="row manufacturer-block ">
+				<div class="row manufacturer-block mb-mob-40">
 					<div class="col-12 mob-px-0">
 						<h2 class="mob-text-center">Преимущества заказа напрямую с завода</h2>
 						<p  class="mob-text-center">
@@ -149,36 +149,6 @@
 								</div>';
 						}
 					?>
-					<!-- <div class="col-lg-4 manufacturer-advantage">
-						<div class="manufacturer-advantage__block">
-							<img src="img/icons/manufacturer-advantage.svg">
-							<div>
-								<p>Преимущество 1</p>
-								<p class="manufacturer-advantage__mobile-text">
-									Раскрой панелей и пиломатериала
-									на производстве, позволили сократить 
-									сроки строительства, а введенная в 2018 г. 
-									Программа «ПРЕДСБОРКА» позволяет
-									нам собирать дом от 2 до 5 дней.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 manufacturer-advantage">
-						<div class="manufacturer-advantage__block">
-							<img src="img/icons/manufacturer-advantage.svg">
-							<div>
-								<p>Преимущество 2 в две строчки</p>
-								<p class="manufacturer-advantage__mobile-text">
-									Раскрой панелей и пиломатериала
-									на производстве, позволили сократить 
-									сроки строительства, а введенная в 2018 г. 
-									Программа «ПРЕДСБОРКА» позволяет
-									нам собирать дом от 2 до 5 дней.
-								</p>
-							</div>
-						</div>
-					</div> -->
 				</div>
 				<div class="row manufacturer-block">
 					<div class="col-12">
@@ -201,10 +171,6 @@
 		</div>
 	</div>
 </div>
-
-
-
-
 
 <?php
 	include('html-end.php');

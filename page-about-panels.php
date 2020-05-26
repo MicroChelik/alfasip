@@ -60,26 +60,6 @@
 								</div>';
 						}
 					?>
-					<!-- <div class="col-lg-4">
-						<div class="panel-link">
-							<div class="panel-link__img">
-								<img src="img/panel-link.png" alt="Фотография">
-							</div>
-							<div class="panel-link__description">
-								<div class="panel-link__text">
-									<p class="mb-0">
-										История SIP-панелей (мировой опыт)
-									</p>
-								</div>
-								<div class="panel-link__item">
-									<a href="">Подробнее
-										<img src="img/icons/arrowGreenRight.svg" alt="Перейти" class="staticImg">
-										<img src="img/icons/arrowWhiteRight.svg" alt="Перейти" class="hoverImg">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div> -->
 				</div>
 				<div class="main-content-banner-mask">
 					<div class="main-content-banner">

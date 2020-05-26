@@ -65,19 +65,6 @@
 								</div>';
 						};
 					?>
-					<!-- <div class="col-lg-4">
-						<div class="portfolio__item">
-							<div class="portfolio__img">
-								<img src="img/portfolio.png" alt="Фотография">
-							</div>
-							<div class="portfolio__mask">
-								<a href="">Подробнее</a>
-							</div>
-							<div class="portfolio__text">
-								<p>Проект Дельта г. «Старый Чультем» 2016 год</p>
-							</div>
-						</div>
-					</div> -->
 					<div class="col-12">
 						<div class="show-more show-more__portfolio">
 							<img src="img/icons/refresh.svg" alt="иконка">
@@ -89,11 +76,6 @@
 		</div>
 	</div>
 </div>
-
-
-
-
-
 <?php
 	include('html-end.php');
 ?>

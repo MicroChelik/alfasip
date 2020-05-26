@@ -124,13 +124,6 @@
 								</div>';
 						};
 					?>
-					<!-- <div class="col-lg-4">
-						<div class="image-div">
-							<a href="img/project-card2.png" data-fancybox="images">
-								<img src="img/project-card2.png">
-							</a>
-						</div>
-					</div> -->
 				</div>
 				<div class="row">
 					<div class="col-12">
@@ -242,10 +235,6 @@
 		</div>
 	</div>
 </div>
-
-
-
-
 
 <?php
 	include('html-end.php');

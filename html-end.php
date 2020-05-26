@@ -1,7 +1,7 @@
 	<footer>
 		<div class="container">
 			<div class="row first-row">
-				<div class="col-lg-auto">
+				<div class="col-lg-auto mob-px-0">
 					<div class="first-line__logo">
 						<img src="img/logo.png" alt="logo">
 						<p>

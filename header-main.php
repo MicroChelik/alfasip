@@ -108,6 +108,9 @@
 			</div>
 		</nav>
 		<div class="mobile-menu">
+			<div class="mobile-menu__overlay">
+				
+			</div>
 			<div class="mobile-menu__container">
 				<div class="mobile-menu__column">
 					<div class="mobile-menu__block">
@@ -176,9 +179,9 @@
 	                     <span></span>
 	                </div>
 				</div>
-				<div class="col-auto">
+				<div class="col-auto logo-column_mob">
 					<div class="d-flex align-items-center">
-						<img src="img/logoMob.png">
+						<img src="img/logo.png" class="logolittle">
 						<p class="logo-text">
 							Строительство домов<br>из SIP панелей в Удмуртии
 						</p>

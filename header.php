@@ -43,10 +43,12 @@
 											<p>Заказать звонок менеджера</p>
 										</div>
 										<form action = "javascript: void(null);" method="post">
-											<p>Ваше имя:</p>
-											<input type="text">
-											<p>Email или телефон:</p>
-											<input type="text">
+											<p class="d-none d-lg-block">Ваше имя:</p>
+											<input type="text" class="d-none d-lg-block">
+											<p class="d-none d-lg-block">Email или телефон:</p>
+											<input class="d-none d-lg-block" type="text">
+											<input class="d-lg-none" type="text" placeholder="Ваше имя">
+											<input class="d-lg-none" type="text" placeholder="Email или телефон">
 											<div>
 												<button class="greenBtn">Отправить</button>
 											</div>
@@ -108,6 +110,9 @@
 			</div>
 		</nav>
 		<div class="mobile-menu">
+			<div class="mobile-menu__overlay">
+				
+			</div>
 			<div class="mobile-menu__container">
 				<div class="mobile-menu__column">
 					<div class="mobile-menu__block">
@@ -166,6 +171,7 @@
 					<img src="img/icons/close.svg" class="closeMenu">
 				</div>
 			</div>
+			
 		</div>
 		<div class="container mobile-header">
 			<div class="row mobile-header__top-line">
@@ -176,9 +182,9 @@
 	                     <span></span>
 	                </div>
 				</div>
-				<div class="col-auto">
+				<div class="col-auto logo-column_mob">
 					<div class="d-flex align-items-center">
-						<img src="img/logoMob.png">
+						<img src="img/logo.png" class="logolittle">
 						<p class="logo-text">
 							Строительство домов<br>из SIP панелей в Удмуртии
 						</p>

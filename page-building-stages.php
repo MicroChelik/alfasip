@@ -58,22 +58,7 @@
 								</div>';
 						};
 					?>
-					<!-- <div class="col-lg-4">
-						<div class="stage">
-							<div class="stage__img">
-								<img src="img/stage.png" alt="Фотография">
-							</div>
-							<div class="stage__text">
-								<p>Проектирование</p>
-								<div class="h2-link">
-									<a href="">Подробнее <img class="staticImg" src="img/icons/greenH2Arrow.svg" alt="Перейти"><img src="img/icons/arrowWhiteRight.svg" alt="Перейти" class="hoverImg"></a>
-								</div>
-							</div>
-						</div>
-					</div> -->
 				</div>
-				
-				
 			</div>
 		</div>
 	</div>

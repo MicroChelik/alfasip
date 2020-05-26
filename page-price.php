@@ -411,7 +411,7 @@
 						<table>
 							<tr>
 								<td colspan="3">
-									<img src="img/priceImg3.png"  class="table-bottom-img" alt="Фотография">
+									<img src="img/priceImg3.png"  class="table-bottom-img left-mob-img" alt="Фотография">
 								</td>
 							</tr>
 							<tr>
@@ -459,7 +459,7 @@
 						<table>
 							<tr>
 								<td colspan="3">
-									<img src="img/priceImg4.png" class="table-bottom-img" alt="Фотография">
+									<img src="img/priceImg4.png" class="table-bottom-img left-mob-img" alt="Фотография">
 								</td>
 							</tr>
 							<tr>
@@ -555,7 +555,7 @@
 						<table>
 							<tr>
 								<td colspan="3">
-									<img src="img/priceImg6.png" class="price-table-big-img" alt="Фотография">
+									<img src="img/priceImg6.png" class="price-table-big-img left-mob-img" alt="Фотография">
 								</td>
 							</tr>
 							<tr>
@@ -713,11 +713,6 @@
 		</div>
 	</div>
 </div>
-
-
-
-
-
 <?php
 	include('html-end.php');
 ?>

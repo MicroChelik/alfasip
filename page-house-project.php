@@ -50,6 +50,16 @@
 								</div>
 							</div>
 						</div>
+
+						<div class="row justify-content-between house-projects-slider-arrows slider-arrows d-flex d-lg-none mobile-arrows">
+							<div class="col-auto mob-px-0">
+								<img src="img/icons/arrow-left.png" class="house-projects-slider-prev slider-arrow-left" alt="назад">
+							</div>
+							<div class="col-auto mob-px-0">
+								<img src="img/icons/arrow-right.png" class="house-projects-slider-next slider-arrow-right" alt="вперед">
+							</div>
+						</div>
+
 						<div class="house-plan">
 							<div class="house-plan__photo">
 								<a href="img/house-plan__photo1.png" data-fancybox="images">
@@ -127,12 +137,13 @@
 								<p>Заказать звонок менеджера</p>
 								<input type="text" placeholder="Ваше имя:">
 								<input type="tel" placeholder="Ваш телефон:">
-								<button class="orangeBtn" type="submit">Записаться на консультацию</button>
+								<button class="orangeBtn d-none d-lg-block" type="submit">Записаться на консультацию</button>
+								<button class="orangeBtn d-lg-none mob-button-font" type="submit">Отправить</button>
 							</form>
 						</div>
 					</div>
 				</div>
-				<div class="row house-projects-row">
+				<div class="row house-projects-row house-project-advantage-mob">
 					<div class="col-lg-4 house-project-advantage">
 						<div class="house-project-advantage__img">
 							<img src="img/icons/house-project-advantage__img1.svg">
@@ -266,11 +277,6 @@
 		</div>
 	</div>
 </div>
-
-
-
-
-
 <?php
 	include('html-end.php');
 ?>

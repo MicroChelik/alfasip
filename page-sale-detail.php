@@ -84,11 +84,6 @@
 		</div>
 	</div>
 </div>
-
-
-
-
-
 <?php
 	include('html-end.php');
 ?>

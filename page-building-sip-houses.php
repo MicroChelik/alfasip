@@ -25,7 +25,7 @@
 		?>
 		<div class="col-lg-9 pr-lg-0">
 			<div class="main-content-container">
-				<div class="row">
+				<div class="row mb-mob-40">
 					<div class="col-12">
 						<h1 class="mb-lg-4 mb-2">Строительство домов из СИП-панелей</h1>
 						<p>
@@ -36,7 +36,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="row stage-row">
+				<div class="row stage-row mb-mob-40">
 					<div class="col-12">
 						<h2 class="greenH2">Этапы строительства дома из СИП панелей</h2>
 					</div>
@@ -57,26 +57,13 @@
 								</div>';
 						};
 					?>
-					<!-- <div class="col-lg-4">
-						<div class="stage">
-							<div class="stage__img">
-								<img src="img/stage.png" alt="Фотография">
-							</div>
-							<div class="stage__text">
-								<p>Проектирование</p>
-								<div class="h2-link">
-									<a href="">Подробнее <img class="staticImg" src="img/icons/greenH2Arrow.svg" alt="Перейти"><img src="img/icons/arrowWhiteRight.svg" alt="Иконка" class="hoverImg"></a>
-								</div>
-							</div>
-						</div>
-					</div> -->
 				</div>
 				<div class="row">
 					<div class="col-12">
-						<h2 class="mb-4">Видео о строительстве СИП-дома (17)</h2>
+						<h2 class="mb-4 h2-like-h1">Видео о строительстве СИП-дома (17)</h2>
 					</div>
 				</div>
-				<div class="row justify-content-center">
+				<div class="row justify-content-center mb-mob-40">
 					<div class="col-lg-11">
 						<div class="video-slider slider">
 							<div class="slider-slide">
@@ -112,7 +99,7 @@
 				</div>
 				<div class="row">
 					<div class="col-12">
-						<h2 class="mb-lg-4 mb-5">Дома от производителя</h2>
+						<h2 class="mb-lg-4 mb-5 h2-like-h1">Дома от производителя</h2>
 					</div>
 					<?php 
 						for ($i = 1; $i <= 6; $i++) {
@@ -131,19 +118,6 @@
 								</div>';
 						};
 					?>
-					<!-- <div class="col-lg-4">
-						<div class="houses-type-card">
-							<a href="">
-								<div class="houses-type-card__img">
-									<img src="img/house-type.png" alt="Фотография">
-								</div>
-								<div class="houses-type-card__text">
-									<p class="houses-type-card__title">Коттеджи</p>
-									<p>135 - проектов</p>
-								</div>
-							</a>
-						</div>
-					</div> -->
 				</div>
 			</div>
 		</div>

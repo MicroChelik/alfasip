@@ -31,7 +31,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section main-page-section">
+	<section class="section main-page-section mob-grey-bg">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -60,18 +60,6 @@
 							</div>';
 					}
 				?>
-				<!-- <div class="houses-hits-slider__slide">
-					<div class="houses-hits-slider__content slider-content">
-						<div class="houses-hits-slider__img">
-							<img src="img/house-hit.png" alt="Фото дома">
-						</div>
-						<div class="houses-hits-slide__block">
-							<p class="houses-hits-slide__name">Старый Чультем Кси-2</p>
-							<p>Описание данного проекта в пару строчек примерно вот так...</p>
-							<button class="greenTranpBtn">Смотреть проект</button>
-						</div>
-					</div>
-				</div> -->
 			</div>
 			<div class="row justify-content-between houses-hits-slider-arrows slider-arrows d-flex mobile-arrows">
 				<div class="col-auto">
@@ -100,13 +88,16 @@
 				</div>
 				<div class="col-lg-4">
 					<div class="special-blocks__discount special-blocks__block">
-						<div>
+						<div class="column-1">
 							<p class="special-blocks__title">акции</p>
 							<p>Самые выгодные <br>предложения,<br>только этой осенью!</p>
 							<div class="h2-link">
 								<a href="">Смотреть<img src="img/icons/greenH2Arrow.svg" alt="Перейти"></a>
 							</div>
 						</div>
+						
+							<img src="img/sale-block.png" class="special-blocks__discount-img">
+						
 					</div>
 				</div>
 				<div class="col-lg-4">
@@ -123,44 +114,131 @@
 		</div>
 	</section>
 
-	<section class="section main-page-section">
+	<section class="section main-page-section mob-grey-bg">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
 					<div class="h2-block">
 						<h2>Готовые проекты для вашего дома</h2>
-						<div class="h2-link">
+						<!-- <div class="h2-link">
 							<a href="">Смотреть все проекты <img src="img/icons/greenH2Arrow.svg" alt="Перейти"></a>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
-			<div class="projects-slider slider">
-				<?php 
-					for ($i = 1; $i <= 6; $i++) {
-					    echo '<div class="projects-slider__slide slider-slide">
-									<div class="projects-slider__content slider-content">
-										<div class="projects-slider__img">
-											<img src="img/project.png" alt="Фотография проекта">
-										</div>
-										<div class="projects-slider__block">
-											<div class="projects-slider__name">
-												<p>Дельта</p>
-												<div class="projects-slider__square">
-													<p>298 м<sup><small>2</small></sup></p>
-												</div>
-											</div>
-											<div class="projects-slider__price">
-												<p>от 683 200 ₽</p>
-												<div class="h2-link">
-													<a href="">Подробнее <img src="img/icons/greenH2Arrow.svg" alt="Перейти"></a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>';
-					}
-				?>
+
+			<div class="row finished-projects">
+				<div class="col-lg-auto col-6">
+					<div class="finished-projects__item">
+						<a href="">
+							<p>40 м<small><sup>2</sup></small></p>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-auto col-6">
+					<div class="finished-projects__item">
+						<a href="">
+							<p>50 м<small><sup>2</sup></small></p>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-auto col-6">
+					<div class="finished-projects__item">
+						<a href="">
+							<p>60 м<small><sup>2</sup></small></p>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-auto col-6">
+					<div class="finished-projects__item">
+						<a href="">
+							<p>70 м<small><sup>2</sup></small></p>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-auto col-6">
+					<div class="finished-projects__item">
+						<a href="">
+							<p>80 м<small><sup>2</sup></small></p>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-auto col-6">
+					<div class="finished-projects__item">
+						<a href="">
+							<p>90 м<small><sup>2</sup></small></p>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-auto col-6">
+					<div class="finished-projects__item">
+						<a href="">
+							<p>100 м<small><sup>2</sup></small></p>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-auto col-6">
+					<div class="finished-projects__item">
+						<a href="">
+							<p>120 м<small><sup>2</sup></small></p>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-auto col-6">
+					<div class="finished-projects__item">
+						<a href="">
+							<p>150 м<small><sup>2</sup></small></p>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-auto col-6">
+					<div class="finished-projects__item">
+						<a href="">
+							<p>200 м<small><sup>2</sup></small></p>
+						</a>
+					</div>
+				</div>
+
+					
+					
+					
+					
+					
+			</div>
+			<div class="finished-projects-description">
+				<p class="mb-0">
+					Обсуждение проекта с заказчиком. Строительство домов под ключ начинается с обращения клиента, а не с первогозаложенного кирпича. <br class="mob-d-none"> Будет ли это собственный проект или типовой - все нюансы строительства обсуждаются именно на данном этапе 
+				</p>
+			</div>
+
+
+			<!-- <div class="projects-slider slider"> -->
+				<!-- <?php 
+					//for ($i = 1; $i <= 6; $i++) {
+					   //  echo '<div class="projects-slider__slide slider-slide">
+								// 	<div class="projects-slider__content slider-content">
+								// 		<div class="projects-slider__img">
+								// 			<img src="img/project.png" alt="Фотография проекта">
+								// 		</div>
+								// 		<div class="projects-slider__block">
+								// 			<div class="projects-slider__name">
+								// 				<p>Дельта</p>
+								// 				<div class="projects-slider__square">
+								// 					<p>298 м<sup><small>2</small></sup></p>
+								// 				</div>
+								// 			</div>
+								// 			<div class="projects-slider__price">
+								// 				<p>от 683 200 ₽</p>
+								// 				<div class="h2-link">
+								// 					<a href="">Подробнее <img src="img/icons/greenH2Arrow.svg" alt="Перейти"></a>
+								// 				</div>
+								// 			</div>
+								// 		</div>
+								// 	</div>
+								// </div>';
+					//}
+				?> -->
+
 				<!-- <div class="projects-slider__slide">
 					<div class="projects-slider__content slider-content">
 						<div class="projects-slider__img">
@@ -182,15 +260,19 @@
 						</div>
 					</div>
 				</div> -->
-			</div>
-			<div class="row justify-content-between projects-slider-arrows slider-arrows d-flex mobile-arrows">
+
+			<!-- </div>
+ -->
+			<!-- <div class="row justify-content-between projects-slider-arrows slider-arrows d-flex mobile-arrows">
 				<div class="col-auto">
 					<img src="img/icons/arrow-left.png" class="projects-slider-prev slider-arrow-left" alt="назад">
 				</div>
 				<div class="col-auto">
 					<img src="img/icons/arrow-right.png" class="projects-slider-next slider-arrow-right" alt="вперед">
 				</div>
-			</div>
+			</div> -->
+
+
 		</div>
 	</section>
 
@@ -217,7 +299,7 @@
 								<p>100</p>
 								<p>100</p>
 							</div>
-							<p class="calc-form__sum">Сумма составит:<b>990 000</b><span>рублей</span></p>
+							<p class="calc-form__sum">Сумма составит:<b>10 500 000</b><span>рублей</span></p>
 							<p>В стоимость входит: стены, ВСЕ перегородки, перекрытия 1-го этажа, 
 								межэтажные перекрытия 2-го этажа, устройства кровли из СИП-панелей 
 								(для мансардных этажей) — 1-я комплектация
@@ -233,7 +315,7 @@
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section mob-grey-bg">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -419,7 +501,7 @@
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section mob-grey-bg">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -447,17 +529,6 @@
 							</div>';
 					}
 				?>
-				<!-- <div class="employee-slider__slide slider-slide">
-					<div class="employee-slider__content slider-content">
-						<div class="employee-slider__img">
-							<img src="img/employee.png" alt="Фото сотрудника">
-						</div>
-						<div class="employee-slider__text">
-							<p class="employee-slider__name">Иванов Иван</p>
-							<p class="employee-slider__position">Название должности</p>
-						</div>
-					</div>
-				</div> -->
 			</div>
 			<div class="row justify-content-between employee-slider-arrows slider-arrows d-lg-flex d-flex">
 				<div class="col-auto">
@@ -475,9 +546,9 @@
 		</div>
 	</section>
 
-	<section class="greyBg section pb-0">
+	<section class="greyBg section pb-0 mob-grey-bg">
 		<div class="container">
-			<div class="row">
+			<div class="row main-page-advantage">
 				<div class="col-12">
 					<div class="h2-block">
 						<h2>Почему выбирают <br class="d-block d-lg-none"> именно нас</h2>
@@ -494,14 +565,6 @@
 							</div>';
 					}
 				?>
-				<!-- <div class="col-lg-3 advantage">
-					<div class="advantage__title">
-						<img src="img/icons/advantage1.png" alt="Преимущество">
-						<p class="title">Собственное производство SIP панелей</p>
-					</div>
-					<p>Мы производим панели с 2010 года. Имеем свою производственную площадку, качественное, высокоточное, высоко-производительное оборудование</p>
-				</div> -->
-
 				<div class="col-12 section-footer">
 					<div class="section-footer__block">
 						<div class="section-footer__item">
@@ -584,51 +647,6 @@
 							';
 						}
 					?>
-
-					<!-- <div class="col-lg-4">
-						<div class="difference-card">
-							<div class="difference-card__title">
-								<img src="img/icons/difference1.png" alt="Иконка">
-								<p>Собственное производство древесины</p>
-							</div>
-							<div class="difference-card__text">
-								<p>
-									Заготавливаем пиломатериалы с 2011 г. Сами выполняем и контролируем весь процесс заготовки:
-								</p>
-								<ul>
-									<li>рубка леса;</li>
-									<li>распилка леса на собственной пилораме;</li>
-									<li>сушка материала в собственных сушильных камерах</li>
-								</ul>
-								<p>
-									Благодаря этому вы получаете качественный пиломатериал по привлекательной цене и всегда вовремя
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="difference-card">
-							<div class="difference-card__title">
-								<img src="img/icons/difference1.png" alt="Иконка">
-								<p>Собственное производство древесины</p>
-							</div>
-							<div class="difference-card__text">
-								<p>
-									Заготавливаем пиломатериалы с 2011 г. Сами выполняем и контролируем весь процесс заготовки:
-								</p>
-								<ol>
-									<li>рубка леса;</li>
-									<li>распилка леса на собственной пилораме;</li>
-									<li>сушка материала в собственных сушильных камерах</li>
-								</ol>
-								<p>
-									Благодаря этому вы получаете качественный пиломатериал по привлекательной цене и всегда вовремя
-								</p>
-							</div>
-						</div>
-					</div> -->
-
-
 				</div>
 			</div>
 		</div>
@@ -694,51 +712,6 @@
 								</div>';
 					}
 				?>
-
-								<!-- <div class="slider-slide">
-									<div class="house-reviews-slider__content slider-content">
-										<div class="house-reviews-slider__img">
-											<a href="">
-												<img src="img/reviews1.png" alt="Фотография Дома">
-											</a>
-										</div>
-										<div class="house-reviews-slider__text">
-											<div class="house-reviews-slider__info">
-												<div>
-													<div class="house-reviews-slider__name">
-														<p>Дельта</p>
-														<p class="square">298 м<sup><small>2</small></sup></p>
-													</div>
-													<div class="house-reviews-slider__price">
-														<p>от 683 200 ₽</p>
-													</div>
-												</div>
-											</div>
-											<div class="house-reviews-slider__review">
-												<div class="house-reviews-slider__reviewer">
-													<div class="house-reviews-slider__photo">
-														<img src="img/client1.png" alt="Фото Покупателя">
-													</div>
-													<div>
-														<p>Александр Александров</p>
-														<p>Хозяин дома</p>
-													</div>
-												</div>
-												<div>
-													<p class="house-reviews-slider__review-text">
-														Мы довольно продолжительное время рассуждали о личном домике в пригородной зоне. После покупки участка земли стал вопрос о постройке жилья. Мы предпочли... 
-													</p>
-													<p class="mb-0"><a href="">Читать весь отзыв</a></p>
-												</div>
-											</div>
-											<div class="house-reviews-slider__review_mobile">
-												<p>Проект Альфа  г.	«Чемошур»  2016 год</p>
-											</div>
-										</div>
-									</div>
-								</div> -->
-
-
 			</div>
 			<div class="row justify-content-between house-reviews-arrows slider-arrows d-lg-flex mobile-arrows">
 				<div class="col-auto">
@@ -781,15 +754,6 @@
 								</div>';
 					}
 				?>
-				<!-- <div class="slider-slide">
-					<div class="sertificates-slider__content slider-content">
-						<div class="sertificates-slider__img">
-							<img src="img/sertificates1.png" alt="Сертификат">
-						</div>
-						<p>Название сертификата</p>
-					</div>
-				</div> -->
-
 			</div>
 			<div class="row justify-content-between sertificates-slider-arrows slider-arrows d-lg-flex d-none">
 				<div class="col-auto">
@@ -846,17 +810,6 @@
 								</div>';
 					}
 				?>
-				<!-- <div class="col-lg-4 convenience">
-					<div class="convenience__img">
-						<img src="img/convenience1.png" alt="Иконка">
-					</div>
-					<div class="convenience__description">
-						<p class="convenience__title">Короткие сроки строительства</p>
-						<p class="convenience__text">
-							Раскрой панелей и пиломатериалана производстве, позволили сократить сроки строительства, а введенная в 2018 г. Программа «ПРЕДСБОРКА» позволяетнам собирать дом от 2 до 5 дней.
-						</p>
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</section>

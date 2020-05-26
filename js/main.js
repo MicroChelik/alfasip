@@ -51,11 +51,15 @@ $(document).ready(function(){
 		}
 	})
 	$('.menuFiveMob').click(function(){
-		$('.mobile-menu').slideToggle(200);
+		$('.mobile-menu').animate({width:'toggle'}, 150)
 	});
 	$('.closeMenu').click(function(){
-		$('.mobile-menu').slideToggle(200);
+		$('.mobile-menu').animate({width:'toggle'}, 150)
 	});
+	$('.mobile-menu__overlay').click(function(){
+		$('.mobile-menu').animate({width:'toggle'}, 150)
+	});
+	
 
 	const menuFive = document.querySelector('.menuFive');
 	const closeMenu = document.querySelector('.closeMenu');
@@ -109,19 +113,7 @@ $(document).ready(function(){
 	    	inputSlider.style.background = color;
 	    });
     }
-
     
-    
-
-    
-    
-
-	    
-	    
-
-
-
-
 	$('.frame__sort-toggle').click(function(){
 		$(this).toggleClass('rotate');
 	});
@@ -152,9 +144,7 @@ $(document).ready(function(){
 	});
 
 	$('.catalog-filters__button').click(function(){
-		// alert('da1');
 		if ( $(this).hasClass('hide-visible') ) {
-			// alert('da');
 			$('.catalog-filters__button .hide').removeClass('visible');
 			$('.catalog-filters__button').removeClass('hide-visible');
 			$('.catalog-filters__button .show').addClass('visible');
@@ -201,64 +191,6 @@ $(document).ready(function(){
 	$(function () {
 	  $('[data-toggle="tooltip"]').tooltip();
 	});
-
-
-	// $('input[name=three]').nativeMultiple({
-	//     stylesheet: "slider",
-	//     onCreate: function() {
-	//         console.log(this);
-	//     },
-	//     onChange: function(first_value, second_value) {
-	//         console.log('onchange', [first_value, second_value]);
-	//     },
-	//     onSlide: function(first_value, second_value) {
-	//         console.log('onslide', [first_value, second_value]);
-	//     }
-	// });
-
-	// const menuFive = document.querySelector('.menuFive');
-	// const menuFive2 = document.querySelector('.menuFiveMob');
-	//  function addClassFunFive() {
- //        this.classList.toggle("clickMenuFive");
- //    }
-	// menuFive.addEventListener('click', addClassFunFive);
-	// menuFive2.addEventListener('click', addClassFunFive);
-
-	// $('.redArrow').click(function(){
-	// 	$(this).toggleClass('redOpen');
-	// 	$(this).parent().parent().toggleClass('liOpen');
-	// 	$(this).parent().next().slideToggle('200');
-	// });
-	
-
-	// $('.slider-container-4').each(function(){
-	// 	var $this = $(this),
-	// 		$blockArrows = $('.controls-arrows', $this),
-	// 		$blockDots = $('.blue-dots', $this),
-	// 		$slick = $('.slider-4', $this);
-	// 	$slick.slick({
-	// 		dots: true,
-	// 		arrows: true,
-	// 		infinite: true,
-	// 		slidesToShow: 4,
-	// 		slidesToScroll: 1,
-	// 		autoplay: true,
-	// 		autoplaySpeed: 5000,
-	// 		appendArrows: $blockArrows,
-	// 		appendDots: $blockDots,
-	// 		responsive: [
-	// 			{
-	// 				breakpoint: 960,
-	// 				settings: {
-	// 					slidesToShow: 1,
-	// 					arrows: false,
-	// 					slidesToScroll: 1,
-	// 				}
-	// 			}
-	// 		]
-	// 	});
-	// });
-
 	$('.frame__sort-toggle').click(function(){
 		$(this).parent().next('.frame__sort-content').slideToggle();
 	});
@@ -277,8 +209,8 @@ $(document).ready(function(){
 		dotsClass: "my-dots",
 		prevArrow: '.houses-hits-slider-prev',
 		nextArrow: '.houses-hits-slider-next',
-		// autoplay: true,
-		// autoplaySpeed: 5000,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		swipeToSlide: true,
 		responsive: [
 			{
@@ -298,8 +230,8 @@ $(document).ready(function(){
 		dotsClass: "my-dots",
 		prevArrow: '.projects-slider-prev',
 		nextArrow: '.projects-slider-next',
-		// autoplay: true,
-		// autoplaySpeed: 5000,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		swipeToSlide: true,
 		responsive: [
 			{
@@ -319,8 +251,8 @@ $(document).ready(function(){
 		dotsClass: "my-dots",
 		prevArrow: '.employee-slider-prev',
 		nextArrow: '.employee-slider-next',
-		// autoplay: true,
-		// autoplaySpeed: 5000,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		swipeToSlide: true,
 		responsive: [
 			{
@@ -340,8 +272,8 @@ $(document).ready(function(){
 		dotsClass: "my-dots",
 		prevArrow: '.house-reviews-slider-prev',
 		nextArrow: '.house-reviews-slider-next',
-		// autoplay: true,
-		// autoplaySpeed: 5000,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		swipeToSlide: true,
 		responsive: [
 			{
@@ -361,8 +293,8 @@ $(document).ready(function(){
 		dotsClass: "my-dots",
 		prevArrow: '.video-slider-prev',
 		nextArrow: '.video-slider-next',
-		// autoplay: true,
-		// autoplaySpeed: 5000,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		swipeToSlide: true,
 		responsive: [
 			{
@@ -382,8 +314,8 @@ $(document).ready(function(){
 		dotsClass: "my-dots",
 		prevArrow: '.sertificates-slider-prev',
 		nextArrow: '.sertificates-slider-next',
-		// autoplay: true,
-		// autoplaySpeed: 5000,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		swipeToSlide: true,
 		responsive: [
 			{
@@ -403,20 +335,22 @@ $(document).ready(function(){
 		dotsClass: "my-dots",
 		prevArrow: '.frame-employee-slider-prev',
 		nextArrow: '.frame-employee-slider-next',
-		// autoplay: true,
-		// autoplaySpeed: 5000,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		swipeToSlide: true,
 	});
 	$('.house-projects-slider').slick({
 		infinite: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		arrows: false,
+		arrows: true,
+		prevArrow: '.house-projects-slider-prev',
+		nextArrow: '.house-projects-slider-next',
 		adaptiveHeight: true,
 		dots: true,
 		dotsClass: "my-dots",
-		// autoplay: true,
-		// autoplaySpeed: 5000,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		swipeToSlide: true,
 	});
 	$('.house-project-card-slider').slick({
@@ -429,8 +363,8 @@ $(document).ready(function(){
 		prevArrow: '.house-project-card-slider-prev',
 		nextArrow: '.house-project-card-slider-next',
 		dotsClass: "my-dots",
-		// autoplay: true,
-		// autoplaySpeed: 5000,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		swipeToSlide: true,
 	});
 	$('.project-card-portfolio-slider').slick({
@@ -442,8 +376,8 @@ $(document).ready(function(){
 		prevArrow: '.project-card-portfolio-slider-prev',
 		nextArrow: '.project-card-portfolio-slider-next',
 		dotsClass: "my-dots",
-		// autoplay: true,
-		// autoplaySpeed: 5000,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		swipeToSlide: true,
 		responsive: [
 			{
@@ -467,8 +401,8 @@ $(document).ready(function(){
 		dotsClass: "my-dots",
 		prevArrow: '.house-view-slider-prev',
 		nextArrow: '.house-view-slider-next',
-		// autoplay: true,
-		// autoplaySpeed: 5000,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		swipeToSlide: true,
 	});
 	$('.for-house-view-slider').slick({
@@ -480,10 +414,8 @@ $(document).ready(function(){
 		focusOnSelect: true,
 		dots: false,
 		dotsClass: "my-dots",
-		// prevArrow: '.prev1',
-		// nextArrow: '.next1',
-		// autoplay: true,
-		// autoplaySpeed: 5000,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		swipeToSlide: true,
 	});
 

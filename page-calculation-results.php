@@ -91,7 +91,7 @@
 					</div>
 					<div class="col-12">
 						<div class="final-price">
-							<p>Итого: <span>1 980 622 рублей</span></p>
+							<p>Итого: <span>1 980 622 <span class="d-none d-lg-inline">рублей</span><span class="d-inline d-lg-none">руб.</span></span></p>
 							<button class="print">Печать</button>
 						</div>
 						<p class="mb-4">
@@ -109,11 +109,6 @@
 		</div>
 	</div>
 </div>
-
-
-
-
-
 <?php
 	include('html-end.php');
 ?>
